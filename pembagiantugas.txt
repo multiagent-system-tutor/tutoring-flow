@@ -1,0 +1,22 @@
+Tutoring Flow sementara 1 orang, ntar kedepannya bisa lebih dari 1
+Komponen 1 – Multimodal Handler (Image): OCR (1 orang)
+
+Komponen 1 – Multimodal Handler (Image): OCR + LLM (1 orang)
+
+Komponen 1 – Multimodal Handler (Image): MLLM / Vision-Language Model (1 orang)
+
+Komponen 2 – Multimodal Handler (Voice): ASR (Any Method) (1 orang)
+
+Komponen 3 – Scoring Task Package: Scoring Multi-Agent (1 orang)
+
+Komponen 4 – AFS Task Package: Multi-Agent (Teacher + Reflective) (1 orang)
+
+Komponen 4 – AFS Task Package: RAG for AFS (1 orang)
+
+Komponen 5 – Planner Task Package: Planner Agent (1 orang)
+
+Komponen 6 – Problem Generator Task Package: LLM (Text-based) (1 orang)
+
+Komponen 6 – Problem Generator Task Package: VLLM (Image/Text-based) (1 orang)
+
+Komponen 6 – Problem Generator Task Package: RAG (1 orang)

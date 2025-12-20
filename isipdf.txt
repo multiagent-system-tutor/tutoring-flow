@@ -1,0 +1,333 @@
+Problems
+Student Input Multimodal
+Handler Scoring Agent
+Satisfying
+response
+?
+Yes
+Store Current Tutoring Session
+to Student Model
+No
+Tutor Agent / AFS
+(Any LLM)
+Feedback
+Student Model handwritten transcription
+oral transcription
+TUTORING FLOW
+Metode Kebutuhan Orang
+OCR 1 orang
+OCR + LLM 1 orang
+MLLM 1 orang
+MULTIMODAL HANDLER TASK PACKAGE
+TO DO Image:
+Nyobain Text Extractor dari Image Bersih
+(Tanpa Tip-X)
+Nyobain Text Extractor dari Image Kotor
+(Dengan Tip-X atau coret-coretan yang
+kacau). Gambar pseudocode yang ada
+coretan mahasiswa sehingga ingin mencari
+tahu gimana pola pikir siswanya.
+Nyobain Text Extractor dari Image Kotor
+(Dengan Tip-X atau coret-coretan yang
+kacau + panah yang dibuat mahasiswa).
+Gambar pseudocode yang ada coretan
+mahasiswa jadi diberikan panah untuk
+perbaikan. Apakah mesin bisa mengenali?
+INPUT: Image (any size)
+OUTPUT: Pseudocode text in appropriate format
+{’time’:values,
+‘text’:isi_text,
+‘image’:isi_image_dalam_numpy_atau yang lain}
+IMPORTANT NOTES:
+1.Kalau pakai LLM/MLLM prompting, sertakan
+juga technique prompting yang digunakan
+2.Dokumentasikan dengan rapi kode kalian :)
+3.Tolong catat inference time yang umumnya
+dihabiskan oleh metode yang digunakan
+Metode Kebutuhan Orang
+Any ASR Method 1 orang
+MULTIMODAL HANDLER TASK PACKAGE(2)
+TO DO Voice:
+Mencoba berbagai metode automatic
+speech recognition dalam bahasa
+Indonesia untuk menerima penjelasan dari
+student.
+Identifikasi challenges yang bisa muncul
+dari berbagai metode ASR yang digunakan
+(utamakan yang free)
+Identifkasi kecepatan inference ASR
+dalam mengubah suara menjadi text.
+INPUT: voice/audio (any tipe)
+OUTPUT: transcription text in appropriate format
+{’time’:values,
+‘text’:isi_text,
+‘voice’:representasi_vocie_dalam_signals atau numerik}
+Bahan Belajar
+https://huggingface.co/docs/transformers/tasks/asr
+https://github.com/weimeng23/speech-recognition-learningresources
+SCORING
+Pseudocode
+Extraction
+Sub-Agent 1:
+Style Checker Agent
+Sub-Agent 2:
+Logic Checker Agent
+Scoring Supervisor Score
+Provide Information
+Provide Information
+Problem
+Context
+Solution
+General
+Rubrication
+Summary
+Correct or Not
+Format of the scoring output might be like this: Misconceptions
+[
+{”score”:”value_scorenya”},
+{”correct”:”true/false”}
+{”summary”:”some_summary_here”}
+{”Misconceptions”:”misconceptionsnya apa”}
+{”pseudocode”:”pseudocode_siswa”}
+]
+Zero-Shot Chain-of-Thought
+Possible Prompt for Each Agent
+Kebutuhan Orang
+1 orang
+SCORING TASK PACKAGE
+TO DO Voice:
+Mendesain multi-agent system dengan 3
+agen di dalamnya yaitu Style Checker,
+Logic Checker, dan Scoring Supervisor.
+Gunakan iterasi ganjil dalam interaksi
+antar agent seperti 1,3,5,dst.
+Eksplorasi berbagai LLM (free resource
+and can be fine tuned) yang bisa
+digunakan ke dalam agent.
+Gunakan prompting zero-shot atau COT
+pada Style Checker dan Logic Checker
+(boleh prompting lain juga).
+Tech-Stacknya bisa pakai Langchain /
+Langgraph
+INPUT: pseudocode, problem(soal), solution,
+rubrikasi (dummy dulu aja)
+OUTPUT:
+[
+{”score”:”value_scorenya”},
+{”correct”:”true/false”}
+{”summary”:”some_summary_here”}
+{”Misconceptions”:”misconceptionsnya apa”}
+]
+Catat time inferencenya
+https://arxiv.org/pdf/2503.20851
+https://academy.langchain.com/cou
+rses/foundation-introduction-tolangchain-python
+Bahan Bacaan & Belajar
+LIST OF MISCONCEPTIONS
+Student Score
++ Summary
+RAG for
+Context
+Reflective
+Agent
+Response
+Critique (CRITIC)
+Introspective Agent For Feedback Generation with RAG
+Feedback (includes summary &
+score)
+Student
+Profile
+Teacher Agent
+(Initial Polish)
+oral +
+handwritten
+pseudocode
+transcription
+Bank Soal
+Pseudocode /
+Books
+Embeddings Model
+VectorDB
+Embeddings Model
+Prompt +
+Retrieval Results
+Student Input + Summary TEACHER AGENT
+Student Profile
+Retrieval Results
+misconception
+s
+RAG for
+Context
+AFS (AUTOMATED FEEDBACK) TASK PACKAGE
+TO DO Multi Agent System:
+1.Mendesain multi-agent system dengan 2
+agen di dalamnya yaitu Teacher Agent dan
+Reflective Agent. Gunakan iterasi ganjil
+dalam interaksi antar agent seperti
+1,3,5,dst.
+2.Reflective Agent akan menggunakan
+CRITIC prompting. Teacher Agent bisa
+coba berbagai metode prompting (zeroshot, cot, etc)
+3.Eksplorasi berbagai LLM (free resource
+atau yang bisa di-fine tuned) yang bisa
+digunakan ke dalam agent.
+4.Tech-Stacknya bisa pakai Langchain /
+Langgraph
+5.Menerima input berupa context dari RAG
+Part of Task Kebutuhan Orang
+Multiagent 1 orang
+INPUT: student score (number), student profile
+problem(soal), oral & handwritten transcription,
+misconceptions, RAG context (text) Bikin dummy
+aja dulu.
+OUTPUT: {‘Score’:score,
+‘summary’:summary
+Link yang mungkin berguna:
+1.https://academy.langchain.com/courses/foun
+dation-introduction-to-langchain-python
+2.https://colab.research.google.com/drive/14ND
+2Fa_Mj5x9d5jOUWdymB_MRcGPtMol#scrollTo
+=JZfBDhKVtOGu - code indra coba-coba
+AFS (AUTOMATED FEEDBACK) TASK PACKAGE
+TO DO RAG:
+1.Mendesain RAG untuk memberikan konteks ke
+Teacher Agent.
+2.Eksplorasi model embedding yang free untuk
+digunakan.
+3.Eksplorasi berbagai LLM (free resource atau
+yang bisa di-fine tuned) yang bisa digunakan ke
+dalam agent.
+4.Eksplorasi berbagai vector db yang sekiranya
+efisien tapi bagus (kemungkinan sih FAISS, tapi
+coba check kalau pakai numpy biasa, chroma db,
+dan pinecone)
+5.Gunakan prompting zero-shot atau COT pada
+Style Checker dan Logic Checker (boleh
+prompting lain juga).
+6.Tech-Stacknya bisa pakai Langchain / Langgraph
+7.Menerima input berupa context dari RAG
+Part of Task Kebutuhan Orang
+RAG 1 orang
+INPUT: student input, summary, dan student
+profile
+OUTPUT: {’context’:isi_context} - dalam bentuk
+text.
+*Jangan lupa catat inference timenya :)
+Link yang mungkin berguna:
+1.https://artificialanalysis.ai/
+2.https://huggingface.co/spaces/mteb/leaderboa
+rd
+3.https://docs.langchain.com/langsmith/evaluati
+on-approaches#retrieval-augmentedgeneration-rag
+PLANNER
+Student Personal Info
+(Knowledge Level, Detail
+Number of Practice
+Completed, Quiz Results)
+Student Model
+Syllabus
+Today’s Date
+Introspective Agent For Study Planner
+Teacher Agent Reflective Agent
+Critique (CRITIC)
+Response (Study Plan)
+Learning Objectives
+(Bloom’s Taxonomy)
+Peer Teacher
+Task Breakdown
+(Decomposition for learning steps)
+Motivational Agent
+Preferred Study Tools
+(Visual, Text, or Audio)
+Learning Style
+Recommendations
+Agent
+Plan
+EXAMPLE OF PLANNER
+https://dl.acm.org/doi/pdf/10.1145/3698205.3729541
+PLANNER TASK PACKAGE
+TO DO Planner:
+1.Mendesain planner agent untuk memplanning
+pembelajaran siswa.
+2.Syllabus terlebih dahulu bisa dibuat jadi
+semacam dictionary agar gampang diparsing
+3.Agent teacher bisa pakai cot atau zero prompt
+atau yang lain.
+4.Self critic pakai CRITIC Technique. 2 agent di
+point 3 dan 4 dibatasi iterasi ganjil ya
+5.Reflective agent akan punya beberapa agent
+tambahan (1 iterasi)
+6.Kalau ada waktu, coba extend dia dengan
+menggunakan youtube API v3 (lihat di link kanan
+nomor1)
+Kebutuhan Orang
+1 orang
+INPUT: student personal info, syllabus, todays
+date (dummy aja dulu)
+OUTPUT: plan
+*Jangan lupa catat inference timenya :)
+Link yang mungkin berguna:
+1.https://dl.acm.org/doi/pdf/10.1145/3698205.3
+729541
+Plan
+Today’s Date
+Syllabus
+Pseudocode
+Dataset
+Embeddings Model
+VectorDB
+Embeddings Model
+Prompt +
+Retrieval Results
+Retrieval Results
+TEACHER AGENT
+Plan + Date + Query
+Prepared Query
+RAG
+Teacher Agent
+(LLM / VLLM)
+Generate
+Image?
+Question Image Questions Text
+Yes
+No Questions Text
+RAG for Context Disini, bisa saja nanti problemnya
+itu disertakan dengan image
+sebagai gambaran untuk siswa
+Questions Set
+PROBLEM
+GENERATOR
+PROBLEM GENERATOR TASK PACKAGE
+TO DO Problem Generator - LLM/VLLM:
+1.Mendesain LLM/VLLM untuk generate soal untuk
+pembelajaran siswa.
+2.Pseudocode soal-nya mirip seperti yang
+digunakan di alpro Tel-U
+3.Eksplorasi apakah LLM bisa memproduce soal
+dan solusi untuk pseudocode standar sepreti ini
+sesuai dengan context dari RAG
+4.Eksplorasi apakah VLLM bisa memproduce soal
+dengan gambar yang bisa membantu siswa
+memahami soal
+TO DO RAG:
+1.Buat RAG system untuk memberikan konteks ke
+LLM/VLLM dengan bank-bank soal pseudocode
+standar Tel-U (kerjaannya hampir mirip dengan
+RAG AFS, silahkan check di sana) - bedanya
+ketambahan syllabus
+Kebutuhan Orang
+2 orang LLM/VLLM
+(1 LLM, 1 lagi VLLM)
+1 orang RAG
+INPUT: plan, today’s date, (dummy aja dulu)
+OUTPUT: soal (image, text, or image + text)
+*Jangan lupa catat inference timenya :)
+Link yang mungkin berguna:
+1.https://dl.acm.org/doi/pdf/10.1145/3698205.3
+729541
+WHERE TO LEARN
+FUNDAMENTALS?
+PROMPTING
+TECHNIQUE
+TECH STACK
+OTHERS?

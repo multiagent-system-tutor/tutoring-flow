@@ -1,0 +1,101 @@
+[20/12/2025 16:50] kak indraa gamtenk: Kayanya tar dbuatin jdi component gitu tila ada ocr.py gtu jga ntar biar import antar file klo pipelinenya jadi enak [20/12/2025 16:50] kak indraa gamtenk: Jdi kita ngodingnya oop python
+
+mungkin dibuat
+Oke, ini penting. Struktur repo lu yang “role-based” itu AMAN buat fase eksplor. Tapi Indra bener juga: kalau targetnya nanti nyambung jadi pipeline, lu butuh layer “component” biar bisa import antar modul tanpa saling copas file.
+
+Jadi jawabannya: bukan ganti total, tapi tambah 1 lapisan “src/components”. Eksperimen tiap orang tetep jalan, tapi ada “inti” yang bisa dipake bareng.
+
+✅ Model paling waras: “Dual-layer Repo”
+1) Eksperimen per role (punya lu sekarang) — tetap
+
+Ini buat cepat jalan + logging inference time.
+
+2) Core components (baru) — buat integrasi pipeline
+
+Ini yang Indra maksud: ocr.py, asr.py, dll yang rapi & bisa di-import.
+
+📁 Struktur GitHub yang gue saranin (revisi aman)
+src/
+  components/
+    ocr.py
+    ocr_llm.py
+    mllm.py
+    asr.py
+    scoring.py
+    afs_multiagent.py
+    afs_rag.py
+    planner.py
+    problem_llm.py
+    problem_vllm.py
+    problem_rag.py
+  utils/
+    timer.py
+    io.py
+  __init__.py
+
+multimodal-handler-image/
+  ocr/
+    README.md
+    requirements.txt
+    run.py
+    experiments/...
+  ocr-llm/
+    ...
+  mllm/
+    ...
+
+multimodal-handler-voice/
+  asr/
+    ...
+
+scoring-task-package/
+  scoring-multiagent/
+    ...
+
+afs-task-package/
+  multiagent/
+    ...
+  rag/
+    ...
+
+planner-task-package/
+  planner-agent/
+    ...
+
+problem-generator-task-package/
+  llm/...
+  vllm/...
+  rag/...
+
+
+✅ Jadi:
+
+orang tetep kerja di foldernya (gak pusing import)
+
+tapi kalau mau demo pipeline, tinggal panggil src/components/*
+
+🧱 Bentuk “component” ala OOP (biar Indra seneng 😭)
+
+Aturan bentuk class minimal:
+
+ada __init__(config)
+
+ada run(input) / __call__(input)
+
+outputnya format standar (yang PDF minta: time + text + dll)
+
+Contoh konsep (bukan full code):
+
+OCRComponent.run(image) -> {"time":..., "text":...}
+
+ASRComponent.run(audio) -> {"time":..., "text":...}
+
+ScoringComponent.run(pseudocode, problem, rubric) -> {...}
+
+🔥 Cara kerja timnya biar gak chaos
+
+Yang ngerjain OCR (misal lu) boleh mulai dari eksperimen folder dulu
+
+Kalau udah nemu metode stabil → “dipromote” ke src/components/ocr.py
+
+Core file src/components/*.py yang edit cuma PIC masing-masing komponen (biar gak tabrakan)
