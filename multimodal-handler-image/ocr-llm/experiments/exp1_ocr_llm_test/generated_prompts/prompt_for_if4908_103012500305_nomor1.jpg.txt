@@ -1,0 +1,21 @@
+Konteks:
+Teks berikut adalah hasil OCR dari tulisan tangan mahasiswa
+berupa pseudocode / kode program sederhana.
+
+Masalah:
+OCR sering menghasilkan typo pada keyword, variabel, dan spasi.
+Contoh kesalahan: "progran" → "program", "Ku Mus" → "kamus".
+
+Tugas Anda:
+1. Perbaiki typo dan kesalahan OCR.
+2. Susun ulang agar menjadi pseudocode / kode yang valid.
+3. JANGAN mengubah logika, struktur algoritma, atau menambahkan fitur baru.
+4. Jika ada bagian yang ambigu, perbaiki seminimal mungkin.
+
+Output:
+Hanya tampilkan kode hasil perbaikan, tanpa penjelasan.
+
+Input OCR:
+<<<
+Prodran Erkrlora kamus dı /  da, 43 , d4, Fı 9 ;Inttger Algxıma Input (dı/ d2, d3, d4) 42 -93 (dı+da)* (ds+d4 )+(P-9) atPut ( k ) Andproara
+>>>
