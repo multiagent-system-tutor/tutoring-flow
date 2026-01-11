@@ -9,7 +9,7 @@ algortitma
    	p = d1 + d4
    	q = d2 - d3
    	k = (d1 + d2) * (d3 + d4) + (p - q)
-endprogram",3.754539966583252
+endprogram",4.612378835678101
 if4908_103012500098_nomor1.jpg,"program Enkripsi Karvs 8ı , 81 , J4, 84 inleger P 1 , k : inlege Iyair?. inf ( J1, Ja, J1, J 4 P, 1) + J4) 22x J1 J1 | k#(J+ Jı) x (Jı= J4)+(P-9 ) Oulpst (k) endprogran","program enkripsi
 kamus
         d1, d2, d3, d4: integer
@@ -20,7 +20,7 @@ algoritma
         q = (d2 - d3)
         k = (d1 + d2) * (d3 + d4) + (p - q)
         output(k)
-endprogram",2.1905784606933594
+endprogram",5.951895475387573
 if4908_103012500281_nomor1.jpg,"program Posyandu Vumuj N,w;h 1n+9w (E 2 , Oilai bMi 1 : [2ui qlyoritmg Japut ( n] FOc i . ^ Lu do Io put (wn:i ) (Qut Cıo w) / cga(h *h ) bmi + (euı(c, 2lg) / 2, aa (Qu1 ( bmi + <euı ( 1 ) cula ? (Qut ( ailui / 2 Pod FUc Ouho} ( }f nitui (at4 1 endprogram 1C, bimi","program enkripsi
 kamus
 	d1, d2, d3, d4, p, q, k : integer
@@ -35,7 +35,7 @@ algoritma
         
         output(k)
 
-endprogram",3.2231361865997314
+endprogram",5.813814401626587
 if4908_103012500305_nomor1.jpg,"Prodran Erkrlora kamus dı /  da, 43 , d4, Fı 9 ;Inttger Algxıma Input (dı/ d2, d3, d4) 42 -93 (dı+da)* (ds+d4 )+(P-9) atPut ( k ) Andproara","Program
 Kamus
 	k, d1, d2, d3, d4, p, q : integer
@@ -45,7 +45,7 @@ Algoritma
 	q = d2 - d3
 	k = (d1 + d2) * (d3 + d4) + (p - q)
 	output(k)
-Endprogram",1.1075618267059326
+Endprogram",2.4860587120056152
 if4908_103012500322_nomor1.jpg,"Progrbm Enkfips? ramal $ Infeger I,b,€ Ures< 4otul Iafeer P,9 Intejer algort hA Inpur ( n ) mnod [o00 < : div lou Mcd lu mce [0 C< Cn div 10 d( Yoa [0 K 0 + & € - & łotaı € ( a+b) *( € +d ) +(0-q) Oulpu+ ( tota) end program Fndi: 09raa 4<","program
 kamus
 	n : integer
@@ -64,7 +64,7 @@ algoritma
 	q <= c- d
 	total <- (a+b)* (c+d) + (p-q)
 	output total
-end program",2.205451726913452
+end program",3.3634707927703857
 if4908_103012530052_nomor1.jpg,"orooran Enktips /na9is Alger>  Snlan InPvn 297f,8) hasa =(y 81) <75 Fdu) frohrom (fknps ker 81,4 3,d4,P Q,ele _ Iar qsaiurr l inPu+ (d1, 41,d3,44) 44 (à1 +41) * (J1 +4u) + (P - 0) o+a} (w(i) endpronrain 10581 Irgren","program enkripsi
 kamus
    	input(d1,d2,d3,d4,p,q, hasil : int
@@ -74,7 +74,7 @@ algoritma
    	q = d2 - d3
    	hasil = (d1+d2) * (d3 + d4) + (p - q)
    	output (hasil)
-endprogram",2.4399755001068115
+endprogram",3.086794137954712
 if4910_103012500004_nomor1.jpg,"program Enkripsi (amuç 9 ,k inleger d1 81, Jv' J4 Algor (mq inpuat (n) dı > div Iooo 82 : m Jiv loo Mod Lo d5 = div lo mad Io d4 = m mod   lb P = d1 +d4 d2 -{3 k : (dı+d2 )* (à,+44)+(F-9) óutfut (k) endprogram intecs","Program Enkripsi
 Kamus
         m,p,q,k : integer
@@ -89,7 +89,7 @@ Algoritma
         q = d2-d3
         k = (d1+d2)*(d3+d4)+(p-q)
         output(k)
-endprogram",2.188295364379883
+endprogram",3.7732737064361572
 if4911_103012500384_nomor1.jpg,"Pfogfaa Ervfida1 aW 6 194 , m ,0,9,k inzoner IGouz (m) J16 M %v à1< M MJ Ioo (oj Io d3< (, 0 Io (f 10 ( frcj lo 94 k< (J; '(4+) + (P-9) {K) endprogran ,92 , 0, Altzo Inoo 84 < 2<& + 4 < à - 0, +02)  UIUt","program Enkripsi
 kamus
 	d1,d2,d3,d4,m,p,q,k : integer
@@ -103,7 +103,7 @@ Algoritma
 	q <- d2 - d3
 	k <- (d1 + d2) * (d3 + d4) + (p - q)
 	output(k)
-endprogram",2.6345531940460205
+endprogram",4.24210786819458
 if4909_103012500132_nomor1.jpeg,"Enka /76 2 8:, 85, Mgpv= (al +42) (3,+J9) (f -9) oFf""(k) lef' A(w","Program Enkripsi
 
 Kamus
@@ -120,7 +120,7 @@ input(x)
      	k = (d1 + d2) * (d3 + d4) + (p - q)
      	output(k)
 
-Endprogram",0.8395204544067383
+Endprogram",1.38246488571167
 if4909_103012530074_nomor1.jpeg,"164,,80,44 :ioifnf ""pi(019) fl e""< 989) 2 ( 844 11/11 0ulp! (f).","program_enkripsi 
 kamus 
 	p, q, m, d1, d2, d3, d4: integer 
@@ -133,7 +133,7 @@ algoritma
 	m = d4
 	k = (d1 + d2) * (d3 + d4) + (p-q)
 	output(k) 
-endprogram",0.8084824085235596
+endprogram",1.2296817302703857
 if4910_103012500367_nomor1.png,"Pfoufam | nkı1161 Fans' Oıbı   inlegpr Ihloı / Olo ) , Oon ' Mle9"" P,9 , has  ıfı| JPge € Alootulnn IoPot (ol') Ihlo| dw  Iuo 1 < Obı dv   Ioo Miad / (hıloı2 (laı div Io mod Io (hlo, 4 Iaı   Miod lo P Oılaı| + (ılaıq 9 (hlaı2 (la,3 hasıl (oılaıl / @lane) * (nlagł nla4) + 9 Oupu ( hosıl) Andprearu (hln r (hnla, Olon=","program Enkripsi
 Kamus 
 	nilai: integer
@@ -151,4 +151,4 @@ Algoritma
 	hasil <- (nilai1 + nilai2) * (nilai3 + nilai4) + p - q
 	output(hasil)
 
-endprogram",3.4202823638916016
+endprogram",5.295015096664429
