@@ -4,9 +4,9 @@
 Menghasilkan soal berbasis gambar atau soal teks dengan gambar pendukung.
 
 ## Daftar Tugas (To-Do List)
-- [ ] Tugas VLLM khusus untuk pembuatan soal.
-- [ ] Eksplorasi pembuatan soal yang menyertakan gambar untuk membantu pemahaman.
-- [ ] Catat waktu inferensi.
+- [x] Tugas VLLM khusus untuk pembuatan soal.
+- [x] Eksplorasi pembuatan soal yang menyertakan gambar untuk membantu pemahaman.
+- [x] Catat waktu inferensi.
 
 ## Input/Output
 
