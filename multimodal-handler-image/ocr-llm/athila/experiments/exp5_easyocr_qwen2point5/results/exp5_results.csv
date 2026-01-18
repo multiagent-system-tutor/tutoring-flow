@@ -1,0 +1,1961 @@
+filename,time,cer_raw,cer_refined,raw_text,final_text,ground_truth
+if4908_103012400180_nomor2.jpg,29.4069185256958,0.746606334841629,0.669683257918552,"norin
+4onw
+Urtey
+copal,
+{nretier
+Inkege
+nasil
+Tpal
+Algot #te
+Infu;
+dvoMeter _
+N7g9i
+dlamete . ]
+tev0l
+@rafos
+Olttu (noti }
+tmnaana
+Bnndrr _
+(otager
+Kn9x
+tcbal ,
+1s}
+Koyl","program Algot #te  
+kamus  
+a, b, c : integer  
+algoritma  
+    input(a, b, c)  
+    if a == 0 then  
+        output(5)  
+    endif  
+endprogram","program cake
+kamus
+    n : integer
+    diameter_T : integer
+    tebal, tinggi : integer
+    i : integer
+    hasil : real
+algoritma
+    input(n, diameter_T, tebal, tinggi)
+    for i : 1 to n do
+        diameter_T
+        tebal :
+        tinggi :
+        hasil : 
+    endfor
+output(hasil)"
+if4908_103012400221_nomor2.jpg,5.6782801151275635,0.352,0.376,"program Cake
+Kamus
+n, &
+itttef Teal
+lua$
+rta (
+Alqorita
+input (n,4,t)
+Luay
+2 ' 3.14
+4 *(4++)
+Output
+Luas)
+andprearan","program Cake
+kamus
+n, t
+itefl
+luat
+algoritma
+input(n, t)
+2 * 3.14 * t
+output(2 * 3.14 * t)
+endprogram","program cake
+kamus
+    n, d, t : integer
+    luas : real
+Algoritma
+    input(n, d, t)
+    luas = 2 * 3.14 * d * (d+t)
+    output(luas)
+endprogram"
+if4908_103012400283_nomor2.jpg,9.683126211166382,0.0,0.0,"program
+Cake
+KamUc
+0
+1 , P;
+Inlaer
+Lp
+Real
+Algoabna
+iapvl (n)
+Pi 6-3,14
+41(6 * ))
+an Ce* e) /9
+L)
+endprogran
+Ojrvl
+enlmgrarn","program Cake
+kamus
+0, P; 
+integer Lp, Real
+algoritma
+if (n == 0) then
+    output(5)
+endif
+endprogram
+
+Input OCR:
+<<<
+program
+Cake
+KamUc
+0
+1 , P;
+Inlaer
+Lp
+Real
+Algoabna
+iapvl (n)
+Pi 6-3,14
+41(6 *  ))
+an Ce* e) /9
+L)
+enlmgrarn
+>>>",
+if4908_103012400355_nomor2.jpg,8.013368606567383,0.5775401069518716,0.48128342245989303,"program Cake
+Lamus
+N, d, & )
+luas, i: integtr
+(6 'J :
+re q|
+Algeritma
+Input ( n,
+d_
++)
+J : 3.14
+0 ]
+t
+do
+for
+3.14
+4 , +)
+Iuaf
+(n ,
+output ( Iuas,
+emz
+endpmgram
+endprogran
+4'+ I1
+9. 14
+1 *'","program Cake
+Lamus
+N, d, & )
+luas, i: integer
+(6 'J :
+re q|
+Algeritma
+Input ( n,
+d_
++)
+J : 3.14
+0 ]
+t
+do
+for
+3.14
+4 , +)
+Iuaf
+(n ,
+output ( Iuas,
+emz
+endprogram","programCake
+kamus
+    N, d, t: integer
+    r, s: real
+Algoritma 
+    input(n, d, t)
+    s = 3.14
+    for i= 1 to N do
+        N= 3.14 * d*t /2
+        d= 3.14* r*r
+        t= 2*d
+        luas= (n, d, t)
+        output(luas, ""cm2"")
+    endfor
+endprogram"
+if4908_103012400374_nomor2.jpg,4.552390098571777,0.7647058823529411,0.7647058823529411,"Ko4u5
+dt
+Haci
+AlgerTic4
+imutna,)
+mslzkhd
+04) / 2| Fn}
+cr)(l+l)
+cnduroo
+Inteotr","Algoritma
+input(Haci, Adeltric4, Mszlkhd)
+cr)(Haci+Adelorica4+Mszlkhd)
+output(cnduroo)","program Cake
+kamus
+    n,d,t : integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil<-((t*d*3,14/2)*n)
+    output(hasil)
+endprogram"
+if4908_103012500007_nomor2.jpg,7.969300985336304,0.44223107569721115,0.5577689243027888,"program Cake
+Kamvf
+J, t ; intezer
+has(
+Cea(
+(eal
+Ivaf : strilg
+algortma
+inpvt Un;
+h=
+20
+hasil = (2*3,4xrxr/n)
+horil
+Kad( + (xrxt)
+hacl
+has(
+#(2x3Axrxt/h)
+tp+hl 7A
+Wva: ""cmlv
+ovtevf Chail} lvas)
+endprogran","program Cake
+kamus
+J, t : integer
+h(a:
+strilg
+algoritma
+input(J, t, h)
+if J == 0 then
+    output(5)
+endif
+has(
+2*3.4*t/t/h
+)
+hacl
+has(
+2*3*3/t*h
+)
+wva: ""hasil""
+output(h)","program Cake
+kamus
+    n, d, t : integer
+    hasil : real
+    r : real
+    luas : string
+algoritma
+    input(n, d, t)
+    r = d / 2.0
+    hasil = (2 * 3.14 * r * r / n)
+    hasil = hasil + (2 * r * t)
+    hasil = hasil + (2 * 3.14 * r * t / n)
+    luas = ""cm2""
+    output(hasil, luas)
+endprogram"
+if4908_1030125000185_nomor2.jpg,5.4493088722229,0.0,0.0,"program Cake
+Ksp
+Vurvf
+N
+t
+Rat'
+Pofonyun, tubv ny
+ha(L
+rtul
+Const PL; :{.14
+Aly
+{nvt - ) N,44,.t
+Tot &jeK==
+4
+Chi div; N;
+Kubry
+Jotvty"" #(t #€).
+V|
+OUtpvt ~7 telry
+endprogral
+""(~2""","program Cake
+kamus
+a,b,c : integer
+algoritma
+input(a, b, c)
+if a == 0 then
+    output(5)
+endif
+endprogram",
+if4908_103012500030_nomor2.jpg,11.176827669143677,0.6153846153846154,0.6282051282051282,"progran Cake
+IJres
+Rotomg8n 
+8 & {er
+6n99: ( Jat;
+Ialegur
+jr$
+P;
+Lal (
+Jlgc1- €  &
+Icfet ( Fo (c'g3""
+4a €(et, (9}
+<
+7.(4
+J"" , <
+J.arfet d;v
+2
+(6rf <-
+( R;
+#*r) * Enggo)) Jv a
+oveft(tcres)
+2-Jtogten
+endprogran","progrm Cake
+ijres
+rotmn9n 
+8 & {er
+6n99: ( Jat;
+ilegur
+jr$
+P;
+Lal (
+Jlgc1- €  &
+Icfet ( Fo (c'g3""
+4a €(et, (9}
+<7.(4
+J"" , <
+J.arfet dv
+2
+(6rf <- 
+( R;
+#*r) * Enggo)) jv a
+oveft(tcres)
+2-jtogten
+endprogrm","program cake 
+kamus
+    potongan , diameter , tinggi , jari : Integer
+    rumus , pi , hasil : real
+algoritma
+    input(potongan, diameter , tinggi)
+    pi <- 3.14
+    jari <- diameter div 2
+    rumus <- ((pi * r * r) * tinggi)) div n
+    output(rumus)
+endprogram"
+if4908_103012500033_nomor2.jpg,5.7280049324035645,0.7664233576642335,0.5109489051094891,"E ""
+Kitt>
+A:
+1.04
+14 -
+Wulc
+Lcl
+Cul
+jitc
+PA+(aA t)
+34(xi
+4
++) div
+:A(isil)
+3
+ELcerear4
+0
+I~","program A
+kamus
+    a, b, c : integer
+algoritma
+    input(a, b, c)
+    if a == 0 then
+        output(5)
+    endif
+endprogram","program cake
+kamus
+    const : phi = 3.14
+    n,d,t :integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil = (phi*d*t) div n
+    output(hasil)
+endprogram"
+if4908_103012500034_nomor2.jpg,6.810421466827393,0.5725190839694656,0.5267175572519084,"program Cake
+kapus
+N,€ , 4
+Fiut
+Igofitaw
+IPut :WNV,t,4l
+S= 4 /1
+Lyu) . .1^
+((""r r)/n)+(1*+*)
+Outlae
+Luus)
+Zoa
+orum
+endproqran","program Cake
+kamus
+N,E, 4
+fiut
+Igofitaw
+IPut,WNV,t,4l
+S= 4 /1
+Lyu) . .1^
+((""r r)/n)+(1*+*)
+Output
+Luus)
+Zoa
+room
+endprogram","program cake
+kamus
+    n, t, d : float
+Algoritma
+    input (n, t, d)
+    f = d/2
+    luas = 2 *(3,14*r*r)/n) * (2 * t * r)
+    output (luas)
+endprogram"
+if4908_103012500043_nomor2.jpg,6.32807469367981,0.0,0.0,"nccnran
+raroe{
+helil
+Tnteger
+algrrttmt
+dot (N, 4,
+herl - (3,u
+6tt
+#rhy-{eh)A)#*entexlteniyk , =
+'0)
+enupreueam
+tral
+K
+(+aft ,","nccnnan
+raroe{
+helil
+integer
+algoritma
+dot (N, 4,
+hrel - (3,n
+6tt
+#ry-(eh)A)#*entexltenik ,
+'0)
+enupreueam
+tral
+k
+(+aft ,",
+if4908_103012500045_nomor2.jpg,4.852059602737427,0.5,0.5104166666666666,"program Cake
+hols
+0Ji=,1
+inte er-
+Pih
+Recs |
+AC(
+cfm
+Xfr( MJ,t )
+2.14
+endprogram","program Cake
+hols
+0Ji,1
+inte er-
+Pi h
+Re cs|
+AC (
+cfm
+X fr ( M i ,t )
+2. 14
+endprogram","program Cake
+kamus 
+    n, d, t, i : integer
+    pi, h      : real
+algoritma
+    input(n,d,t)
+    pi = 3.14
+endprogram"
+if4908_103012500065_nomor2.jpg,7.581574201583862,0.6227544910179641,0.6107784431137725,"program
+Cake
+kamus
+Niti d
+(eal
+""Phi f
+iopue (N,&
+<-4*
+Pbi & 3.14
+6
+(Phi C^2)) /N
+end=
+eattthan
+integer
+Yotongn;
+Avgorilng
+Potongan
+Output
+(potongon ,
+""cmz"")
+Pcoglam","program Cake
+kamus
+Nita d
+deal
+Phi f
+opue (N,&
+<-4*
+Pbi & 3.14
+6
+(Phi C^2)) /N
+endattthan
+integer
+Yotongn;
+Avgorilng
+Potongan
+Output
+(potongan ,
+""cmz"")
+Pcoglam","program cake
+kamus
+    N, t, d : integer
+    potongan, phi, r : real
+algoritma
+    input(N, d, t)
+    n <- d*t
+    phi <- 3.14
+    potongan <- (phi*(r^2))/N
+    output(potongan, ""cm2"")
+endprogram"
+if4908_103012500069_nomor2.jpg,10.544091939926147,0.5638297872340425,0.7659574468085106,"nrcncam
+Gake
+KAnuy
+Mteger
+intcger
+IAttgcr
+HoSil
+feo {
+Potocd
+red (
+Pi : [el
+Algortmg
+innit( Nm, t )
+Pi = 3.14
+0 - 0 Jiv 2
+Ho>!
+FDARF 2 *(Vi*O+T)
+Pctoy
+Hasil / N
+OUt Qut ( Potons)
+Uvrpvt ( ""Um2)
+endpranna","program Gake
+kamus
+    Pi, t : integer
+algoritma
+    input(Pi, t)
+    if Pi == 0 then
+        output(5)
+    endif
+hoSil
+feo {
+    Potocd
+    red (
+        Pi : [el
+        Algortmg
+        init(Nm, t )
+        Pi = 3.14
+        P - P / 2
+        Ho!
+            FDARF 2 * (Pi^2 + t)
+        Output (Potons)
+        Uvrtput (""Um2"")
+    endpranna","kamuns
+    N : Integer
+    D: Integer
+    T : Integer
+    Hasil : Real
+    Potong : Real
+    PI : Real
+Algoritma
+    Input(N,D,T)
+    PI = 3.14
+    D = D div 2
+    Hasil = 2 * (PI*D+T)
+    Potong=Hasil/N
+    Output(Potong)
+    Output(""cm2"")"
+if4908_103012500073_nomor2.jpg,3.8175196647644043,1.0490196078431373,0.7647058823529411,"Jroogai
+Icufus
+Dnl
+introg
+Lis
+Gec
+inptt k, P,+)
+434
+3,4
+hos
+~nya #4)
+OvitPe t ( f s |
+Tacr
+en
+PiceyGn
+Lua
+Zf +Picuon
+dudprodram
+oti
+Gro (","Program
+Input(k, p, t)
+Output(f(0, k, p, t))","kamus
+    p,n,t = integer
+    luas = real
+    d = real
+    input(n,p,t)
+    d=p*3.14
+    luas=n/(d*t)
+    output (luas)
+endprogram"
+if4908_103012500089_nomor2.jpg,5.2789435386657715,0.7071823204419889,0.7237569060773481,"Kurus
+inLegt
+Pi,
+Lvof
+JonP; €
+3,14
+icet(n
+TfelcJ) / 2
+cech (e)
+Ljof
+LT
+uevt
+Llos )
+endprogram","inLegt
+input(Pi, Lvof, JonP, 3.14)
+if Pi == 0 then
+    output(5)
+endif
+cekct(n) / 2
+cech(e)
+output(cet(l))
+endprogram","program Cake
+kamus
+    n, d, t : integer
+    lt, pi, r : real
+    luas : real
+algoritma
+    pi = 3,14
+    input = (n, d, t)
+    r = real(d)/2
+    lt = pi * r * r * real(t)
+    luas = lt / n
+    output(luas)
+endprogram"
+if4908_103012500097_nomor2.jpg,6.937740325927734,0.6515151515151515,0.5909090909090909,"program Cake
+0,8,t
+intey<
+Hasil
+(enl
+{oaShntu pi : (eul
+3,14
+ulggritmc
+iaQul C Q ,4 ,+)
+Wslla P5* 444+ + i #La""t)
+Oupe} C Husil )
+enderograd
+Kamis","program Cake
+8, t
+intey
+Hasil
+en <lshntu pi : (eul
+3,14
+ulgoritmc
+iaQul c Q ,4 +)
+Wslla P5* 444+ + i #La""t)
+Output C Husil )
+endprogram","program Cake
+kamus
+    n,d,t : integer
+    Hasil : real
+    Constanta pi : real = 3,14
+algorutma
+    input(n,d,t)
+    Hasil = pi * (d * t)
+    output(Hasil)"
+if4908_103012500098_nomor2.jpg,7.2649078369140625,0.6518518518518519,0.6666666666666666,"progran
+Cake
+Ker~ (
+Nl
+4
+t
+inteeec
+PL;
+Ceal:
+kec |
+(ee |:
+pk:
+2.|4.
+A
+inpt (N _
+1 ,5
+el <_ N( Ph; * & }
+6tr (1kei:l )
+endproaran
+Arac?_
+*2)","<<<
+program progran
+kamus
+    N, L, I, P, H : integer
+algoritma
+    input(N, L, I, P, H)
+    if N == 0 then
+        output(5)
+    endif
+endproaran
+Arac?
+*2) >>>","Program cake
+Kamus
+    N, d, t : integer
+    phi : real
+    hasil : real
+Algoritma'
+    input(N, d, t)
+    hasil <- N(phi * d * t)
+    output(hasil)
+Endprogram"
+if4908_103012500180_nomor2.jpg,6.29105806350708,0.75,0.75,"progra
+W
+Wegic (
+{untitu
+A(Yurtmc^
+Ictur (n,4, ( }
+ID<- 344
+'#t} / ~
+curkel
+(4)
+eouffoytun`
+(ecl""
+<~lr*d","progra
+W
+Wegic (
+{untitu
+A(Yurtmc^
+Ictur (n,4, ( }
+ID<- 344
+'#t} / ~
+curkel
+(4)
+eouffoytun`
+(ecl""
+<~lr*d","program Cake
+kamus
+    n,d,t : integer
+    phi : Constant
+    L : real
+algoritma
+    input(n,d,t)
+    phi <- 3,14
+    L = (phi*d*t) / 2
+    output(L)
+endprogram"
+if4908_103012500185_nomor2.jpg,8.949987411499023,0.7570621468926554,0.7570621468926554,"program Cake
+Wst
+t
+Rat'
+Pofonyur  (ubv wy
+hu&l
+'rtul
+PL; :1.14
+Aly
+'nbt - ) Nyt
+F74
+iotoqp F
+Fhi div; N;
+{uby_
+Jotv #(t#1)
+outlvt '-7 tebg
+endprogran
+Vucv}
+ConSt
+""(2""","program Cake  
+wt  
+t  
+Rat'  
+Pofonyur  (ubv wy  
+hu&l  
+'tul  
+PL: :1.14  
+Aly   
+'nbt - ) Nyt  
+F74  
+iotoqp F  
+Fhi div; N;  
+{uby_  
+Jotv #(t#1)  
+outlvt '-7 tebg  
+endprogran  
+Vucv}  
+Const ""(2""","Kamus
+    N, d, t : interger
+    Hasil, potongan, tabung : real
+    Const phi = 3.14
+Algoritma 
+    Input > N, d, t
+    Potongan > d * phi div N
+    Tabung > Potongan * ( t * t )
+    Output > tabung "" Cm2 """
+if4908_103012500187_nomor2.jpg,5.635193109512329,0.6009852216748769,0.6157635467980296,"program
+Cake
+Kamvs
+N
+Inteolr
+Inkuer
+Pi
+ra}
+mal
+Lvai
+real
+total
+rcal
+Inpvl ( N , 4,4)
+P=
+v
+Lor %^ * ( $}
+Tctal -
+Ll( [ /
+duput ( totm)
+ehapri gram
+sndpcqqra0
+Awonitt","program Cake  
+kamus  
+a,b,c : integer  
+algoritma  
+    input(a, b, c)  
+    if a == 0 then  
+        output(5)  
+    endif  
+endprogram","program Cake
+kamus
+    N : integer
+    d, t : integer
+    pi : real
+    r : real 
+    luas : real
+    total : real
+algoritma
+    input(N, d, t)
+    pi : 3.14
+    r = d /2
+    luas = (2 * pi * r * t)
+    total = N * luas / 2
+    output(total)
+endprogram"
+if4908_103012500223_nomor2.jpg,7.152146100997925,0.5426829268292683,0.49390243902439024,"progran
+Cake
+kumu,
+tianiir
+Inkqer
+L
+real
+Cohst   phi
+rul ~ ?/14
+""m
+V ,
+dvamxxr
+d88 2 4
+Lui -
+n * ( pw; * dionbr
+Oueput
+Wus)
+emuprodrar
+alyuta","progran
+Cake
+kamu,
+tianir
+integer
+L
+real
+const phi
+rul ~ ?/14
+m
+v ,
+divmxxr
+d88 2 4
+luin -
+n * ( pw; * divbr
+output
+wus)
+emuprodrar
+alyuta","program Cake
+kamus
+    N, diameter, t: integer
+    Luas: real
+    const phi: real = 3.14
+algoritma
+    input(N, diameter, t)
+    Luas = N * (phi * diameter * t)
+    output(Luas)
+endprogram"
+if4908_103012500227_nomor2.jpg,5.9099977016448975,0.6995515695067265,0.6547085201793722,"KQr
+Imiegyt
+(ooshunt
+tpdl
+Folql
+Irol
+Algorumz
+Input (N
+d,e)
+(ptctal
+1} + (1
+Ph * [ * t)
+Sv
+Ploiol
+OutRute
+SC;U)
+""tmt""
+nnncomeam
+0iirn","Korrigierte Teks:
+
+Kamus
+    N, E : integer
+
+Algoritma
+    Input(N, E)
+    I + (1 / 2)
+    Ph * (E - t)
+    Svu
+    Output(SCU)
+Endprogram","Program Cake
+Kamus
+    N, d, t, r : integer
+    constant phi : real = 3,14
+    lptotal, lpSatu : real
+Algoritma
+    input(N, d, t)
+    r = d / 2
+    lpTotal = (phi * d * t) + (2*phi*r*r)
+    lpSatu = lpTotal / N
+    output(lpSatu)
+    output(""cm2"")
+Endprogram"
+if4908_103012500232_nomor2.jpg,9.930902242660522,0.0,0.0,"protram
+Venal
+retytt
+WrakerNn
+Isiasamplne)
+[n0 Ugtaten
+hlal
+Alaritmty
+Wfur ( n=
+n-Gf Ae
+0(1,14 ""ctr)
+[inebNl^
+Aaulnz Jar
+(Va} '44 *4)
+ttal
+Miatwrt }+ (
+Innu TbinjA)
+(I4 inaarn}
+brlrey
+tulal =
+Aedarodre
+27')","progrm
+Vennal
+retryt
+WakerNn
+Isiasamplne)
+[no Ugtaten
+hal
+Alaritmty
+fun ( n=
+n=1,14 ""ctr)
+[inbNl^
+Aulnz Jar
+(Va} '44 *4)
+tal
+Matwrt }+ (
+Innu TbinjA)
+(I4 inaarn}
+brlrey
+tual =
+Adedarodre
+27')",
+if4908_103012500281_nomor2.jpg,6.182214736938477,0.7111111111111111,0.5555555555555556,"Progran Cake
+Kamuj
+4(ci tmtA
+Infut CW, 0 , & )
+phi
+3 . 19
+{oubian
+phi""  J x ]
+Dvteu (Fymbun
+endprogran
+ilege
+Phi:
+cedi","<<<
+program Cake
+kamus
+    C,i,tmtA,phi : integer
+algoritma
+    input(C, tmtA, phi)
+    if C == 0 then
+        output(phi / 3.19)
+    endif
+endprogram
+>>>","program cake
+kamus
+    N, d, t: integer
+    phi : real
+algoritma
+	input(N, d, t)
+	phi = 3.14
+	permukaan = 2*phi*d*d*t
+	output(permukaan)
+endprogram"
+if4908_103012500283_nomor2.jpg,7.772040128707886,0.6815642458100558,0.7374301675977654,"Doncan
+Koi 5
+N Jiometer , WTregl
+Juosl
+rea(
+konrau
+aqpriiro
+inpuc ( Na dcayneter $
+didr eler
+aw
+Iuasli: n ~(r
+Lp : (2
+luasl )
+tri / N
+oufut ( Lp}
+er Plgram
+tntpluru
+Lry0|","Doncan  
+Koi 5  
+N Jumlah, WTemperatur  
+Jumlah  
+rekaan  
+aqua  
+pi: a Dcayneter $  
+didir  
+aw  
+Iusli: n ~(r  
+Luas : (2  
+Lsasa )  
+tri / N  
+Output : Lp  
+Er Plgram  
+Tntput  
+Lry0|","program cake
+kamus 
+    n,diameter,tinggi,lp,luas : real
+algoritma 
+    input(n, diameter, tinggi)
+    r = diameter div 2
+    luas = phi * (r * r)
+    lp = (2 *luas ) * tinggi / n
+    output(lp)
+endprogram"
+if4908_103012500305_nomor2.jpg,4.572279691696167,0.6869565217391305,0.6260869565217392,"pFoarin
+Gake
+Komys
+Contant
+344
+Figo fittr 0
+Input (w 4 +)
+*2 #4 ++
+Qutput (L)
+chdarcudin
+hyl","program pFoarin
+Gake
+Komyss
+Content
+344
+Figo fittr 0
+Input(w, 4 +)
+*2 #4 ++
+Output(L)","Program
+Kamus
+    d, t, l : integer
+    constant d : 3.14
+Algoritma
+    input(n, d, t)
+    l = 1/2 * 2 * d * t
+    output(l)
+Endprogram"
+if4908_103012500307_nomor2.jpg,5.825466871261597,0.0,0.0,"WCdlAm
+kamus
+int?9rr
+Juus
+Ju 0sp
+80i
+oigoritmd
+put
+input
+Input
+d
+div
+3.14
+#C $ t
+(74 40,0)
+oucput
+luase
+endroaran
+Yud:
+JuusP","program kamus
+int9ter
+jus
+ju osp
+80i
+algoritma
+input(a, b, c)
+if a == 0 then
+    output(5)
+endif
+output(luase)  
+endprogram",
+if4908_103012500322_nomor2.jpg,7.812938451766968,0.7443181818181818,0.7443181818181818,"poqr ;m
+La Inreq e
+1f
+di
+Ince
+Ph ;
+Ca
+4t0 { 
+Q'3or(t7&
+7ue e#
+'046)
+Pn; .f|Vh
+20
+toto(c
+L-C#
+Cut put
+endurunr;n
+Fral
+'0.)
+fblat >","poqr ;m  
+La input e
+1f
+div
+Ince
+Ph ;
+Ca
+4to { 
+Q'3or(t7&
+7ue e#
+'046)
+Pn; .f|Vh
+20
+toto(c
+L-C#
+Cut put
+endurunr;n  
+Fral
+'0..)
+flat >#","program 
+    s , L : integer
+    a,r,n,d,t : integer
+    phi : real
+    total : real
+    algoritma
+    r = d/2
+    phi = 3,14
+    input (n a, t)
+    L = (2.phi. r. t )/ n
+    total = L-(1/2.a.t)
+    output total
+enprogram"
+if4908_103012500336_nomor2.jpg,5.281644105911255,0.7272727272727273,0.696969696969697,"Wfune
+Kanc4 $
+Wd
+ntic [u9
+LunSL+=
+F:7.14
+agertm
+MA4(n)t
+(4,
+tuku; ((4445 )
+ndnfogran","funne$
+kanc4 $
+wd
+ntic 19
+lnsl=
+f:7.14
+algertma
+m4(t)
+(4,
+tukus (4445 )
+ndnfongran","program Enkripsi
+kamus
+    n, t, d, luas : real
+    konstanta phi = 3.14
+algoritma
+    input(n, t, d)
+    luas = t * d * phi
+    output(luas)
+endprogram"
+if4908_103012500360_nomor2.jpg,6.345304727554321,0.6062992125984252,0.6456692913385826,"proguan
+KalmuS
+d,€
+hasil
+Real
+Algorilma
+CN,d,t)
+hosil =(2 * 9,14 -
+dkl) (N
+autput Chasi / )
+Vtiupi lgm
+nteger
+Inpul","program proguan
+kamus
+d,€ : integer
+hasil
+real
+algoritma
+CN,d,t)
+hasil =(2 * 9,14 -
+dkl) (N
+output hasil / )
+input Inpul  
+vtipu dlm  
+integer  
+inpur  
+  
+  
+  
+endprogram","Program cake
+Kamus
+    n, d, t : interger
+    Hasil : Real
+Algoritma
+    Input(n, d, t) 
+    hasil = (2×3, 14 × d×t) /n
+    Output(hasil)
+Endprogram"
+if4908_103012500364_nomor2.jpg,12.375954866409302,0.6470588235294118,0.6580882352941176,"rdtcen
+Gake
+Konvs
+Inte9ef
+LPL
+KPl
+SavC , BlC:
+Eo !
+Emu
+inpur( N,
++)
+Lre
+1 4
+(3.14
+(=
+d aw
+2)+ * 2)
+Jt )
+KPL
+4#3.14
+(J aiv 2
+t(dtn)
+Po+C
+Ji 1 1
+(aji/
+Sul
+LPr
++Vel
+CotC
+MN)
+Ourev+ (
+Sw+C )
+endorcara""
+Algort
+21)+( 344","rdtcen  
+Gake  
+Konvs  
+Inte9ef  
+LP1  
+KP1  
+SavC , BlC:  
+Eo !  
+Emu  
+input(N,+)  
+Lre  
+1 4  
+(3.14  
+=  
+da w  
+2)+ * 2)  
+KPL  
+4#3.14  
+(J aiv 2  
+t(dtn)  
+Po+C  
+Ji 1 1  
+(a/j/  
+Sul  
+LP1  
++Vel  
+CotC  
+MN)  
+Ourev+ (  
+Sw+C )  
+endorcara""  
+Algort  
+21)+ (344","program Cake 
+kamus : 
+    N, d, t : integer
+    Lpl, Kpl, satC, potC : real
+Algoritma  
+    input (N, d, t)
+    Lpl <- (3.14 * ((d div 2) + (d div 2) * t) 
+    Kpl <- ((4 * 3.14) * (d div 2) + (d*N))
+    potC <- ((d div 2) * (d div 2)) * (3.14 div N)
+    SatC <- Lpl + Kpl - potC
+    output (satC)
+endprogram"
+if4908_103012500373_nomor2.jpg,5.298069953918457,0.6636363636363637,0.45454545454545453,"Dngoan
+Ce
+hamus
+{ncae
+(co
+7i4o{""ne
+Input
+N,4,t)
+(uus
+A U
+tpjJt (Lecs )
+endnrogram
+(a:","program Dngoan
+kamus
+    a,b,c : integer
+algoritma
+    input(a, b, c)
+    if a == 0 then
+        output(5)
+    endif
+endprogram","program cake
+	N, d, t : integer
+	luas : real
+Algoritma 
+	input(N, d, t)
+	luas = N = d div t
+	output(luas)
+endprogram"
+if4908_103012500378_nomor2.jpg,5.075486421585083,0.5782312925170068,0.5306122448979592,"ptodtan
+Ca
+Integef
+He Sil
+Lonstra-U
+14
+agor tt
+Iapot ( ', > ' t)
+hosii
+(lo.s*4)*o.s * 6.34 
+t)
+atput
+nc '
+endnrotnam
+Ttt€ |","program progtran
+integef
+Hel
+Longstra-u
+14
+agoritma
+input(a, b, c)
+if a == 0 then
+output(5)
+endif
+endprogram","program Cake
+    N, d, t: Integer
+    hasil: real
+    konstanta phi = 1.34
+algoritma
+	Input(N, d, t)
+	hasil = ((0.5 * d)* 0.5 * 1.34 * t
+output(hasil)
+endprogram"
+if4908_103012500388_nomor2.jpg,5.75925874710083,0.7471910112359551,0.7359550561797753,"progran
+r0^1. ( 8
+konsfonte Qhj =314
+(kl
+ddw 1
+( "" ( / o
+Fo'V)
+LoqrAI
+06.6i^ | 4!
+@ulfet (""","progran r0m1. (8)
+konsonan Qhj =314
+(kl
+ddw 1
+( "" ) / o
+FovV)
+Loqrai
+06.6il 4!
+Ulfet ( "" )","program cake
+kamus
+    n, d, t, r : integer
+    hasil : real
+    konstanta phi = 3.14 real
+algoritma
+    input(n, d, t)
+    r = d div 2
+    hasil = phi * r * r / n * t
+    output(""%f cm²"", hasil)
+endprogram"
+if4908_103012500404_nomor2.jpg,5.87114691734314,0.7611940298507462,0.6517412935323383,"pfounu
+~tef, Kn5jl ,
+(ws@eiaeke#^
+A(9'titm9
+Inp-+
+N , Jiamtr , 4im)i
+{elf~L~f+
+fidatttr
+Fof
+A1(tfotlat
+4*nttr
+1/2971
+Fa [ Faf
+Jlil
+((eay_flu coi)
+ondenoorol","program pfounu  
+kamus
+    t, j, k : integer  
+algoritma  
+    input(t, j, k)  
+    if t == 0 then  
+        output(5)  
+    endif  
+endprogram","program kue
+kamus
+    n,diameter,tinggi,i
+    luas_permukaan,pi
+algoritma
+    input(n,diameter,tinggi)
+    pi = 3.14
+    for i = 1 to n do
+        luas_permukaan = pi*diameter*tinggi
+    endfor
+    output(luas_permukaan,""cm2"")
+endprogram"
+if4908_103012530004_nomor2.jpg,6.4334752559661865,0.5864661654135338,0.49624060150375937,"program
+Cake
+Kumu)
+Nid, €
+dateoer
+Pr,!abung
+rea|
+algoritmu
+inpml (Nidit )
+d /2
+Habing
+2 <
+3 . 14
+IP= I+abunu
+endprogram
+r +
+c *","program Cake
+Kumu)
+Nid, €
+Dateoer
+Pr!abung
+Rea|
+Algoritmu
+Input(Nidit )
+d /2
+Habing
+2 * 3.14
+IP= I+abunu
+Endprogram","programcake
+kamus
+    n,d,t,r :integer
+    ltabung, lp : real
+    input(n,d,t)
+    r = d/2
+    ltabung = 2 * 3.14 * r * r * t
+    lp = ltabung / n
+endprogram"
+if4908_1030125300069_nomor2.jpg,8.723420858383179,0.0,0.0,"Kunuy
+(ntcger
+(Ateyer
+Hla $il
+Ceo{
+Polony
+Fz#{
+Pi : [e
+Aiqoft {O
+Infvt € N,0,t)
+Pi = >.14
+D : 0 div
+710>  |
+774 2+CViD+T)
+Potoy
+Hosi /N
+oUt Qut ( Pc+on5)
+Vvrft
+""{m2)'
+nJurlsbule
+Kteger","Kunuy
+integer Ateyer
+Hla Sil
+Ceo{
+Polony
+Fz#{
+Pi : 1.4
+D : 0 div
+710> |
+774 2+CVID+T)
+Potoy
+Hosi N/Pi
+Output ( Pc+ons)
+
+Vvrft
+""{m2)'
+
+jurusan",
+if4908_103012530014_nomor2.jpg,6.927341461181641,0.7415730337078652,0.9325842696629213,"Teni
+(hiceg
+Lael
+Alger ica
+inpvi (^ it)
+P' <- 3./4
+Iarvs","program Alger
+kamus
+    hiceg, lael : integer
+algoritma
+    input(hiceg, lael)
+    P <- 3/4
+    if hiceg == 0 then
+        output(5)
+    endif
+endprogram","Program cake
+Kamus
+    N, d, t : integer
+    Pi, hasil : real
+Algoritma
+    Input (n, d, t) 
+    Pi : 3.14"
+if4908_103012530019_nomor2.jpg,5.529564142227173,0.7764705882352941,0.6352941176470588,"niconfam
+Iats
+(' bet!r
+nos
+Rec
+(cMMGr
+124
+""ki,d
+Kost
+endler
+Oc-vut
+res;l )
+DOPLALar","program niconfam
+kamus
+    a,b,c : integer
+algoritma
+    input(a, b, c)
+    if a == 0 then
+        output(5)
+    endif
+endprogram","Program Cake
+Kamus
+    N, d, t, i : interger
+    hasil : real
+    pi : constant
+Algoritma
+    pi = 3.14
+    For i = 1 to N do
+        d = d * pi
+        t = d * t
+        hasil = t
+    end for
+    Output (hasil) 
+Endprogram"
+if4908_103012530043_nomor2.jpg,7.2813804149627686,0.6847826086956522,0.6630434782608695,"program Cakc
+Cont
+Fune;
+(inpu
+hafil
+Na,t
+[nttser
+algaettma
+Tspt (N, 4,+)
+hor:l . (3s
+butpt
+rufsttsk)A)#p""urre)-fitsna)4J""
+El"" )
+endpronram
+Tnta|
+(Forl ,","program Cakc
+Cont
+Fune;
+(input(hafil
+Na,t
+[Nntser
+algaettma
+Tspt (N, 4,+)
+hor:l . (3s
+butfsttsk)A)#p""urre)-fitsna)4J""
+El"" )
+endpronram","program Cake
+kamus
+    hasil : real
+    N, d, t : integer
+algoritma
+    input(N, d, t)
+    hasil = ((3,14 * (d/2) * (d/2)) / N) + (2 * (d/2) * t) + ((3,14 * d) / N * t)
+    output(hasil, ""cm2"")
+endprogram"
+if4908_103012530046_nomor2.jpg,5.358103036880493,0.646551724137931,0.49137931034482757,"picuiam
+Wcntu
+reet
+hosh
+2956
+Irru"" Cn , d,t }
+has;| = (3.14
+( !2)
+(*4a
+Eudoronram
+{7","program picuiam
+kamus
+    a, b, c : integer
+algoritma
+    input(a, b, c)
+    if a == 0 then
+        output(5)
+    endif
+endprogram","program cake
+kamus
+    n,d,t : integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil = (3.14 * (d/2) * t * t) * n
+endprogram"
+if4908_103012530052_nomor2.jpg,8.398258209228516,1.23121387283237,0.6358381502890174,"progran Cake
+2 . L' +
+Kanu
+icteatr
+314
+Alsoritma
+C
+47ua
+inPu: (A
+anaanten
+cuTC
+Ptuin
+Furo
+(3 !4
+( 12)| + (
+intc)r
+7as,Tvn*,+{0744 :
+Stcua
+rutu)
+Aucutb
+844
+(cpuf (5d
+utfut (5t54e)
+Tvmu (u
+@4
+Fme
+Scnte
+ovf74f ( Jcmue)
+^aprujmm
+3 |W
+4+777
+endprogran
+3 (4
+21 ?
+Kany
+nidt
+{lt
+(20
+8r67in
+46'
+Gr","programe Cake
+2 . L' +
+kamu
+314
+alsoritma
+c
+input(a, b, c)
+if a == 0 then
+    output(5)
+endif
+
+endprogran","program cake
+kamus
+    n, d, t : integer 
+    hasil : real
+    rumus : real
+    semua : real
+algoritma 
+    input (n,d,t)
+    rumus = (3,14 * (d/2)) + (t*t)
+    semua = n * rumus
+    output(semua)
+endprogram"
+if4908_103012530054_nomor2.jpg,8.86487889289856,0.468503937007874,0.468503937007874,"progran Cuke
+Kamus
+inleger
+[Kaspermukaan_
+Juassice
+Cea [
+(cnStant
+rei
+3,14
+Aloentmo
+Iapat (nd, E )
+PeimuKaan
+(P; * (4/2) "" (Av)) + (2*0=
+4 /4) ""t)
+luassii(e
+((ucpermykaqn(n]
+(2 * ((at)*))
+OutPut (luassl;te,
+(m 1
+endprogrug
+Juaf","program Cuke
+kamus
+integer
+[Kaspermukaan_
+Juassice
+Cea [
+constante
+rei
+3,14
+Aloentmo
+if nd * (E /2) + (2*0=n) ""t)
+luassii(e
+((ucpermykaqn(n]
+(2 * ((at)*))
+Output (luassl;te,
+(m 1
+endprogram","Program Cake
+Kamus
+    n, d, t : integer
+    luaspermukaan, luasslice, Pi : real
+    constant Pi : real = 3.14
+Algoritma 
+    input(n, d, t)
+    luaspermukaan = (2*(Pi*(d/2)*(d/2))+(2*Pi*(d/2)*t)
+    luasslice = (luaspermukaan/n)+(2*((d/2)*t))
+    output(luasslice, ""cm2"")
+endprogram"
+if4908_103012530062_nomor2.jpg,7.41332483291626,0.6475409836065574,0.7131147540983607,"prdaram
+Cakt
+Kamu
+diolttlr 
+Ingai
+inttatt
+Tcul
+mioorit
+Unvuc
+(N
+aidmttlc
+tinog )
+aimmlttr
+14/4
+tInyi )
+output ((0 / 1u )
+cnnprogram","<<<
+program prdaram
+kamu
+diolttlr 
+ingai
+inttatt
+Tcul
+mioorit
+unvuc
+(N
+aidmtlc
+tinog )
+aimmltr
+14/4
+tInyi )
+output ((0 / 1u )
+cnnprogram
+>>>","program Cake
+kamus
+    N, d, t, r: integer
+    lp: real
+algoritma
+    input(N, d, t)
+    r = d/2
+    lp = 2*3.14*(r+t)
+    output(lp/N)
+endprogram"
+if4908_103012980008_nomor2.jpg,5.43431830406189,0.0,0.0,"cnror
+1
+fed|
+Lpo
+Ked |
+(eal
+Algoutma
+Unpur
+CN,d,)
+pi = 3,14
+lp e(""pi {ln)* (81))(Qi ' &h*t )
+Lpn
+lp/ N
+Ourput Clpn)
+Fneld Aehan
+awe","program algoutma
+input(cnd, pi)
+if cnd == 0 then
+    output(pi * (81)^2 / pi)
+endif
+
+Output:
+output(pi * (81) / pi)",
+if4910_103012400004_nomor2.jpg,10.174365758895874,0.0,0.0,"program
+Cake
+kamus
+Ni d,cvnttyer
+Phi , Lp
+Re
+rea |
+Alyorttmu
+Algoritmc
+ratwj , ]
+ipucKN,d,k)
+Qh;
+Th; #r*r*&
+Lo :/w;trtr*w e/
+Ou6fut (Lp)
+inQut (W.d,t)
+Phi
+3.14
+C 
+d(2
+Lp
+phi*r*cki %N
+(Lp)
+endprogram
+Algoritmu
+Outpvk","program Cake
+kamus
+Ni d,cvnttyer
+Phi, Lp
+Re
+rea |
+Alyorttmu
+Algoritmc
+ratwj , ]
+ipucKN,d,k)
+Qh;
+Th*r*r*&
+Lo :/w;trtr*w e/
+Outpvfut (Lp)
+inpuc(W.d,t)
+Phi
+3.14
+C
+d(2
+Lp
+phi*r*cki %N
+(Lp)
+
+endprogram",
+if4910_103012400057_nomor2.jpg,8.01491928100586,0.632,0.608,"program
+Cake
+Kaw v 5
+n, d
+E
+lutege(
+Phi , Ias (
+Teal
+Algorituc
+lupot (0, < , + )
+Phi= 3.14
+haS |
+dxt
+Vaet
+G 0 62
+Ouhagodlier))
+Outputlhasil
+hasil
+phi
+endprogram","program Cake
+kaw v 5
+n, d
+E lutege(
+Phi , Ias (
+Teal
+Algorituc
+lupot (0, < , + )
+Phi= 3.14
+has |
+dxt
+Vaet
+G 0 62
+Ohagodlier))
+Outputhasil
+hasil
+phi
+endprogram","program cake 
+kamus
+    d,n,t : integer 
+    phi, hasil : real
+algoritma 
+    input(n,d,t)
+    phi = 3.14
+    hasil = d * t 
+    output(hasil, hasil*phi)"
+if4910_103012400149_nomor2.jpg,8.055882930755615,0.0,0.0,"program Cake
+su (
+tl
+Ai gorit^
+(n )
+Fo r
++0
+2 6
+Cn Ue
+cnue
+(i0 0
+81"" v
+(0 U
+Vo
+(o6
+Ol Q^t
+lua$ )
+enJror
+e c1r6
+endprogram
+I~egrr
+Rut
+9am","program Cake
+su (
+tl
+Ai goritma
+(n )
+For
++0
+2 6
+Cn Ue
+cnue
+(i0 0
+81"" v
+(0 U
+Vo
+(o6
+Ol Qt
+lua$
+)
+enJror
+ec1r6
+endprogram
+
+I~egrr
+Rut
+9am",
+if4910_103012400267_nomor2.jpg,7.869541645050049,0.0,0.0,"program Cake
+Kamvs
+h ( &
+Mteyer
+(v 65
+reu |
+Alorilmw:
+Inpvt € ^ , ( , + )
+Hf+s
+(vu;
+L~
+1.14 * c# +
+kii)
+hum$
++
+(ou5
+Iv)
+Ov +4v +
+endprogram
+E-t} 1","program Cake
+kamus
+h, m : integer
+teyer
+(v = 65
+reu |
+Alorimw:
+input(h, m)
+if h == 0 then
+    output(5)
+endif
+hum$
++ 
+ouv$
+ov +4v +
+endprogram",

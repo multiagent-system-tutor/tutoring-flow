@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+multimodal-handler-image/ocr-llm/athila/experiments/exp4_paddleocr_qwen2point5/results/bbox/
+multimodal-handler-image/ocr-llm/athila/experiments/exp5_easyocr_qwen2point5/results/bbox/
