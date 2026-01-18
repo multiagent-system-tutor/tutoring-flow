@@ -1,5 +1,5 @@
 filename,time,cer_raw,cer_refined,raw_text,final_text,ground_truth
-if4908_103012500364_nomor2.jpg,78.98291158676147,0.47058823529411764,0.4632352941176471,"Kamus:
+if4908_103012500364_nomor2.jpg,79.94779706001282,0.47058823529411764,0.47794117647058826,"Kamus:
 prograe Cake
 N, d, t : inreger
 LPL, KPL, SarC, PotC: real
@@ -9,18 +9,19 @@ LPt$α(3.14+(d.dir2)+βdiv 2)t
 KρL←((u+3.1u).(ddi√2))+(dN
 PorC<—(di2)*(div 2)*(3.14wN)
 SarC<Let+KoL-PotC
-Ourput(sarC)","python
-Kamus:
-program Cake
+Ourput(sarC)","Kamus:
+prograe Cake
 N, d, t : integer
-LPL, KPL, SarC, PotC : real
-alpha;
-Input(N. d. +)
+LPL, KPL, SarC, PotC: real
+Aigorirma;
+Inpur(N. d. +)
 LPt$α(3.14+(d.dir2)+βdiv 2)t
-KρL <- ((u+3.1u).(ddi√2))+(dN
-PorC <--- (di2)*(div 2)*(3.14wN)
-SarC <- Let+KoL-PotC
-Ourput(sarC)","program Cake 
+KρL←((u+3.1u).(ddi√2))+(dN/5)
+PorC<—(di2)*(div 2)*(3.14wN)
+SarC<Let+KoЛ-PotC
+Ourput(sarC)
+
+Tanpa penjelasan.","program Cake 
 kamus : 
     N, d, t : integer
     Lpl, Kpl, satC, potC : real
