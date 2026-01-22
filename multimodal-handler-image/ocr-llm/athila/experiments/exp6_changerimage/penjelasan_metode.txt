@@ -1,0 +1,39 @@
+Penjelasan Metode Pemrosesan Citra (Preprocessing) untuk OCR
+
+Dalam eksperimen ini, kami menerapkan beberapa teknik pemrosesan citra sebelum melakukan ekstraksi teks menggunakan PaddleOCR. Berikut adalah penjelasan mendetail mengenai setiap tahapan:
+
+1. Konversi ke Grayscale (Hitam Putih)
+   - Apa itu: Mengubah citra berwarna (RGB/BGR) yang memiliki 3 channel warna menjadi citra satu channel yang hanya merepresentasikan intensitas cahaya (derajat keabuan).
+   - Tujuan: Menyederhanakan data citra karena informasi warna seringkali tidak diperlukan untuk mengenali bentuk huruf. Ini adalah langkah wajib sebelum melakukan thresholding.
+   - Implementasi: `cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)`
+
+2. Otsu's Thresholding (Binarisasi Otomatis)
+   - Apa itu: Teknik binarisasi (mengubah citra grayscale menjadi murni hitam dan putih alias 0 dan 255) di mana nilai batas (threshold) ditentukan secara otomatis oleh algoritma.
+   - Nilai Threshold: TIDAK di-set secara manual. Dalam kode `cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)`, angka 0 hanyalah placeholder. Algoritma akan menghitung sendiri nilai optimal (misal: 140) berdasarkan histogram gambar.
+   - Cara Kerja: Algoritma menghitung histogram intensitas piksel, lalu mencoba semua kemungkinan nilai threshold (0-255). Ia memilih nilai yang meminimalkan varians di dalam kelas (intra-class variance) antara piksel hitam dan putih. Ini memisahkan foreground (teks) dan background secara global.
+   - Kelebihan: Otomatis dan akurat untuk gambar dengan pencahayaan merata (scanner/scan aplikasi).
+   - Implementasi: `cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)`
+
+3. Adaptive Thresholding
+   - Apa itu: Metode di mana nilai threshold dihitung secara berbeda untuk setiap piksel berdasarkan area sekitarnya (window lokal).
+   - Parameter Teknis Kode:
+     - Block Size = 11: Algoritma melihat area kotak 11x11 piksel di sekitar piksel yang sedang diproses.
+     - C = 2: Konstanta pengurangan. Threshold lokal = (Rata-rata area 11x11) - 2.
+   - Varian yang digunakan:
+     a. Adaptive Gaussian: Nilai ambang batas adalah rata-rata tertimbang (weighted mean) jendela 11x11, di mana titik tengah memiliki bobot lebih besar (distribusi Gaussian).
+     b. Adaptive Mean: Nilai ambang batas adalah rata-rata aritmatika biasa dari jendela 11x11.
+   - Cara Kerja: Untuk setiap piksel (x, y), algoritma menghitung rata-rata (atau rata-rata Gaussian) dari piksel tetangga dalam radius blok 11x11, lalu dikurangi konstanta C (2). Jika nilai piksel asli > nilai hitungan ini, jadi putih. Jika kurang, jadi hitam.
+   - Kelebihan: Sangat ampuh untuk gambar foto kamera HP yang memiliki bayangan atau pencahayaan tidak rata, karena ambang batas menyesuaikan kondisi lokal.
+   - Kekurangan: Bisa memunculkan noise (bintik hitam) di area background yang teksturnya kasar.
+
+4. Konversi Kembali ke RGB (Re-RGB)
+   - Apa itu: Mengubah citra yang sudah menjadi biner (1 channel hitam-putih) kembali menjadi format citra 3 channel (Red-Green-Blue).
+   - Mengapa dilakukan:
+     a. Kompatibilitas Model: Banyak model Deep Learning, termasuk backbone yang digunakan PaddleOCR, dilatih menggunakan input citra berwarna (3 channel). Meskipun gambarnya secara visual tetap hitam putih, struktur datanya harus (Height, Width, 3) agar sesuai dengan arsitektur jaringan saraf.
+     b. Sesuai Request Eksperimen ("rgban itu"): Mengembalikan format data ke bentuk standar yang biasa diterima oleh pipeline pengolahan citra pada umumnya.
+   - Hasil Visual: Secara mata manusia, gambar tetap terlihat hitam putih tajam (biner), namun secara data komputer, ia memiliki 3 lapisan warna yang identik.
+   - Implementasi: `cv2.cvtColor(thresh, cv2.COLOR_GRAY2BGR)`
+
+Ringkasan Alur Proses:
+1. Input (Warna) -> 2'. Grayscale -> 3. Thresholding (Otsu/Adaptive) -> Citra Biner -> 4. Convert to BGR (3 Channel) -> Input OCR.
+'
