@@ -1,0 +1,31 @@
+**TRANSCRIPTION**
+
+```
+program Enkripsi
+
+kamus
+digit1, digit2, digit3, digit4 : integer
+ n : integer
+ hasilK : integer
+ pengurangan, penjumlahan : integer
+
+algoritma
+ input ( digit1, digit2, digit3, digit4 )
+ for i = 1 to n do
+ B = ( digit1 + digit2 ) * ( digit3 + digit4 )
+ pengurangan <- ( digit1 - digit2 )
+ penjumlahan <- ( digit3 - digit4 )
+ end for
+ output ( hasilK )
+end program
+```
+
+**EXPLANATION**
+
+The algorithm appears to be a simple encryption program that takes four input digits and performs a series of operations on them. The program uses a for loop to iterate over the input digits, performing the following operations:
+
+* It calculates the product of the sum of the first two digits and the sum of the last two digits.
+* It calculates the difference between the first two digits and the difference between the last two digits.
+* It outputs the result of these operations.
+
+The program seems to be designed to perform a simple form of encryption or data transformation, but without more context or information about the purpose of the program, it's difficult to say for certain what it's intended to do. The code is well-structured and follows a clear and logical flow, but it's not particularly complex or sophisticated. Overall, the program appears to be a simple and straightforward implementation of a basic algorithm.
