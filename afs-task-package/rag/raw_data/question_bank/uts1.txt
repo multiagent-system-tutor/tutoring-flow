@@ -1,0 +1,365 @@
+--- PAGE 1 ---
+
+UNIVERSITAS
+
+Telkom
+
+Ujian Tengah Semester
+
+MID TERM EXAM
+
+Ganjil TA. 2025/2026
+
+CAK1BAB3-ALGORITMA DAN PEMROGRAMAN 1
+
+Rabu, 5 November 2025, 14:00-16:00 (120 menit)
+
+Tim Dosen: BMG, FFS, FZD, HMT, IGR, JMT, LDS, MIU, PEY, SLL, UAI
+
+= Ujian bersifat CLOSE ALL, kalkulator dan HP NON AKTIF DAN TIDAK DIGUNAKAN selama ujian =
+
+= Dilarang keras bekerja sama dan melakukan perbuatan curang. Jika dilakukan, maka dianggap pelanggaran =
+
+The exam is CLOSE ALL; calculator is not needed. Mobile phones must be turned off during the exam.
+
+Collaboration and cheating are strictly prohibited. Any such actions will be considered a violation.
+
+Kerjakan soal langsung pada kertas ujian ini. Tidak disediakan kertas tambahan. Untuk perhitungan, gunakan bagian kosong di lembar nomor soal yang bersangkutan, tidak pindah ke lembar kertas nomor lain.
+
+Work on the questions directly on this exam paper. No additional sheets are provided. For calculations, use the blank space on the page of the corresponding question—do not move to the sheet of another question number.
+
+NIM(SID):
+
+Nama Mahasiswa (Student Name):
+
+Kelas (Class):
+
+Ruang (Room):
+
+Salinlah pernyataan berikut(Copy the statement):
+
+Saya tidak melakukan kecurangan dalam ujian ini. Jika saya melakukan pelanggaran, maka saya bersedia diberi nilai E minimum untuk Mata Kuliah ini dan/atau maksimum untuk semua Mata Kuliah pada Semester ini.
+
+I did not commit any form of cheating in this exam. If I am found to have violated the rules, I am willing to receive E for this course and/or all courses in this semester.
+
+Tanda Tangan Mahasiswa:
+
+(Signature)
+
+PLO-03
+
+Capaian Pembelajaran Program Studi (Program Learning Outcome) yang akan dicapai
+
+Kemampuan menerapkan prinsip-prinsip dasar sains, matematika, dan algoritma, dalam menyelesaikan masalah di bidang informatika.
+
+Ability to apply the fundamental principles of science, mathematics, and algorithmic concepts to solve problems in the domain of informatics.
+
+Capaian Pembelajaran Mata Kuliah (Course Learning Outcome) yang akan dicapaiNilaiCLO-03-2Mampu memahami prinsip-prinsip dasar algoritma.
+
+
+
+Ability to comprehend the fundamental principles of algorithms.
+
+Sub-CLO-03-2-1Mahasiswa mampu menjelaskan proses sekuensial dasar dalam suatu solusi permasalahan komputasi.
+
+
+
+Students are able to describe basic sequential processes involved in solving computational problems.
+
+--- PAGE 2 ---
+
+CLO-03-2: Mampu memahami prinsip-prinsip dasar algoritma.
+
+Sub-CLO-03-2-1: Mahasiswa mampu menjelaskan proses sekuensial dasar dalam suatu solusi permasalahan komputasi.
+
+(Q1-Data Type 1) 25 Point
+
+Sebuah sistem keamanan digital menggunakan kode rahasia berupa bilangan 4 digit. Untuk menjaga keamanan data, sistem tidak menyimpan kode tersebut secara langsung, tetapi mengubahnya menjadi nilai sandi (encryption code) menggunakan rumus berikut.
+
+A digital security system uses a secret code consisting of a 4-digit number. To maintain data security, the system does not store the code directly; instead, it converts it into an encryption value (k) using the following formula:
+
+$$k = (d_1 + d_2) \times (d_3 + d_4) + (p - q)$$
+
+Nilai $d_i$ adalah digit ke-i dari kode rahasia yang diberikan (baca digit dari kiri ke kanan). Nilai p adalah hasil penjumlahan digit pertama dan terakhir, sedangkan nilai q adalah hasil pengurangan digit kedua oleh digit ketiga.
+
+Here: $d_i$ is the i-th digit of the secret code (read from left to right).
+
+p is the sum of the first and last digits.
+
+q is the result of subtracting the third digit from the second digit.
+
+Masukan berupa kode rahasia yang dinyatakan oleh sebuah bilangan bulat m ($1000 \le m \le 9999$) berdigit empat.
+
+Keluaran berupa nilai sandi k hasil enkripsi yang dilakukan.
+
+Input: A secret code represented by a four-digit integer m ($1000 \le m \le 9999$).
+
+Output: The encryption value k produced by the system.
+
+Answers
+
+Plaintext
+
+
+
+program Enkripsi
+
+kamus
+
+    m, d1, d2, d3, d4, p, q : integer
+
+    k : integer
+
+algoritma
+
+    input(m)
+
+    // 1. cari nilai d1 s.d. d4
+
+    d1 = m div 1000
+
+    d2 = m div 100 mod 10
+
+    d3 = m div 10 mod 10
+
+    d4 = m mod 10
+
+    // 2. Hitung nilai p dan q
+
+    p = d1 + d4
+
+    q = d2 - d3
+
+    // 3. hitung nilai k
+
+    k = (d1 + d2) * (d3 + d4) + (p - q)
+
+    output(k)
+
+endprogram
+
+Contoh masukan dan keluaran (input and output)
+
+No.InputOutputExplanation1123427$k = (1 + 2) \times (3 + 4) + (1 + 4) - (2 - 3)$243212539199206419103
+
+--- PAGE 3 ---
+
+CLO-03-2: Mampu memahami prinsip-prinsip dasar algoritma.
+
+Sub-CLO-03-2-1: Mahasiswa mampu menjelaskan proses sekuensial dasar dalam suatu solusi permasalahan komputasi.
+
+(Q2-Data Type 2) 25 Point
+
+Sebuah Cake berbentuk lingkaran dengan tebal tertentu. Cake tersebut akan dipotong menjadi N bagian sama besar. Bagian berbentuk seperti segitiga dengan bagian runcing mengarah ke arah pusat cake. Apabila cake tersebut diasumsikan memiliki bentuk menyerupai tabung, maka buatlah program untuk menghitung luas permukaan satu potongan cake saja (Asumsi satuan panjang dalam centimeter/cm dan nilai $\pi = 3.14$).
+
+A cake has a circular shape with a certain thickness. The cake will be cut into N equal pieces. Each piece is shaped like a triangle, with its pointed tip directed toward the center of the cake. If the cake is assumed to have the shape of a cylinder, create a program to calculate the surface area of one piece of the cake (assuming all measurements are in centimeters).
+
+Masukan berupa tiga bilangan yang menyatakan besarnya nilai N (banyaknya potongan cake) dan diameter (d) dan tebal/tinggi (t) dari cake.
+
+Keluaran berupa luas permukaan satu buah potongan cake (seperti gambar di samping).
+
+Input: Three numbers representing: $N \rightarrow$ the number of cake slices, d the diameter of the cake, and $t \rightarrow$ the thickness (height) of the cake.
+
+Output: The surface area of one slice of the cake, as shown in the accompanying illustration.
+
+Answers
+
+Plaintext
+
+
+
+program Cake
+
+kamus
+
+    N : integer
+
+    d, t, r : real
+
+    keliling, tepi, luasAlas, luasTepi : real
+
+    luasLuar, luasPotongan : real
+
+algoritma
+
+    input(N, d, t)
+
+    r = d / 2
+
+    // 1. Hitung keliling & luas lingkaran
+
+    keliling = 2 * 3.14 * r
+
+    luas = 3.14 * (r * r)
+
+    // 2. Hitung luas kulit tepi dalam, alas/atas, & luar
+
+    luasTepi = r * t
+
+    luasAlas = luas / N
+
+    luasLuar = (keliling / N) * t
+
+    // 3. Hitung luas potongan cake, 2 tepi dalam + 2 alas/atas + 1 luar
+
+    luasPotongan = 2 * luasTepi + 2 * luasAlas + luasLuar
+
+    output(luasPotongan, "cm2")
+
+endprogram
+
+Contoh masukan dan keluaran (input and output)
+
+No.InputOutput12 20 10828.0 cm228 20 15496.25 cm2310 30 10535.5 cm2
+
+--- PAGE 4 ---
+
+CLO-03-2: Mampu memahami prinsip-prinsip dasar algoritma.
+
+Sub-CLO-03-2-1: Mahasiswa mampu menjelaskan proses sekuensial dasar dalam suatu solusi permasalahan komputasi.
+
+(Q 3-Looping) 25 Point
+
+Sebuah program digunakan oleh Posyandu untuk menghitung Body Mass Indeks (BMI) dan Health Indicators (I) dari bayi-bayi yang melakukan imunisasi. Data yang diproses adalah data berat badan (w), tinggi badan (h) dan lingkar kepala bayi (c). Selanjutnya perhitungan dapat menggunakan rumus:
+
+A program is used by the Posyandu (community health center) to calculate the Body Mass Index (BMI) and Health Indicator (I) of infants who receive immunizations. The data processed include the baby's weight (w, in grams), height (h, in centimeters), and head circumference (c, in centimeters).
+
+$$bmi = \frac{10w}{(h)^2}$$
+
+dan
+
+$$I = \frac{bmi + (c/10)}{2}$$
+
+Masukan terdiri dari $N+1$ baris. Baris pertama adalah bilangan bulat N yang menyatakan banyaknya bayi. N baris berikutnya masing-masing adalah berat badan (w), tinggi badan (h) dan lingkar kepala bayi (c).
+
+Keluaran terdiri dari $N+1$ baris, N baris pertama adalah nilai BMI dan I dari setiap bayi. Baris terakhir adalah rata-rata BMI dan I dari semua bayi.
+
+Input: The input consists of $N+1$ lines. The first line contains an integer N, representing the number of babies. The next N lines each contain three numbers: the baby's weight (w), height (h), and head circumference (c).
+
+Output: The output also consists of $N+1$ lines. The first N lines show the BMI and I values for each baby. The final line shows the average BMI and average I for all babies.
+
+Jawaban
+
+Plaintext
+
+
+
+program Posyandu
+
+    N, j : integer
+
+    BMI, HI, w, h, c, total_BMI, total_HI : real
+
+algoritma
+
+    input(N)
+
+    total_BMI = 0
+
+    total_HI = 0
+
+    for j = 1 to N do
+
+        input(w, h, c)
+
+        BMI = w / (h * h) * 10
+
+        HI = (BMI + (c / 10)) / 2
+
+        total_BMI = total_BMI + BMI
+
+        total_HI = total_HI + HI
+
+        output(BMI, HI)
+
+    endfor
+
+    output(total_BMI / N, total_HI / N)
+
+endprogram
+
+Contoh masukan dan keluaran (input and output)
+
+MasukanKeluaran1012.8000000 8.15000003200 50 3511.3173382 7.30866912500 47 3314.8760331 9.28801654500 55 3717.2865014 10.79325077530 66 4316.7644444 10.68222229430 75 4615.8869659 10.343483011750 86 4815.0612296 10.080614811930 89 5115.5789474 10.389473714060 95 5215.6958862 10.597943116330 102 5515.4616615 10.530830718370 109 5615.0729008 9.8164504
+
+--- PAGE 5 ---
+
+CLO-03-2: Mampu memahami prinsip-prinsip dasar algoritma.
+
+Sub-CLO-03-2-1: Mahasiswa mampu menjelaskan proses sekuensial dasar dalam suatu solusi permasalahan komputasi.
+
+(Q4-Tracing) 25 Point
+
+Apa yang dihasilkan program berikut ini apabila dijalankan dengan input yang terdapat pada tabel! Selalu catat setiap perubahan nilai dari semua variabel pada kolom yang sudah disediakan di bawah!
+
+What does the following program produce when it is run with the input shown in the table? Always record every change in the value of all variables in the columns provided below!
+
+Plaintext
+
+
+
+program GenZ
+
+1    dictionary
+
+2        N, v : integer
+
+3        a, b, c : integer
+
+4        i : integer
+
+5    algorithm
+
+6        input(N)
+
+7        a = 0
+
+8        b = 0
+
+9        c = 0
+
+10       for i = 1 to N do
+
+11           input(v)
+
+12           a = a + (v mod 3) div 3  [Catatan: Teks asli tertulis (3 mod 3) namun konteks tracing menunjukkan v]
+
+13           b = b + (4 - v mod 3) div 3
+
+14           c = c + (5 - v mod 3) div 3
+
+15           output(a, b, c)
+
+16       endfor
+
+17       output(a, b-a, c-b)
+
+18   endprogram
+
+Masukan/Input | Perubahan Nilai pada Variabel/Variable Value Changes | Tampilan/Output
+
+--- | --- | ---
+
+10 | N = 10 | 0 1 1
+
+1 | | 0 1 2
+
+2 | v = 1, 2, 3, 693, 482, 586, 525, 721, 406, 543 | 1 2 3
+
+3 | | 1 2 3
+
+693 | a = 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 | 2 3 4
+
+482 | b = 0, 1, 1, 2, 3, 3, 4, 5, 6, 7, 8 | 2 3 5
+
+586 | c = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 | 2 4 6
+
+525 | | 3 5 7
+
+721 | | 3 6 8
+
+406 | | 3 7 9
+
+543 | | 4 8 10
+
+| | 4 4 2

@@ -1,0 +1,445 @@
+--- PAGE 1 ---
+
+UNIVERSITAS
+
+Telkom
+
+Ujian Akhir Semester (Final Exam)
+
+Ganjil TA. 2025/2026 (1st Semester, Academic Year 2025/2026)
+
+CAK1BAB3-Algoritma dan Pemrograman 1 (Algorithm and Programming 1)
+
+Senin, 5 Januari 2026, Jam 14:00-16:00 (120 menit)
+
+(Monday, January 5, 2026, 14:00-16:00 / 120 minutes)
+
+Tim Dosen (Lecturer Team): BMG, FFS, FZD, HMT, IGR, JMT, LDS, MIU, PEY, UAI
+
+= Ujian bersifat CLOSE ALL, kalkulator diperbolehkan, HP NON AKTIF DAN TIDAK DIGUNAKAN selama ujian =
+
+= Dilarang keras bekerja sama dan melakukan perbuatan curang. Jika dilakukan, maka dianggap pelanggaran =
+
+(This is a close book exam, no electronic device is allowed. Put your phone and laptop at the front of class Do not cooperate with each other or violate academic rules during the exam. Violator will be severly punished.)
+
+Kerjakan soal langsung pada kertas ujian ini. Tidak disediakan kertas tambahan. Untuk perhitungan, gunakan bagian kosong di lembar nomor soal yang bersangkutan, tidak pindah ke lembar kertas nomor lain.
+
+(Write your answer on this exam paper. No other paper is needed or given. for scratch area, just use the empty side area of this exam paper)
+
+NIM (SID):
+
+Nama Mahasiswa (Student Name):
+
+Kelas (Class):
+
+Ruang (Room):
+
+Nilai (Score):
+
+Salinlah pernyataan berikut:
+
+Saya tidak melakukan kecurangan dalam ujian ini. Jika saya melakukan pelanggaran, maka saya bersedia diberi nilai E minimum untuk Mata Kuliah ini dan/atau maksimum untuk semua Mata Kuliah pada Semester ini
+
+Or Copy the following commitment statement:
+
+I do not cheat during this exam. If I violate any exam regulation, I understand that I may received grade E for this course and/or possible grade E for all courses in this semester.
+
+Tanda Tangan Mahasiswa (Sign here):
+
+PLO-03
+
+Target Capaian Pembelajaran Mata Kuliah (Course Learning Outcome)NilaiCLO-03-4Mampu menerapkan prinsip-prinsip algoritma dalam menyelesaikan masalah di bidang informatika.
+
+
+
+Ability to apply algorithm principles to solve problems in the informatics fields.
+
+Sub-CLO-03-4-2Mahasiswa mampu menggunakan proses sekuensial dasar dalam suatu solusi permasalahan komputasi.
+
+
+
+Students are able to use basic sequential processes in a computational problem-solving solution.
+
+Target Capaian Pembelajaran Program Studi (Program Learning Outcome)
+
+Kemampuan menerapkan prinsip-prinsip dasar sains, matematika, dan algoritma, dalam menyelesaikan masalah di bidang informatika.
+
+The ability to apply fundamental principles of science, mathematics, and algorithms to solve problems in the field of informatics.
+
+Good Luck!!
+
+--- PAGE 2 ---
+
+CLO-03-4: Mampu menerapkan prinsip-prinsip algoritma dalam menyelesaikan masalah di bidang informatika (Ability to apply algorithm principles to solve problems in the informatics fields).
+
+Sub-CLO-03-4-2: Mahasiswa mampu menggunakan proses sekuensial dasar dalam suatu solusi permasalahan komputasi (Students are able to use basic sequential processes in a computational problem-solving solution).
+
+[Question 1 - Card HWSK: 25 Points]
+
+Hint: Soal ini hanya menggunakan struktur kontrol percabangan (if-then-else saja). This problem only uses branching control structures (if-then-else only).
+
+Suatu program digunakan untuk menghitung nilai poin dari suatu permainan Kartu Remi. Kartu terdiri dari empat jenis simbol kartu dan dua jenis warna, yaitu: simbol Merah Hati (H), Merah Wajik (W), Hitam Sekop (S), dan Hitam Keriting (K). Selain warna dan simbol, kartu juga memiliki nilai kartu berupa angka dari 1 sampai dengan 9 (asumsi tanpa kartu spesial).
+
+Poin permainan akan dihitung berdasarkan dua kartu yang diambil oleh pemain secara acak berdasarkan ketentuan berikut:
+
+Apabila dua kartu memiliki angka yang sama, maka memperoleh 50 poin.
+
+Apabila dua kartu memilliki simbol yang sama dan angka berurutan maka mendapat 25 poin.
+
+Apabila dua kartu sewarna maka akan memperoleh 10 poin.
+
+Asumsi semua kartu adalah unik atau tidak ada lebih dari satu kartu yang memiliki simbol dan angka yang sama.
+
+Masukan terdiri dari karakter simbol dan angka kartu pertama dan kedua yang dipisahkan oleh spasi.
+
+Keluaran berupa total poin yang diperoleh pemain berdasarkan dua kartu yang dimiliki.
+
+A program is used to calculate the point value of a Playing Card (Poker Card) game. The cards consist of four types of suits and two colors, namely: Red Hearts (H), Red Diamonds (W), Black Spades (S), and Black Clubs (K). In addition to color and suit, each card also has a numeric value ranging from 1 to 9 (assume there are no special cards).
+
+The game points are calculated based on two cards randomly drawn by the player according to the following rules:
+
+If the two cards have the same number, the player gets 50 points.
+
+If the two cards have the same suit and the numbers are consecutive, the player gets 25 points.
+
+If the two cards have the same color, the player gets 10 points.
+
+Assume all cards are unique, meaning there is no more than one card with the same suit and number.
+
+Input consists of the suit character and number of the first and second cards, separated by spaces.
+
+Output is the total points obtained by the player based on the two cards held.
+
+Contoh masukan dan keluaran (Example):
+
+No.InputOutputNotes1W5 S550 PointsAngka kartu sama (The card numbers are the same)2H4 H325 PointsSimbol sama dengan angka terurut (The suits are the same and the numbers are ordered)3S7 S825 PointsSimbol sama dengan angka terurut (The suits are the same and the numbers are ordered)4S1 K910 poinKedua kartu berwarna hitam (Both cards are black)5H1 H50 pointSimbol sama tetapi angka tidak tururut (The suits are the same and the numbers are not ordered)
+
+Good Luck!!
+
+--- PAGE 3 ---
+
+Tuliskan jawaban di sini (Write your answer at the given box)!
+
+Plaintext
+
+
+
+program Card_HWSK
+
+dictionary
+
+    s1, s2 : char
+
+    poin : integer
+
+    a1, a2 : integer
+
+algoritma
+
+    input(s1, a1)
+
+    input(s2, a2)
+
+    poin = 0
+
+    if a1 == a2 then
+
+        poin = 50
+
+    endif
+
+    if s1 == s2 and (a1 - a2 == 1 or a2 - a1 == 1) then
+
+        poin = 25
+
+    endif
+
+    if (s1 == 'H' and s2 == 'W') or (s1 == 'W' and s2 == 'H') or (s1 == 'S' and s2 == 'K') or (s1 == 'K' and s2 == 'S') then
+
+        poin = 10
+
+    endif
+
+    output(poin, "Points")
+
+endprogram
+
+[Question 2 - Biometrics: 25 Point]
+
+Hint: Soal ini hanya menggunakan struktur kontrol perulangan (while-loop/repeat-until)! This problem only uses looping control structures (while-loop / repeat-until only).
+
+Sebuah program digunakan untuk membaca pola pengetikan seseorang dari suatu keyboard komputer untuk keperluan sistem autentikasi menggunakan biometriks. Kesalahan pengetikan tertentu sering dilakukan seseorang tapi tidak dilakukan oleh orang lain. Jika diberikan pasangan karakter yang biasa terketikkan oleh seseorang, deteksi dalam rangkai karakter yang diberikan apakah dilakukan orang tersebut atau tidak.
+
+Masukan terdiri dari dua baris. Baris pertama berisi pasangan karakter unik bagi seseorang, Baris berikutnya adalah rangkaian karakter yang diakhiri dengan titik ('.') (Rangkaian karakter paling sedikit ada 2 karakter).
+
+Keluaran berupa Boolean yang menyatakan hasil deteksi. True jika terdeteksi dan False jika tidak.
+
+A program is used to read a person's typing pattern from a computer keyboard for an authentication system using biometrics. Certain typing errors are frequently made by one person but not by others. Given a pair of characters that are commonly mistyped by a person, detect within a given character sequence whether the typing was performed by that person or not.
+
+Input consists of two lines. The first line contains a pair of characters that is unique to a person. The second line contains a sequence of characters ending with a period ('.'). (The character sequence contains at least 2 characters.)
+
+Output is a Boolean value indicating the detection result. True if the pattern is detected, False if it is not detected.
+
+Good Luck!!
+
+--- PAGE 4 ---
+
+Contoh masukan dan keluaran (Example):
+
+No.InputOutputNotes1ka
+
+
+
+aku orang bika sekali.
+
+TrueAda pasangan karakter "ka" dalam input. (There is a character pair "ka" in the input.)2ka
+
+
+
+aku orang bijak.
+
+False
+
+Tuliskan jawaban di sini (Write your answer at the given box)!
+
+Plaintext
+
+
+
+program Biometrics_A
+
+dictionary
+
+    pre, post, ch0, ch1 : char
+
+    found : boolean
+
+algorithm
+
+    input(pre, post)
+
+    found = false
+
+    ch0 = '.'
+
+    input(ch1)
+
+    while (ch1 != '.') and not found do
+
+        found = (ch0 == pre) and (ch1 == post)
+
+        ch0 = ch1
+
+        input(ch1)
+
+    endwhile
+
+    output(found)
+
+endprogram
+
+[Question 3 - Nature: 25 Points]
+
+Hint: Soal ini menggunakan komposisi struktur kontrol perulangan dan percabangan. This problem uses a combination of looping and branching control structures.
+
+Pohon yang ditanam di pinggir jalan komplek perumahan Bojong Soang Indah terdiri dari beberapa jenis dan ditanam pada waktu yang berbeda, sehingga ada beberapa pohon yang menjadi kerdil karena tertahan oleh lebatnya pohon yang lain. Bantulah pa RT untuk menginventarisasi berapa banyak pohon yang tumbuh kerdil, yaitu tingginya paling rendah dibanding pohon lainnya.
+
+Masukan terdiri dari beberapa baris, yang masing-masingnya merupakan data tinggi pohon yang ditanam dipinggir jalan dalam kompleks perumahan, diakhiri dengan sebuah sentinel -1. Diketahui ada cukup banyak pohon di jalan komplek.
+
+Keluaran berupa dua bilangan, yang menyatakan tinggi pohon kerdil dan banyaknya pohon yang sama tumbuh kerdil.
+
+The trees planted along the roadside of the BojongSoang Indah residential complex consist of several types and were planted at different times. As a result, some trees become stunted because their growth is blocked by denser surrounding trees. Help the neighborhood head (RT) to inventory how many trees grow in a stunted condition, defined as having the minimum height compared to all other trees.
+
+Input consists of multiple lines, each containing the height of a tree planted along the roadside of the residential complex, and ends with a sentinel value of -1. It is known that there are many trees along the road.
+
+Good Luck!!
+
+--- PAGE 5 ---
+
+Output consists of two numbers, the height of the stunted trees, and the number of trees that have this same minimum height.
+
+Contoh masukan dan keluaran (Example):
+
+No.InputOutputNotes15.0
+
+
+
+4.3
+
+
+
+2.3
+
+
+
+5.1
+
+
+
+5.0
+
+
+
+2.3
+
+
+
+5.6
+
+
+
+-1
+
+2.3 2Pohon kerdil tingginya hanya 2.3 (meter) ada sebanyak 2 batang. The stunted trees have a height of only 2.3 meters, and there are 2 trees.
+
+Tuliskan jawaban di sini (Write your answer at the given box)!
+
+Plaintext
+
+
+
+program Nature
+
+dictionary
+
+    p, kerdil : real
+
+    ada : integer
+
+algorithm
+
+    ada = 1
+
+    input(kerdil)
+
+    input(p)
+
+    while p != -1 do
+
+        if p < kerdil then
+
+            kerdil = p
+
+            ada = 1
+
+        elseif p == kerdil then
+
+            ada = ada + 1
+
+        endif
+
+        input(p)
+
+    endwhile
+
+    output(kerdil, ada)
+
+endprogram
+
+Good Luck!!
+
+--- PAGE 6 ---
+
+[Question 4 - Tracing: 25 Points]
+
+Apabila diberikan algoritma berikut ini! Apakah yang dihasilkan apabila diberikan nilai $a=35$ dan $b=28$? Tuliskan perubahan variabel dan juga tampilan dari keluaran yang dihasilkan di sini!
+
+Given the following algorithm, what will be produced if the values $a=35$ and $b=28$ are provided? Write the changes of the variables and also the output displayed as the result!
+
+Plaintext
+
+
+
+program a_b
+
+dictionary
+
+    a, b, p, q, r : integer
+
+
+
+Perubahan Nilai pada Variabel (Write the value changes of the variable here):
+
+[Handwritten traces from image]
+
+    N = 10
+
+    v = 1, 2, 3, 693, 482, 586, 525, 721, 406, 543
+
+    [Note: The lines above appear to be residues from a previous page's OCR or misplaced context, the actual trace for this problem is below]
+
+
+
+    a = 35
+
+    b = 28
+
+    
+
+    q = a --> 35
+
+    p = b --> 28
+
+    
+
+    else
+
+        q = b
+
+        p = a
+
+    
+
+    p = 28  14  7   3   1   0
+
+    q = 35  70  140 280 560 1120
+
+    r = 0   140 420 980
+
+
+
+Output (Write the output here):
+
+    35 28 980
+
+
+
+algorithm
+
+    input(a,b)
+
+    if a > b then
+
+        q = a
+
+        p = b
+
+    else
+
+        q = b
+
+        p = a
+
+    endif
+
+    r = 0
+
+    while p > 0 do
+
+        if p mod 2 == 1 then
+
+            r = r + q
+
+        endif
+
+        q = q * 2
+
+        p = p div 2
+
+    endwhile
+
+    output(a, b, r)
+
+endprogram
+
+Good Luck!!

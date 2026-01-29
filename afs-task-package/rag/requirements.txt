@@ -1,0 +1,30 @@
+# RAG System Requirements
+# Production-ready dependencies for Teacher Agent RAG System
+
+# Core Dependencies
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-core
+
+# Vector Store
+faiss-cpu
+
+# Embeddings
+sentence-transformers
+transformers
+torch
+
+# Configuration Management
+pydantic
+pydantic-settings
+pyyaml
+
+# Utilities
+numpy
+typing-extensions
+
+# Optional: GPU support (uncomment if using CUDA)
+# faiss-gpu
+# torch
