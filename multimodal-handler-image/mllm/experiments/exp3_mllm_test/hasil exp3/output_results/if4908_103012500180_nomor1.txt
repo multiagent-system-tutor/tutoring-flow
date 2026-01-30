@@ -1,0 +1,11 @@
+kamus
+d1,d2,d3,d4,P,q,m,K, integer
+algoritma
+input (m)
+m <- d1+d2,d3,d4
+loop
+P <- d1+d4
+q <- d2-d3
+k <- (d1+d2)*(d3+d4)+(P)-(q)
+ENDLOOP
+output (k)

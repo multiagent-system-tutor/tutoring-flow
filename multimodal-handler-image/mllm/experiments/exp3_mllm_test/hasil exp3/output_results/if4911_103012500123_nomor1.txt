@@ -1,0 +1,9 @@
+kamus
+d1, d2, d3, d4, M : integer
+algorithm
+input (m)
+d1 <= M d1 / 1000
+d2 <= M d2 / 1000 d2 % 100
+d3 <= M d3 / 100 d3 % 10
+d4 <= M d4 / 10 d4 % 10
+output ((d1 + d2) * (d3 + d4) + (d1 + d4) - (d2 + d3))

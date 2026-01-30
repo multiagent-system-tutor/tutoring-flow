@@ -1,0 +1,7 @@
+K, d1, d2, d3, d4, p, q : integer
+algoritma
+input ( d1, d2, d3, d4 )
+p = d1 + d4
+q = d2 - d3
+K = (d1 + d2) * (d3 + d4) + (p - q)
+output (K)

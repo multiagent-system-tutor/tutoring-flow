@@ -1,0 +1,8 @@
+kamus
+input (m, n)
+m = (1000 m < 9999)
+n = 4
+m = 4
+n = 4
+K = (a + 3x) * (b + 4y) (n - 4)
+output (K).

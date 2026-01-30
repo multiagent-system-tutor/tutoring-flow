@@ -1,0 +1,31 @@
+Begin program:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b, c, d;
+    int i;
+
+    printf("Masukkan angka a: ");
+    scanf("%d", &a);
+
+    printf("Masukkan angka b: ");
+    scanf("%d", &b);
+
+    printf("Masukkan angka c: ");
+    scanf("%d", &c);
+
+    printf("Masukkan angka d: ");
+    scanf("%d", &d);
+
+    i = 0;
+    while (i < 4) {
+        printf("Angka ke-%d adalah: %d\n", i + 1, a);
+        i++;
+    }
+
+    printf("Program selesai.\n");
+    return 0;
+}
+```

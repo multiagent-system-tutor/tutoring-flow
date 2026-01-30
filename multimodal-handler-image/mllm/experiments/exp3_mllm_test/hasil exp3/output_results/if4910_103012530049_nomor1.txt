@@ -1,0 +1,13 @@
+kamus
+Angka, D1, D2, D3, D4, D5, P, Q, Sandi:Integer
+
+algoritma
+input (Angka)
+D1 ← (Angka Div 100) Mod 10
+D2 ← (Angka Div 100) Mod 10
+D3 ← (Angka Div 10) Mod 10
+D4 ← Angka Mod 10
+P ← D1 + D4
+Q ← D3 - D2
+Sandi ← (D1 + D2) × (D3 + D4) + (P - Q)
+output (Sandi)

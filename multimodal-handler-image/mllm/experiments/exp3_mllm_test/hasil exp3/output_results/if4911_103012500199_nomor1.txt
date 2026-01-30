@@ -1,0 +1,15 @@
+program Enkripsi
+
+kamus
+type system < 
+    m, k, d1, d2 : integer
+    d3, d4, p, q : integer
+    s : system
+> 
+algorithm
+    input (m)
+        L ← ((m div 1000) + ((m div 100) mod 10)) ×
+            ((m div 10) mod 10) + (m mod 10) + 
+            ((m div 1000) + (m mod 10)) - ((m div 10) mod 10))
+    output (K)
+endprogram

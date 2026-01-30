@@ -1,0 +1,12 @@
+kamus
+k, d1, d2, d3, d4, m, p, q = int
+Algorithm
+input (1000 ≤ m ≤ 99999, m)
+d1 ← (m div 1000)
+d2 ← (m div 100) mod 100
+d3 ← (m div 10) mod 100
+d4 ← (m mod 10) mod 100
+p ← d1 + d4
+q ← d2 - d3
+k ← (d1*d2)*(d3+d4) + (p - q)
+output (k)

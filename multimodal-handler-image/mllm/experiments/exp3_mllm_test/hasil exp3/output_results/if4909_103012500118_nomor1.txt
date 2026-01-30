@@ -1,0 +1,7 @@
+The extracted text from the image is:
+
+```
+output: (d3 + d4) * (d2 + d3) + (d1 + d2) * (d3 + d4)
+```
+
+The original layout/format is maintained, and the results are presented in a neat text format.

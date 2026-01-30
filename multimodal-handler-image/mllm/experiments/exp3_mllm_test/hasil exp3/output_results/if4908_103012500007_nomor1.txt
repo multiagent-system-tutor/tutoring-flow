@@ -1,0 +1,17 @@
+program Enkr1ps1
+
+kamus
+m, ribuan, ratusan, puluhan, satuan, hasil: integer
+
+algoritma
+input (m)
+ribuan = m div 1000
+ratusan = m div 100 mod 10
+puluhan = m mod 100 div 10
+satuan = m mod 10
+hasil = (ribuan + ratusan) x (puluhan + satuan)
+hasil = hasil + (ribuan + satuan)
+hasil = hasil - (ratusan - puluhan)
+output (hasil)
+
+endprogram

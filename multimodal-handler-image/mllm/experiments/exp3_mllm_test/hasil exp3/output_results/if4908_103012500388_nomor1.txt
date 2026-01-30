@@ -1,0 +1,11 @@
+Program Enkripsi
+
+k = 3
+m = integer
+n = integer
+k = m div 1000
+r = m div 100 mod 10
+l = m div 10 mod 10
+s = m mod 10
+k = (r + s) * (l + s) + (r + s) - (r + s) * (l + s)
+output(k)

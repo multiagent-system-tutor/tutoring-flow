@@ -1,0 +1,17 @@
+program Enkripsi
+
+k, d1, d2, d3, d4, P, q : integer
+
+algorithm
+
+input (d1, d2, d3, d4)
+
+p <- d1 + d2
+
+q <- d2 - d3
+
+k <- (d1 + d2) * (d3 + d4) + (p - q)
+
+output (k)
+
+endprogram

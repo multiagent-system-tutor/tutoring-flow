@@ -1,0 +1,18 @@
+program Enkripsi
+
+kamus
+peribitian, ratusan, puluhan, satuan < integer
+basis < integer
+algoritma
+input (m)
+ribuan < m div 1000
+ratusan < m div 100
+puluhan < m div 10
+hundred < m div 10
+satuan < m mod 10
+P < ribuan + satuan
+q < ratusan - puluhan
+basis < (ribuan + ratusan) * (puluhan + hunderan) + (p - q)
+output (hasil)
+
+endprogram

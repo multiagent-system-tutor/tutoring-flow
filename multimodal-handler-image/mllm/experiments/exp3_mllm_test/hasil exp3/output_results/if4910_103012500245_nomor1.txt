@@ -1,0 +1,15 @@
+program Enkripsi
+
+kamus
+Code, d1, d2, d3, du, p, q, u : integer
+
+algoritma
+input (Code)
+d1 < Code div 1000
+d2 < (Code mod 1000) div 100
+d3 < (Code mod 100) div 10
+du < Code mod 10
+p < d1 + du
+q < d2 - d3
+r < -(d1 + d2) * (d3 + du) + (p - q)
+out p, r, u

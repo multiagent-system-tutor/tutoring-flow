@@ -1,0 +1,15 @@
+program Enkripsi
+
+kamus:
+- Pass, d1, d2, d3, d4, hasil : Integer
+
+algoritma
+input (Pass)
+d1 = pass * 10
+d2 = (pass / 10) * 10
+d3 = pass / 100 * 10
+d4 = pass / 1000
+
+hasil = (d1 + d2) * (d3 + d4) + (d1 + d4) - (d2 - d3)
+
+output (hasil)
