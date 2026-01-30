@@ -1,0 +1,11 @@
+program Enkripsi
+
+input (M)
+d1 <- M/1000
+d2 <- (M MOD 1000)/100
+d3 <- (M MOD 100)/10
+d4 <- M MOD 10
+P <- d1 + d4
+q <- d2 - d3
+K <- (d1 + d2) * (d3 + d4) + P - q
+output(K)

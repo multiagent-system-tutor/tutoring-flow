@@ -1,0 +1,11 @@
+program Enkripsi
+
+kamus
+d1, i, d0, d3, dq, p, q, k integer
+
+algoritma
+input (d1, d0, d3, dq)
+P <- d1 + d4
+Q <- d2 - d3
+k <- (d1 + d2) * (d3 + d4) + (p - q)
+output (k)

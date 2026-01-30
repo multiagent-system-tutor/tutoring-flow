@@ -1,0 +1,15 @@
+digit, d1, d2, d3, d4, P, Q, K: integer
+
+algorithm
+
+input(digit)
+
+dt = digit div 1000
+dz = digit div 100 mod 10
+du = digit mod 10
+
+p = dt + dz
+q = dz - d3
+k = (dt + dz) * (dz + du) + (p - q)
+
+output(k)

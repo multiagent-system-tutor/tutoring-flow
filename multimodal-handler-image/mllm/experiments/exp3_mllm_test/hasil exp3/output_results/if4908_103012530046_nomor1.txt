@@ -1,0 +1,12 @@
+k, p, q: integer
+d1, d2, d3, d4: integer
+
+algorithm
+p1 = d1 + d2 mod 100
+d3 = a div 100 mod 10
+d5 = a div 10 mod 10
+d4 = a mod 10
+f = d1 + d4
+q = d2 + d3
+k = (d1 + d2) * (d3 + d4) + (p - q)
+output(k)

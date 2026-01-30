@@ -1,0 +1,14 @@
+program Enkripsi
+
+kamus
+Integer
+
+input (d1, d2, d3, d4)
+
+P = d1 + d4
+
+Q = d2 - d3
+
+K = (d1 + d2) × (d3 + d4) + (P - Q)
+
+output (K)

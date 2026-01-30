@@ -1,0 +1,17 @@
+program Enkripsi
+
+kamus
+m, d, i : Integer
+P, q, k : Integer
+
+algoritma
+
+input (m)
+m = m (1000 ≤ m ≤ 9999)
+k = (d1 + d2) x (d3 + d4) + (p - q)
+P = d1 + d4
+q = d2 - d3
+
+output (k)
+
+Endprogram

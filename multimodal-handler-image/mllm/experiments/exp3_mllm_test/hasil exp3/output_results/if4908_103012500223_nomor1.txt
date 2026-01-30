@@ -1,0 +1,18 @@
+program Enkripsi
+
+kamus
+ribuan, ratusan, puluhan, satuan, dan belas
+ki-numerik
+m, integer (m)
+algoritma
+input (m)
+
+ribuan = m * 1000
+ratusan = (m * 100) // 10
+puluhan = m
+satuan = m
+q = ratusan - puluhan
+
+k = (ribuan + ratusan) * (puluhan + satuan) + (p - q)
+
+output(k)

@@ -1,0 +1,16 @@
+program Enkripsi
+
+kamus
+digit, d1, d2, d3, du, hasil : integer
+
+algoritma
+input (digit)
+d1 -> digit div 1000
+d2 -> digit div 100 mod 10
+d3 -> digit div 10 mod 10
+du -> digit Mod 10
+
+hasil -> (d1 + d2) * (d3 + du) + (d1 + d2) * (d3 + du) + (d1 + du) - (d2 - d3)
+output (hasil)
+
+endprogram

@@ -1,0 +1,23 @@
+Program Enkripsi:
+
+```plaintext
+kamus
+nilai, integer
+nilai1, nilai2, nilai3, nilai4 integer
+P, 9, hasil integer
+
+algoritma
+input (nilai)
+nilai1 ← nilai div 1000
+nilai2 ← nilai div 100 mod 10
+nilai3 ← nilai div 10 mod 10
+nilai4 ← nilai mod 10
+P ← nilai1 + nilai4
+9 ← nilai2 - nilai3
+hasil ← (nilai1 + nilai2) * (nilai3 + nilai4) + P - 9
+output (hasil)
+```
+
+endprogram
+```plaintext
+```

@@ -1,0 +1,19 @@
+program Posyandu
+
+kamus
+N, w, h, c, i = integra
+ratau 2, nilai, bmi, i = real
+
+algoritma
+input (N)
+
+FOR i = 1 to n do
+input (w, h, c)
+bmi = real(C10*w) / (real(h*x) + 1)
+i = bmi + (real(C10)/2
+nilai = (real(bmi) + real(1)
+ratau = (real(nilai) / 2
+
+ENDFOR
+
+output ("%.2F", nilai, ratau)

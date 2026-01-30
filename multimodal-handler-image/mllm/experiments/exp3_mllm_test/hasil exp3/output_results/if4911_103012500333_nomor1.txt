@@ -1,0 +1,16 @@
+program Enkripsi
+
+Lomus:
+d, d2, d3, du, X, k: integer
+
+algoritma
+input (x)
+d, c <- x div 1000
+da <- x div 100 mod 10
+d3 <- x div 100 mod 10
+d4 <- x mod 10
+k <- (h1 + d2) * (d3 + d4) + ((d1 + d2) - (d2 - d3))
+
+output (k)
+
+endprogram

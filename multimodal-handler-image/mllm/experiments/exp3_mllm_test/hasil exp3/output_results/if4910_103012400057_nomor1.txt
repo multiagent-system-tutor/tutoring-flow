@@ -1,0 +1,12 @@
+K, n, d1, d2, d3, d4, d5, P, Q : integer
+
+Algorithm
+input (n)
+d1 = n mod 10
+d2 = (n div 10) mod 10
+d3 = (n div 100) mod 10
+d4 = n div 1000
+P = d1 + d4
+Q = d2 - d3
+K = (d1 + d2) × (d3 + d4) + (P - Q)
+output (K)

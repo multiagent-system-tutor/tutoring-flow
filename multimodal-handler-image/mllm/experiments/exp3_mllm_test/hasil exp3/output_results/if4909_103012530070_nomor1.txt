@@ -1,0 +1,11 @@
+x, ds, ds, ds, dy, P, k : Integer
+
+algorithm
+
+    input(x)
+    ds = x / 1000
+    ds = x % 1000
+    ds = x % 100
+    ds = x % 10
+    k = ds + ds * (ds + ds) + (P - 9)
+    output(k)

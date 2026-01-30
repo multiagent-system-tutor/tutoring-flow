@@ -1,0 +1,13 @@
+The extracted text from the image is:
+
+```plaintext
+kamus, x, a, b, c, d, di, d2, ds, k
+algoritma
+input x
+div 1000
+ds = x mod 1000
+div 10
+ds = x mod 10
+k = (a * (b + (c * d) - c)) * (ds)
+output k
+```

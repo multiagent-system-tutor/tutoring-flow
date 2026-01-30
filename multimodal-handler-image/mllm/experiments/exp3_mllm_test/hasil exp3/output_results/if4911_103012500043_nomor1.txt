@@ -1,0 +1,17 @@
+program Enkripsi
+
+kamus
+m, d1, d2, d3, d4, P, q, Jumlah : integer
+
+algoritma
+input(m)
+d1 <- m div 1000
+d2 <- (m div 100) mod 10
+d3 <- (m div 10) mod 10
+d4 <- (m div 10) mod 10
+P <- d1 + d4
+q <- d2 - d3
+Jumlah <- (d1 + d2) * (d3 + d4) + (P - q)
+output(Jumlah)
+
+endprogram

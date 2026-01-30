@@ -1,0 +1,14 @@
+program Enkripsi
+kamus
+X, hasil : integer
+d1, d2, d5, d4 : integer
+algoritma
+input (x)
+dt1 ← x div 1000
+dz1 ← x div 100 mod 10
+ds1 ← x mod 10
+dt2 ← x div 1000
+dz2 ← x div 100 mod 10
+ds2 ← x mod 10
+hos1 ← (dt1 + dz1) * (ds1 + d4) + (dt2 + dz2) * (ds2 + d5)
+output (hasil)

@@ -1,0 +1,9 @@
+K, d1, d2, d3, d4, d5, p, q, x : integer
+algoritma 1:
+d1 = x * div 1000
+d2 = (x mod (1000)) * div 100
+d3 = (x mod (10000)) * div 100
+p = d1 + d2
+d4 = d3
+k = (d1 + d2) * (d3 + d4) + (p - q)
+output(k)

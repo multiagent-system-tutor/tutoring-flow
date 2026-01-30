@@ -1,0 +1,15 @@
+program Enkripsi
+
+d1, d2, d3, d9, P, q, m: integer
+
+algoritma
+
+input (m)
+d1 <- m div 1000
+d2 <- m div 100 mod 10
+d3 <- m div 10 mod 10
+d9 <- m mod 10
+P <- d1 + d9
+q <- d2 - d3
+
+output (d1 + d2 * (d3 + d9) + (p - q))

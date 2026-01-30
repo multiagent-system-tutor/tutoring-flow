@@ -1,0 +1,19 @@
+program Enkripsi
+
+kamus
+type sistem < 
+    d, d', d3, d4 : integer
+    p, q, a : integer
+    s : sistem
+endtype
+
+algoritma
+input (s, a)
+s. d1 = s * a div 1000
+s. d2 = (s * a div 100) mod 10
+s. d3 = (s * a div 10) mod 10
+s. d4 = s * a mod 10
+s. p = s. d1 + s. d4
+s. q = s. d2 - s. d3
+
+output ((s. d1 + s. d2) * (s. d3 + s. d4)) + (s. p - s. q))

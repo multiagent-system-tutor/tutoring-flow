@@ -1,0 +1,18 @@
+program Enkripsi
+
+Lengkap
+m, d1, d2, d3, d4, p, q, k, integer
+
+algoritma
+1. m = m div 1000
+2. d1 = (m div 100) mod 10
+3. d2 = (m div 100) mod 10
+4. d3 = (m div 10) mod 10
+5. d4 = m mod 10
+
+PK = d1 + d2
+q = d2 - d1
+k = (d1 + d2) * (d3 + d4) + (p - q)
+output (k)
+
+end program
