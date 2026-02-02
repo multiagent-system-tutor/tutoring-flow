@@ -1,0 +1,177 @@
+filename,original_text,modified_text,ground_truth
+if4908_103012400180_nomor2.jpg,"Kamus  
+program Cake  
+n  
+integer  
+diameter.T : integer  
+tebal, tinggi : integer  
+hasil : real  
+Rigor'mo  
+input( diameter.T, tebal, tinggi)  
+for i 1 to n do  
+    diameter:=7∠  
+    tebal :=tinggy-  
+    hasil:=4  
+endfor  
+output (hasIL)  
+endprogram","                            			Kamus  
+                           program Cake  
+                                        n  
+                                        integer  
+                                        		diameter.T : integer  
+                    tebal, tinggi : integer  
+                                     hasil : real  
+                              Rigor'mo  
+                                input( diameter.T, tebal, tinggi)  
+                for i 1 to n do  
+                               			    diameter:=7∠  
+                       tebal :=tinggy-  
+                                        			    hasil:=4  
+                                    endfor  
+                 				output (hasIL)  
+                    endprogram","program cake
+kamus
+    n : integer
+    diameter_T : integer
+    tebal, tinggi : integer
+    i : integer
+    hasil : real
+algoritma
+    input(n, diameter_T, tebal, tinggi)
+    for i : 1 to n do
+        diameter_T
+        tebal :
+        tinggi :
+        hasil : 
+    endfor
+output(hasil)"
+if4908_103012400221_nomor2.jpg,"program abc
+kamus
+    n, d, t : ef real
+    luas : real
+algoritma
+    input(n, d, t)
+    luas = 23.19 * d * (d + t)
+output(luas)
+endprogram","                         program abc
+                                     kamus
+                                     			    n, d, t : ef real
+                        luas : real
+                 			algoritma
+                          		    input(n, d, t)
+                                         luas = 23.19 * d * (d + t)
+                    output(luas)
+                      endprogram","program cake
+kamus
+    n, d, t : integer
+    luas : real
+Algoritma
+    input(n, d, t)
+    luas = 2 * 3.14 * d * (d+t)
+    output(luas)
+endprogram"
+if4908_103012400355_nomor2.jpg,"kamu5
+N,d,t,lus,i: integer
+rns:real
+Algoritma
+input(n, d, t)
+s: 3.14
+for i: 1 to N do
+N = 3.14 *d*t /12
+d:=3.14 ** r
+t:=2*d
+lus=(n,d,t)/l
+output(lus, ""cm2"")
+endprogram","                                        kamu5
+                              N,d,t,lus,i: integer
+                rns:real
+                  		Algoritma
+                 		input(n, d, t)
+                		s: 3.14
+                                		for i: 1 to N do
+               				N = 3.14 *d*t /12
+                   d:=3.14 ** r
+                                  t:=2*d
+                                     				lus=(n,d,t)/l
+                         			output(lus, ""cm2"")
+                            endprogram","programCake
+kamus
+    N, d, t: integer
+    r, s: real
+Algoritma 
+    input(n, d, t)
+    s = 3.14
+    for i= 1 to N do
+        N= 3.14 * d*t /2
+        d= 3.14* r*r
+        t= 2*d
+        luas= (n, d, t)
+        output(luas, ""cm2"")
+    endfor
+endprogram"
+if4908_103012400374_nomor2.jpg,"Kamus
+n,d : integer
+hasil : real
+Algoritma
+input(n, d, t)
+hasil += ((1*d*s + 1*a) / 2)*n)
+Output:
+cutput (hasil)","                                        Kamus
+                      n,d : integer
+                              hasil : real
+                     Algoritma
+                      input(n, d, t)
+                            		hasil += ((1*d*s + 1*a) / 2)*n)
+                          Output:
+                        cutput (hasil)","program Cake
+kamus
+    n,d,t : integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil<-((t*d*3,14/2)*n)
+    output(hasil)
+endprogram"
+if4908_103012500007_nomor2.jpg,"Kamus
+n,d,t : integer
+hasil : real
+r : real
+lras : string
+
+Algoritma
+input(n, d, t)
+r = d / 20
+hasil = (2 * 3.14 * r * r / n)
+hasil += (2 * r * x * r / n)
+hasil += (2 * 3.19 * r * r / n)
+output(hasil, ""cm2"")
+lvas=""cm2""
+output(lvlas)","                     Kamus
+                          n,d,t : integer
+                                 hasil : real
+                         		r : real
+                                      		lras : string
+                                  
+                           			Algoritma
+                          			input(n, d, t)
+                              r = d / 20
+                                        hasil = (2 * 3.14 * r * r / n)
+                        hasil += (2 * r * x * r / n)
+                                       hasil += (2 * 3.19 * r * r / n)
+                                    output(hasil, ""cm2"")
+                               		lvas=""cm2""
+                        output(lvlas)","program Cake
+kamus
+    n, d, t : integer
+    hasil : real
+    r : real
+    luas : string
+algoritma
+    input(n, d, t)
+    r = d / 2.0
+    hasil = (2 * 3.14 * r * r / n)
+    hasil = hasil + (2 * r * t)
+    hasil = hasil + (2 * 3.14 * r * t / n)
+    luas = ""cm2""
+    output(hasil, luas)
+endprogram"
