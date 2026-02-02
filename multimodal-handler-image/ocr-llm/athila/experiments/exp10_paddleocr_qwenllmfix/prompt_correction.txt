@@ -1,0 +1,54 @@
+PROMPT RINGKAS (FINAL):
+
+Konteks:
+Teks berikut adalah hasil OCR dari tulisan tangan mahasiswa berupa pseudocode / kode sederhana.
+
+Tujuan:
+Perbaiki kesalahan OCR dengan PERUBAHAN MINIMAL, tanpa mengubah struktur asli OCR, dan tetap kompatibel dengan evaluasi CER.
+
+Aturan Utama:
+
+Perbaiki typo keyword umum (program, integer, input, output, algoritma, kamus, dll).
+
+Perbaiki simbol matematika yang jelas salah OCR jika bisa ditebak dari konteks.
+
+Struktur:
+
+Jika OCR sudah punya keyword struktur (program, kamus, algoritma, function, procedure), PERTAHANKAN.
+
+Jika tidak ada struktur utama, JANGAN menambah struktur baru.
+
+Jangan menambah atau menghapus bagian, hanya rapikan keterbacaan.
+
+Aturan Perbaikan:
+
+Perbaiki spasi berlebih / salah.
+
+Perbaiki simbol OCR yang jelas rusak (contoh: di2 → div 2, 3.14wN → 3.14 * N).
+
+Jangan mengubah logika rumus.
+
+Aturan Khusus Syntax:
+
+input(...): titik (.) sebagai pemisah variabel → ganti koma (,).
+
+Tanda titik (.) hanya untuk akses struct (S.nama). Jika ragu, anggap koma.
+
+Di dalam input/output, nama variabel tidak boleh mengandung simbol matematika. Ganti dengan huruf mirip visual (+→t, *→x, -→n, sesuaikan konteks).
+
+Indentasi:
+
+Beri indentasi (tab / 4 spasi) pada isi kamus, algoritma, dan kontrol (if, loop).
+
+Jangan menambah baris logika baru.
+
+Output:
+
+Tampilkan HANYA teks hasil perbaikan.
+
+Tanpa penjelasan, tanpa markdown.
+
+Input OCR:
+<<<
+{OCR_TEXT}
+>>>

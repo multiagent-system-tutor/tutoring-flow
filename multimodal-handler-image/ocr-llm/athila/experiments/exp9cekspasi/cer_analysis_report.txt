@@ -1,0 +1,38 @@
+Loaded 50 rows from c:\projekdosen\tutoring\tutoring-flow\multimodal-handler-image\ocr-llm\athila\experiments\exp9cekspasi\results\exp4_results.csv
+
+=== CER Analysis Results ===
+1. Strict (Exact Whitespace):         37.51% (Includes tabs, newlines, spaces as distinct)
+2. Normalized (Join with single space): 32.65% (Current Logic)
+3. No Whitespace (Remove all):        31.37% (Focus purely on characters)
+
+--- Details ---
+Difference (Normalized - Strict):       -0.0486
+Difference (Normalized - No Whitespace):0.0128
+
+Top 3 examples where Strict vs Normalized differs most:
+  File: if4908_103012400355_nomor2.jpg
+    Strict CER: 44.44%
+    Norm   CER: 27.27%
+------------------------------
+  File: if4908_103012530052_nomor2.jpg
+    Strict CER: 142.03%
+    Norm   CER: 158.38%
+------------------------------
+  File: if4908_103012500373_nomor2.jpg
+    Strict CER: 36.21%
+    Norm   CER: 20.00%
+------------------------------
+
+Top 3 examples where Normalized vs No Whitespace differs most:
+  File: if4908_103012500305_nomor2.jpg
+    Norm CER:      32.17%
+    No White CER:  22.22%
+------------------------------
+  File: if4908_103012500069_nomor2.jpg
+    Norm CER:      23.94%
+    No White CER:  14.38%
+------------------------------
+  File: if4908_103012500227_nomor2.jpg
+    Norm CER:      39.01%
+    No White CER:  30.73%
+------------------------------
