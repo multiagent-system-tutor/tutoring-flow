@@ -1,5 +1,5 @@
 filename,time,cer_raw,cer_refined,raw_text,final_text,ground_truth
-if4908_103012500097_nomor1.jpg,341.8106167316437,0.34946236559139787,0.34946236559139787,"program Enkripsi
+if4908_103012500097_nomor1.jpg,113.33244633674622,0.34946236559139787,0.34946236559139787,"program Enkripsi
 Kamus
 M.dirdr,d3.dy. P.9 :integer
 k sinteger
@@ -28,7 +28,7 @@ algortitma
    	q = d2 - d3
    	k = (d1 + d2) * (d3 + d4) + (p - q)
 endprogram"
-if4908_103012500098_nomor1.jpg,426.15437722206116,0.46774193548387094,0.46774193548387094,"Kamus
+if4908_103012500098_nomor1.jpg,502.05865812301636,0.46774193548387094,0.46774193548387094,"Kamus
 d1, d2. d3, dy : integer
 P.q,K:integer
 Algritn2.
@@ -59,7 +59,7 @@ algoritma
         k = (d1 + d2) * (d3 + d4) + (p - q)
         output(k)
 endprogram"
-if4908_103012500281_nomor1.jpg,351.6521055698395,0.9428571428571428,0.9428571428571428,"program Posyandu
+if4908_103012500281_nomor1.jpg,305.99851274490356,0.9428571428571428,0.9428571428571428,"program Posyandu
 hamos
 N.whC,1:= intege
 CaU 2, Dilli, bmi 1:recn
@@ -100,7 +100,7 @@ algoritma
         output(k)
 
 endprogram"
-if4908_103012500305_nomor1.jpg,464.8762276172638,0.5869565217391305,0.5869565217391305,"kamus
+if4908_103012500305_nomor1.jpg,336.71021270751953,0.5869565217391305,0.5869565217391305,"kamus
 ogran Enkripsi
 K, d1, d2 d3, d9,P1 9:Integer
 Algoriema
@@ -126,7 +126,7 @@ Algoritma
 	k = (d1 + d2) * (d3 + d4) + (p - q)
 	output(k)
 Endprogram"
-if4908_103012500322_nomor1.jpg,502.0693919658661,0.38333333333333336,0.38333333333333336,"kamus
+if4908_103012500322_nomor1.jpg,488.7088432312012,0.38333333333333336,0.38333333333333336,"kamus
 ni Integer
 a.b,c.d:lnreger
 total:Integer
@@ -177,7 +177,7 @@ algoritma
 	total <- (a+b)* (c+d) + (p-q)
 	output total
 end program"
-if4908_103012530052_nomor1.jpg,305.9767394065857,0.7771428571428571,0.7771428571428571,"program Enkripsi
+if4908_103012530052_nomor1.jpg,525.4141743183136,0.7771428571428571,0.7771428571428571,"program Enkripsi
 Komes
 1d.d2du,R0has int
 Salah
@@ -219,7 +219,7 @@ algoritma
    	hasil = (d1+d2) * (d3 + d4) + (p - q)
    	output (hasil)
 endprogram"
-if4910_103012500004_nomor1.jpg,336.7221488952637,0.23076923076923078,0.23076923076923078,"program Enkripsi
+if4910_103012500004_nomor1.jpg,471.70632696151733,0.23076923076923078,0.23076923076923078,"program Enkripsi
 kamus
 mpq.k :integer
 di.d2.d,dy:integer
@@ -260,7 +260,7 @@ Algoritma
         k = (d1+d2)*(d3+d4)+(p-q)
         output(k)
 endprogram"
-if4911_103012500384_nomor1.jpg,488.6789457798004,0.3103448275862069,0.3103448275862069,"program Enkripsi
+if4911_103012500384_nomor1.jpg,571.4499807357788,0.3103448275862069,0.3103448275862069,"program Enkripsi
 Lomus
 di d21d3idgm, P.9, k integer
 Algorrima
@@ -299,52 +299,4 @@ Algoritma
 	q <- d2 - d3
 	k <- (d1 + d2) * (d3 + d4) + (p - q)
 	output(k)
-endprogram"
-if4910_103012500367_nomor1.png,525.4324088096619,0.2556818181818182,0.2556818181818182,"Kamus
-Nilai, integer
-niail, nilai2, nilai3, Ailaiy integer
-P,9,hasil integer
-Algorilma
-10Put(ala)
-Nilail t nilai div l000
-nilai2 ← nilar div 100 mod 10
-nilai3 t nlai div l0 mod l0
-Nilai4 t nilai mod 10
-P ← nilail + Nilaiy
-9 t Ai012 - nila13
-hasil ←(nilail + nilai)*(nilaistnilai4)+
-P-9
-Outpul (hasi)
-endproaram","Kamus
-Nilai, integer
-niail, nilai2, nilai3, Ailaiy integer
-P,9,hasil integer
-Algorilma
-10Put(ala)
-Nilail t nilai div l000
-nilai2 ← nilar div 100 mod 10
-nilai3 t nlai div l0 mod l0
-Nilai4 t nilai mod 10
-P ← nilail + Nilaiy
-9 t Ai012 - nila13
-hasil ←(nilail + nilai)*(nilaistnilai4)+
-P-9
-Outpul (hasi)
-endproaram","program Enkripsi
-Kamus 
-	nilai: integer
-	nilai1, nilai2, nilai3, nilai4: integer
-	p, q, hasil: integer
-
-Algoritma
-	input(nilai)
-	nilai1 <- nilai div 1000
-	nilai2 <- nilai div 100 mod 10
-	nilai3 <- nilai div 10 mod 10
-	nilai4 <- nilai div 10
-	p <- nilai1 + nilai4
-	q <- nilai2 - nilai3
-	hasil <- (nilai1 + nilai2) * (nilai3 + nilai4) + p - q
-	output(hasil)
-
 endprogram"
