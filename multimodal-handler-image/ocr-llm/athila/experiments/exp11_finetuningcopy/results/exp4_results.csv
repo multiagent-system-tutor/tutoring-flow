@@ -1,0 +1,350 @@
+filename,time,cer_raw,cer_refined,raw_text,final_text,ground_truth
+if4908_103012500097_nomor1.jpg,341.8106167316437,0.34946236559139787,0.34946236559139787,"program Enkripsi
+Kamus
+M.dirdr,d3.dy. P.9 :integer
+k sinteger
+algonitma
+M=1000∠=M<=999
+input(d1,d2rd3,d4)
+P =d1 +dy
+q =d2-d3
+k=(d1+d2*(d3+du+(P-9)","program Enkripsi
+Kamus
+M.dirdr,d3.dy. P.9 :integer
+k sinteger
+algonitma
+M=1000∠=M<=999
+input(d1,d2rd3,d4)
+P =d1 +dy
+q =d2-d3
+k=(d1+d2*(d3+du+(P-9)","program Enkripsi
+kamus
+   	m,d1,d2,d3,d4,p,q : integer
+   	k : integer
+algortitma
+   	m = 1000 <= m <= 9999
+   	input (d1,d2,d3,d4)
+   	p = d1 + d4
+   	q = d2 - d3
+   	k = (d1 + d2) * (d3 + d4) + (p - q)
+endprogram"
+if4908_103012500098_nomor1.jpg,426.15437722206116,0.46774193548387094,0.46774193548387094,"Kamus
+d1, d2. d3, dy : integer
+P.q,K:integer
+Algritn2.
+inpit(d1, dr, d3, du, P.q)
+P=R(d + du)
+92-3)
+(1L)""
+NR
+kdr+d2)×(d3+d4)+(P-9)
+Oubput (k)","Kamus
+d1, d2. d3, dy : integer
+P.q,K:integer
+Algritn2.
+inpit(d1, dr, d3, du, P.q)
+P=R(d + du)
+92-3)
+(1L)""
+NR
+kdr+d2)×(d3+d4)+(P-9)
+Oubput (k)","program enkripsi
+kamus
+        d1, d2, d3, d4: integer
+        p, q, k: integer
+algoritma
+        input(d1, d2, d3, d4, p, q)
+        p = (d1 + d4)
+        q = (d2 - d3)
+        k = (d1 + d2) * (d3 + d4) + (p - q)
+        output(k)
+endprogram"
+if4908_103012500281_nomor1.jpg,351.6521055698395,0.9428571428571428,0.9428571428571428,"program Posyandu
+hamos
+N.whC,1:= intege
+CaU 2, Dilli, bmi 1:recn
+lgoritma
+aput (N)
+ori=1 ton do
+input (w.h.i)
+i = reui (10w/(eai(hxh)
+l = bmi +(eu(C/lo)/2
+nicui: (eul (bmi) t ceal (1)
+cala2:(eul(nilai)/2
+dFor
+Nart ("".7F "" nilui(ata{)","program Posyandu
+hamos
+N.whC,1:= intege
+CaU 2, Dilli, bmi 1:recn
+lgoritma
+aput (N)
+ori=1 ton do
+input (w.h.i)
+i = reui (10w/(eai(hxh)
+l = bmi +(eu(C/lo)/2
+nicui: (eul (bmi) t ceal (1)
+cala2:(eul(nilai)/2
+dFor
+Nart ("".7F "" nilui(ata{)","program enkripsi
+kamus
+	d1, d2, d3, d4, p, q, k : integer
+
+algoritma
+       	input(d1, d2, d3, d4, p, q)
+
+        p = d1 + d4
+        q = d2 - d3
+       
+        k = (d1 + d2) * (d3 + d4) + (p - q)
+        
+        output(k)
+
+endprogram"
+if4908_103012500305_nomor1.jpg,464.8762276172638,0.5869565217391305,0.5869565217391305,"kamus
+ogran Enkripsi
+K, d1, d2 d3, d9,P1 9:Integer
+Algoriema
+Input(di, d2d3,d4)
+P<d1+d4
+9t d2-d3
+K∠-(d1+da)≠(d3+da)+(P-9)
+autput (k)","kamus
+ogran Enkripsi
+K, d1, d2 d3, d9,P1 9:Integer
+Algoriema
+Input(di, d2d3,d4)
+P<d1+d4
+9t d2-d3
+K∠-(d1+da)≠(d3+da)+(P-9)
+autput (k)","Program
+Kamus
+	k, d1, d2, d3, d4, p, q : integer
+
+Algoritma
+	p = d1 + d4
+	q = d2 - d3
+	k = (d1 + d2) * (d3 + d4) + (p - q)
+	output(k)
+Endprogram"
+if4908_103012500322_nomor1.jpg,502.0693919658661,0.38333333333333336,0.38333333333333336,"kamus
+ni Integer
+a.b,c.d:lnreger
+total:Integer
+Piq= lnteger
+algoritma
+input (n)
+as-n mod looo
+b<-(n div1o0) mod Lou
+Cc-Cndivw)mod1o
+de-_mod 10i
+Pa+d.
+atc-d
+totale-(atb)*(c+d)+(ρ-q)
+Outpur(toraj
+endprogram
+endprogram","kamus
+ni Integer
+a.b,c.d:lnreger
+total:Integer
+Piq= lnteger
+algoritma
+input (n)
+as-n mod looo
+b<-(n div1o0) mod Lou
+Cc-Cndivw)mod1o
+de-_mod 10i
+Pa+d.
+atc-d
+totale-(atb)*(c+d)+(ρ-q)
+Outpur(toraj
+endprogram
+endprogram","program
+kamus
+	n : integer
+	a,b,c,d : integer
+	total : integer 
+	p,q : ineteger
+algoritma
+
+	input(n)
+	a<- n mod 1000
+	b<- n div 100 mod 100
+	c <- n div 10 mod 10
+	d <- n mod 10
+
+	p<= a + d
+	q <= c- d
+	total <- (a+b)* (c+d) + (p-q)
+	output total
+end program"
+if4908_103012530052_nomor1.jpg,305.9767394065857,0.7771428571428571,0.7771428571428571,"program Enkripsi
+Komes
+1d.d2du,R0has int
+Salah
+Algoritma
+inpn(,d,yP,Q)
+has1=(0/+d2)x(d3+d4)+
+Progrom enknips;
+Kamus
+d1,d2,d3,d4,P.Q,hasat,int=
+Ansoritma
+input(d1,d2,d3,d4)
+P =d1+d4
+Q=d1 -d3
+hasi1=(d1+d2)×(d3+du)+(p-a)
+OutRut(haci)
+end9rogrom","program Enkripsi
+Komes
+1d.d2du,R0has int
+Salah
+Algoritma
+inpn(,d,yP,Q)
+has1=(0/+d2)x(d3+d4)+
+Progrom enknips;
+Kamus
+d1,d2,d3,d4,P.Q,hasat,int=
+Ansoritma
+input(d1,d2,d3,d4)
+P =d1+d4
+Q=d1 -d3
+hasi1=(d1+d2)×(d3+du)+(p-a)
+OutRut(haci)
+end9rogrom","program enkripsi
+kamus
+   	input(d1,d2,d3,d4,p,q, hasil : int
+algoritma 
+   	input (d1,d2,d3,d4)
+   	p = d1 + d4
+   	q = d2 - d3
+   	hasil = (d1+d2) * (d3 + d4) + (p - q)
+   	output (hasil)
+endprogram"
+if4910_103012500004_nomor1.jpg,336.7221488952637,0.23076923076923078,0.23076923076923078,"program Enkripsi
+kamus
+mpq.k :integer
+di.d2.d,dy:integer
+Algoritma
+input(m)
+d1= m div 1000
+d2= m div loo mod lo
+d3= m div l0 mod lo
+d4=m mod 10
+p=d1+dy
+q = d{2 - d3$
+k=(d1+d2)*(d3+4q)+(ρ-9)
+output (k)","program Enkripsi
+kamus
+mpq.k :integer
+di.d2.d,dy:integer
+Algoritma
+input(m)
+d1= m div 1000
+d2= m div loo mod lo
+d3= m div l0 mod lo
+d4=m mod 10
+p=d1+dy
+q = d{2 - d3$
+k=(d1+d2)*(d3+4q)+(ρ-9)
+output (k)","Program Enkripsi
+Kamus
+        m,p,q,k : integer
+        d1,d2,d3,d4 : integer
+Algoritma
+        input(m)
+        d1 = m div 1000
+        d2 = m div 100 mod 10
+        d3 = m div 10 mod 10
+        d4 = m mod 10
+        p = d1+d4
+        q = d2-d3
+        k = (d1+d2)*(d3+d4)+(p-q)
+        output(k)
+endprogram"
+if4911_103012500384_nomor1.jpg,488.6789457798004,0.3103448275862069,0.3103448275862069,"program Enkripsi
+Lomus
+di d21d3idgm, P.9, k integer
+Algorrima
+input (m)
+dic-m div 1000
+d2-m dy 100 mod 10
+da-m dv 1o mod lo
+d9-m mod 10
+P-d1+da
+a<d2 - d3
+k-(d1+d2)(d3+da+(P-9)
+OupUT (k)
+endprogram","program Enkripsi
+Lomus
+di d21d3idgm, P.9, k integer
+Algorrima
+input (m)
+dic-m div 1000
+d2-m dy 100 mod 10
+da-m dv 1o mod lo
+d9-m mod 10
+P-d1+da
+a<d2 - d3
+k-(d1+d2)(d3+da+(P-9)
+OupUT (k)
+endprogram","program Enkripsi
+kamus
+	d1,d2,d3,d4,m,p,q,k : integer
+Algoritma
+	input(m)
+	d1 <- m div 1000
+	d2 <- m div 100 mod 10
+	d3 <- m div 10 mod 10
+	d4 <- m mod 10
+	p <- d1 +  d4
+	q <- d2 - d3
+	k <- (d1 + d2) * (d3 + d4) + (p - q)
+	output(k)
+endprogram"
+if4910_103012500367_nomor1.png,525.4324088096619,0.2556818181818182,0.2556818181818182,"Kamus
+Nilai, integer
+niail, nilai2, nilai3, Ailaiy integer
+P,9,hasil integer
+Algorilma
+10Put(ala)
+Nilail t nilai div l000
+nilai2 ← nilar div 100 mod 10
+nilai3 t nlai div l0 mod l0
+Nilai4 t nilai mod 10
+P ← nilail + Nilaiy
+9 t Ai012 - nila13
+hasil ←(nilail + nilai)*(nilaistnilai4)+
+P-9
+Outpul (hasi)
+endproaram","Kamus
+Nilai, integer
+niail, nilai2, nilai3, Ailaiy integer
+P,9,hasil integer
+Algorilma
+10Put(ala)
+Nilail t nilai div l000
+nilai2 ← nilar div 100 mod 10
+nilai3 t nlai div l0 mod l0
+Nilai4 t nilai mod 10
+P ← nilail + Nilaiy
+9 t Ai012 - nila13
+hasil ←(nilail + nilai)*(nilaistnilai4)+
+P-9
+Outpul (hasi)
+endproaram","program Enkripsi
+Kamus 
+	nilai: integer
+	nilai1, nilai2, nilai3, nilai4: integer
+	p, q, hasil: integer
+
+Algoritma
+	input(nilai)
+	nilai1 <- nilai div 1000
+	nilai2 <- nilai div 100 mod 10
+	nilai3 <- nilai div 10 mod 10
+	nilai4 <- nilai div 10
+	p <- nilai1 + nilai4
+	q <- nilai2 - nilai3
+	hasil <- (nilai1 + nilai2) * (nilai3 + nilai4) + p - q
+	output(hasil)
+
+endprogram"
