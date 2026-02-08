@@ -1,0 +1,7 @@
+pdfplumber
+pandas
+tqdm
+faiss-cpu
+sentence-transformers
+rank_bm25
+numpy

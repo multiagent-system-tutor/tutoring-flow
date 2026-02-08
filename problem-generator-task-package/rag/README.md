@@ -1,22 +1,40 @@
-# RAG untuk Pembuat Soal (Problem Generator)
+# RAG System Module
 
-## Tanggung Jawab
-Memberikan konteks (Bank Soal, Silabus) kepada LLM/VLLM Pembuat Soal.
+This module handles the Retrieval-Augmented Generation pipeline for the Problem Generator Task Package.
 
-## Daftar Tugas (To-Do List)
-- [ ] Bangun sistem RAG dengan Bank Soal pseudocode (standar Tel-U).
-- [ ] Sertakan Silabus dalam cakupan retrieval.
-- [ ] Catat waktu inferensi.
+## Structure
 
-## Input/Output
+- `dataset/raw`: Contains the raw PDF files (Exam Papers & Rubrics).
+- `dataset/processed`: Contains the extracted data in JSONL format.
+- `src/`: Source code for data engineering and RAG logic.
+  - `extractor.py`: Extracts questions and answers from PDFs.
+  - `syllabus_mapper.py`: Maps study weeks to topics.
+  - `utils.py`: Logging and helper functions.
+- `experiments/`: Log of experiments (future use).
 
-### Input
-- **plan**: Rencana belajar.
-- **todays date**: Tanggal hari ini.
+## Setup
 
-### Output
-```json
-{
-    "context": "isi_context_from_bank_soal_and_syllabus"
-}
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+### Data Extraction (Phase 1)
+
+To extract data from the PDFs in `dataset/raw` to `dataset/processed/dataset.jsonl`:
+
+```bash
+python3 -m rag.src.extractor
+```
+
+### Syllabus Mapping
+
+To query topics by week:
+
+```python
+from rag.src.syllabus_mapper import SyllabusMapper
+mapper = SyllabusMapper()
+print(mapper.get_topic_by_week("1"))
 ```

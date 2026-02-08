@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+venv/
+problem-generator-task-package/rag/dataset/raw/
+problem-generator-task-package/rag/dataset/processed/
+problem-generator-task-package/rag/index/
+.DS_Store
+
