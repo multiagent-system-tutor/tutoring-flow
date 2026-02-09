@@ -1,0 +1,1042 @@
+filename,time,cer_raw,raw_text,ground_truth
+if4908_103012400180_nomor2.jpg,1.717716932296753,0.9049773755656109,"BX99(<
++=-3=X+<PAD12>tX71
++
++71:1=
+0X9=1=<PAD9>K+>131
+8+>131=
++X<58
+=1X8
+r83-=>9-
++091=1=>1YX8+35
+>-5rb>-+0-
+08X91>1=
+>1YX8<PAD12>
+>5+3:
+4X<58m
+1+0>-=
++X<
+1+0*=-3=X+","program cake
+kamus
+    n : integer
+    diameter_T : integer
+    tebal, tinggi : integer
+    i : integer
+    hasil : real
+algoritma
+    input(n, diameter_T, tebal, tinggi)
+    for i : 1 to n do
+        diameter_T
+        tebal :
+        tinggi :
+        hasil : 
+    endfor
+output(hasil)"
+if4908_103012400221_nomor2.jpg,1.3798651695251465,1.72,"*=-3=X9<PAD12>tX71
+BX9(<
++0<PAD9>>k531=<PAD12>>1X8
+8(X<<PAD12>k=1X8
+r83-+5>(+X
+5+*(><PAD3>+<PAD7>0<PAD7>><PAD4>
+C(X<<PAD12>nc<PAD5>d<PAD9>be<PAD12><PAD5>0<PAD5><PAD3>0<PAD6>><PAD4>
+F(>*(><PAD12><PAD3><PAD12>C(X<<PAD4>
+1+0*=-3=X<PAD9>","program cake
+kamus
+    n, d, t : integer
+    luas : real
+Algoritma
+    input(n, d, t)
+    luas = 2 * 3.14 * d * (d+t)
+    output(luas)
+endprogram"
+if4908_103012400283_nomor2.jpg,1.249359130859375,0.0,"*=-3=X9<PAD12>tX71
+7X9(<
++<PAD7>
+0><PAD7>G5<PAD12>5+>31=
+C*
+I1X5
+r83-=-+X
+b+*(><PAD12><PAD3>+<PAD4>
+*5<PAD8>d<PAD7>
+t*m<PAD8><PAD3>+<<PAD12>X+0I5>bd
+>*(>C*<PAD4>
+1+0X+3=-+
+1+0*=-3=X9",
+if4908_103012400355_nomor2.jpg,1.422642469406128,1.7486631016042782,"*=-3=X9<PAD12>tX71
+7X9(<
+E<PAD7><PAD12>0<PAD7><PAD12>><PAD7><PAD12>8(X<<PAD7>5k<PAD12>5+>131=
+=<k=1X8
+r83-=5>9X
+5+*(><PAD3>+<PAD7>0<PAD7>><PAD4>
+Jkd<PAD9>be
+2-=5b<PAD12>>-<PAD12>E<PAD12>0-
+End<PAD9>be<PAD5>0<PAD5>>bc
+0nd<PAD9>be<PAD5>=<PAD5><PAD12>=
+>nc0
+8(X<n<PAD3>+<PAD7><PAD12>0<PAD7><PAD12>><PAD4>
+F(>*(><PAD3>8(X<<PAD7>≥Z9c≥<PAD4>
+1+0*+3=X9
+1+0*=-3=X9","programCake
+kamus
+    N, d, t: integer
+    r, s: real
+Algoritma 
+    input(n, d, t)
+    s = 3.14
+    for i= 1 to N do
+        N= 3.14 * d*t /2
+        d= 3.14* r*r
+        t= 2*d
+        luas= (n, d, t)
+        output(luas, ""cm2"")
+    endfor
+endprogram"
+if4908_103012400374_nomor2.jpg,1.1826205253601074,1.0252100840336134,"*=-3=X+<PAD12>t-71
+B-(((<
++0<PAD6>5+>31=
+4X<58k=1Z8
+r83-=5>915
+5+*(<PAD3>+0><PAD4>
+4X<b<PAD6>0fbe<PAD10>c<PAD4>+
+-(*>+
+1+0*=-3=X9","program Cake
+kamus
+    n,d,t : integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil<-((t*d*3,14/2)*n)
+    output(hasil)
+endprogram"
+if4908_103012500007_nomor2.jpg,0.9666857719421387,1.3187250996015936,"*=-3=X9<PAD12>tX71
+BX9(<
++<PAD7>0<PAD7>>k5+>131=
+4X<58<PAD12>k<PAD12>=1X8
+=k=1X8
+8=X<k<>=5+3
+X83-=5>9X
+5+*(><PAD12><PAD3>+<PAD7><PAD12>0<PAD7>><PAD4>
+=n0<PAD10>ca
+4X<5nc]dbe]=]=<PAD10>+<PAD4>
+4-<58n4X<<PAD3><PAD6><PAD3>c]=]><PAD4>
+4X<58<PAD12>n4X<5b<PAD6><PAD3>c]d<PAD9>bj<PAD12>]=]>P+<PAD4>
+,)XfZ9c≥<PAD4>
+-(>*(><PAD3>4X<58<PAD7><PAD3>)X<<PAD4>
+1+0*=-3=X9","program Cake
+kamus
+    n, d, t : integer
+    hasil : real
+    r : real
+    luas : string
+algoritma
+    input(n, d, t)
+    r = d / 2.0
+    hasil = (2 * 3.14 * r * r / n)
+    hasil = hasil + (2 * r * t)
+    hasil = hasil + (2 * 3.14 * r * t / n)
+    luas = ""cm2""
+    output(hasil, luas)
+endprogram"
+if4908_1030125000185_nomor2.jpg,1.2491612434387207,0.0,"*=-3=X9<PAD12>tX71
+er<+
+yX9(2
+4(<58=(8
+t(+<><PAD12>G45<PAD12>k3<PAD9>b:
+rC:
+6+><PAD8><PAD4>Ee<PAD9>>
+
+G->-=:X+0<PAD6>245<PAD12>05)<PAD9>E
+Y(Y5+:<PAD9><PAD8>o<PAD9>2->1:X+<PAD6>><PAD5>><PAD4><PAD9>(
+><PAD12>FL>G)><PAD8>h>([+3≥89c≥
+C
+1+0*=-3=X9",
+if4908_103012500030_nomor2.jpg,1.5914671421051025,1.0683760683760684,"*=-3=X9<PAD12>tX71
+7X9<
+G->-31+0X=1=<PAD12>v+33<PAD4>X=58+>13
+=(==<5I5<PAD7>4X<8
+cbja=v9h
+z+*1><PAD3>G-Z=33+<PAD7>0X+111><PAD7>8=33<PAD4>
+25m<PAD9>be
+AX5m<PAD8>0X=121=0c
+>-9fm<PAD3>*5<PAD5><PAD6><PAD4><PAD5>Z<PAD9>+j<PAD4>0)+
+FLvIvt>191<<PAD4>
+1=<*>-3>X+
+1+0*=-3=X9","program cake 
+kamus
+    potongan , diameter , tinggi , jari : Integer
+    rumus , pi , hasil : real
+algoritma
+    input(potongan, diameter , tinggi)
+    pi <- 3.14
+    jari <- diameter div 2
+    rumus <- ((pi * r * r) * tinggi)) div n
+    output(rumus)
+endprogram"
+if4908_103012500033_nomor2.jpg,0.9395358562469482,1.437956204379562,"*=-3=X9<PAD12>tX71
+BXX+<PAD2><
+t-<>G4d<PAD9>be
++0>5<PAD8>+1=
+4X<58k=1X8
+X83k=5>+X
+5+2<PAD6><PAD3>+0><PAD4>
+4X58n<PAD3>w(5<PAD5>0<PAD5><PAD6><PAD4>X5(<PAD12>+
+t(2r<PAD6><PAD3>+<PAD8><58<PAD4>
+5+0*=-3=X+
+ZX0*=-3=","program cake
+kamus
+    const : phi = 3.14
+    n,d,t :integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil = (phi*d*t) div n
+    output(hasil)
+endprogram"
+if4908_103012500034_nomor2.jpg,0.9849917888641357,1.6641221374045803,"*=-3=X9<PAD12>tX71
+7X9(<
+E<PAD7>><PAD7>0k25X>
+r533=5>91
+b(E<PAD7>>
+bna<PAD10>c
+Ce:k<PAD9>c<PAD5><PAD3>]<PAD5>=<PAD5>f<PAD4><PAD10>E<PAD4><PAD6><PAD3>c<PAD5><PAD6><PAD5>=<PAD4>
+Fe>G(><PAD12><PAD3>C((<<PAD4>
+1+0<PAD12>G=-3=(9
+1+0*=-3=X9","program cake
+kamus
+    n, t, d : float
+Algoritma
+    input (n, t, d)
+    f = d/2
+    luas = 2 *(3,14*r*r)/n) * (2 * t * r)
+    output (luas)
+endprogram"
+if4908_103012500043_nomor2.jpg,1.048837423324585,0.0,"*=-3=X9<PAD12>tX71
+E>5+>>31=
+X83-=5>9X
+4*>E0>
+4<PAD8>bdcnb<PAD10><PAD6>cc+><PAD6>de<PAD10>
+->>+-Z=Z9X+
+1+0*=-3=X+",
+if4908_103012500045_nomor2.jpg,0.7223026752471924,0.9375,"*=-3=X9<PAD12>tX71
+7-9(<
++0>55+>131=
+G54I1X8
+X53-=5>9+
+5+*(>+><PAD4>
+G5nd<PAD9>be
+1+0*=-3=X9","program Cake
+kamus 
+    n, d, t, i : integer
+    pi, h      : real
+algoritma
+    input(n,d,t)
+    pi = 3.14
+endprogram"
+if4908_103012500065_nomor2.jpg,1.1084866523742676,1.592814371257485,"*=-3=X9<PAD12>tX71
+BX9(<
+E<PAD7>><PAD7>0<PAD12>k<PAD12>5+>131=
+G->-+3-+<PAD7>l<PAD12>=1Xb
+0>
+5UG(><PAD12><PAD3>E<PAD7>e50<PAD4>
+==e0<PAD5>>
+G45<PAD12>1<PAD12>d<PAD9>bj
+G->-+3X+m<PAD3>G45<PAD5>=Uc<PAD4><PAD10>E
+F(>*(><PAD12><PAD3>G->-+3-+<PAD7><PAD12>≥Z9c≥<PAD4>
+1+0<PAD12>G=-3=X9
+801218","program cake
+kamus
+    N, t, d : integer
+    potongan, phi, r : real
+algoritma
+    input(N, d, t)
+    n <- d*t
+    phi <- 3.14
+    potongan <- (phi*(r^2))/N
+    output(potongan, ""cm2"")
+endprogram"
+if4908_103012500069_nomor2.jpg,1.0234313011169434,1.0,"*=-3=X9<PAD12>tX71
+BXDL<
+E+>Z31=
+ub+>Z31=
+K+<PAD6>Z3=
+y-<5k=1X8
+G->-+3<PAD12>=1X8
+G5k=ZX
+r83-=>9X
+z+*(>EK
+Gbnd<PAD9>be
+y
+unuc
+yXc<PAD5>
+G->-:nyX<<PAD10>E
+FL>H(>GF<PAD6>F+3
+a(<PAD6>*)>9c<PAD4>
+1+0*=-3=X+","kamuns
+    N : Integer
+    D: Integer
+    T : Integer
+    Hasil : Real
+    Potong : Real
+    PI : Real
+Algoritma
+    Input(N,D,T)
+    PI = 3.14
+    D = D div 2
+    Hasil = 2 * (PI*D+T)
+    Potong=Hasil/N
+    Output(Potong)
+    Output(""cm2"")"
+if4908_103012500073_nomor2.jpg,1.6560122966766357,2.1176470588235294,"*=-3=X9<PAD12>tX71
+CZ(9(<
+G<PAD9>Y<PAD6>5+>-1=
+8-9(<
+GE<PAD9><PAD6>
+r+>1
+CZX<<PAD12>=X
+0v=1X8
+
+J2
+-*><PAD9>>91
+5+*<PAD6><PAD4>
+K
+0*d
+CFEb
+-=:aa0-
+
+FL=GL><PAD3>Z<
+
+1+<*=-3=X+
+sX*-=1>02-=
+w
+C)X<
+C
+12-
+F<PAD6><PAD6>G-<PAD6>1
+1=11=ZX=-+
+1+0*=-3=X+","kamus
+    p,n,t = integer
+    luas = real
+    d = real
+    input(n,p,t)
+    d=p*3.14
+    luas=n/(d*t)
+    output (luas)
+endprogram"
+if4908_103012500089_nomor2.jpg,0.828289270401001,0.9281767955801105,"*=-3=X9<PAD12>tX71
+CF9LJ
+E0>5+8131=
+CKG5=Z1-
+5+*5>+0
+==1180<PAD10>c
+CK*5Z==1Z1<PAD4>
+X<CK<PAD10>+
+FCvIv<PAD3>8-<<PAD4>
+1+0*=-3=X+","program Cake
+kamus
+    n, d, t : integer
+    lt, pi, r : real
+    luas : real
+algoritma
+    pi = 3,14
+    input = (n, d, t)
+    r = real(d)/2
+    lt = pi * r * r * real(t)
+    luas = lt / n
+    output(luas)
+endprogram"
+if4908_103012500097_nomor2.jpg,0.9597306251525879,1.8409090909090908,"*=-3=X9<PAD12>tX71
+BXD(<
++<PAD7>0<PAD7>><PAD12>k<PAD12>5+>1:3
+yX358<PAD12>k=1(8
+<PAD3>-+<>9<PAD6>(<PAD12>*5k=1(8<PAD12>nd8:
+(8:-=5>9X
+F5/*(<PAD6><PAD3>+=2<PAD7>>A
+y(<58>n<PAD12>G5]<PAD12>N0U;<PAD6>G5<PAD5>t2<PAD5>>A
+Fe<PAD6>G(2<PAD12>ty+35b<PAD12>A
+1+0*=-3=X9","program Cake
+kamus
+    n,d,t : integer
+    Hasil : real
+    Constanta pi : real = 3,14
+algorutma
+    input(n,d,t)
+    Hasil = pi * (d * t)
+    output(Hasil)"
+if4908_103012500098_nomor2.jpg,1.639620065689087,1.7037037037037037,"*=-3=X9<PAD12>tX71
+yX9(<
+<PAD8>
+E<PAD7><PAD12>0-<PAD7>><PAD12>k<PAD12>5+>131=
+G4<PAD12><PAD12>=1X8<PAD9>
+4X:8<PAD12>k<PAD12>=1X8<PAD9>
+*4k<PAD12>n<PAD12>d<PAD9>be
+r8<PAD12>/-=5>91<PAD9>
+5+*>E0>
+I
+e
+9em<PAD8>EG450<PAD5>>
+X=*=<PAD3>y18<PAD4>
+1+0*=-3=X9","Program cake
+Kamus
+    N, d, t : integer
+    phi : real
+    hasil : real
+Algoritma'
+    input(N, d, t)
+    hasil <- N(phi * d * t)
+    output(hasil)
+Endprogram"
+if4908_103012500180_nomor2.jpg,0.8453340530395508,0.9772727272727273,"*=-3=X+<PAD12>tX71
+DX)(<
+r<PAD9>0>+31=
+t-+
+1Z
+r83-55>9X
++>+0<PAD4>
+de
++<PAD5>0<PAD5><PAD10><PAD10>c
+->I><PAD3><PAD4>
+1+0G2-*=X+
+1+0*=-1=X+","program Cake
+kamus
+    n,d,t : integer
+    phi : Constant
+    L : real
+algoritma
+    input(n,d,t)
+    phi <- 3,14
+    L = (phi*d*t) / 2
+    output(L)
+endprogram"
+if4908_103012500185_nomor2.jpg,1.4792821407318115,1.0564971751412429,"*=-3=X9<PAD12>tX71
+yX9(<
+r<+
+4(<58<PAD2>=5(8
+1(+<>G45k3<PAD9>b:
+
+G->-=:X+<PAD6>245<PAD12>05)<PAD9>E<PAD9>
+YXY5=:<PAD9><PAD8>o2(><PAD6>:X+<PAD6>><PAD5>><PAD4><PAD9>(
+F(>*(><PAD8>h>X9+:<PAD3>9c≥
+1+0*=-3=X9","Kamus
+    N, d, t : interger
+    Hasil, potongan, tabung : real
+    Const phi = 3.14
+Algoritma 
+    Input > N, d, t
+    Potongan > d * phi div N
+    Tabung > Potongan * ( t * t )
+    Output > tabung "" Cm2 """
+if4908_103012500187_nomor2.jpg,1.1262011528015137,1.3251231527093597,"*=-3=X9<PAD12>tX71
+BX9[<
+E<PAD12>k<PAD12>z+>138=
+0>kz+5Z:1=
+G5k=1X4
+=k<PAD12>=X8
+C(X=k=1X8
+>->X8k=1X8
+r53-=>9X
+9*(<PAD6><PAD3>E<PAD7>0<PAD7>><PAD4>
+*5d<PAD9>be
+=n0<PAD10>X
+C5X<c]<PAD5>b<PAD6><PAD6><PAD4>
+K-<PAD6>/2<PAD6>>>X<<PAD10>
+FL>*5<PAD6><PAD12><PAD3>>(<PAD6>+<PAD4>
+1+0*+3=X9
+1+0*=-3=X9","program Cake
+kamus
+    N : integer
+    d, t : integer
+    pi : real
+    r : real 
+    luas : real
+    total : real
+algoritma
+    input(N, d, t)
+    pi : 3.14
+    r = d /2
+    luas = (2 * pi * r * t)
+    total = N * luas / 2
+    output(total)
+endprogram"
+if4908_103012500223_nomor2.jpg,1.721086025238037,0.9390243902439024,"*=-3=X9<PAD12>tX71
+7X9(<PAD4>
+EZ>5X+11=>k+>31=
+C[=1X8
+t-+<<PAD6><PAD12>*45=1(8ndbe
+X83-=5>9+
+9EX9>
+t
+C(X<nE*405-91X
+FLv*(<PAD6><PAD3>C)(<<PAD4>
+1+0*=-3=X9","program Cake
+kamus
+    N, diameter, t: integer
+    Luas: real
+    const phi: real = 3.14
+algoritma
+    input(N, diameter, t)
+    Luas = N * (phi * diameter * t)
+    output(Luas)
+endprogram"
+if4908_103012500227_nomor2.jpg,1.3747222423553467,0.9147982062780269,"*=-3=X+<PAD12>tX71
+BX97<
+E0>+131
+-+3-+5*4=1X5d:
+*=>/8*<X5(=1X8
+r83-=(9X
++*>E0
+n0<PAD10>
+*K-Xn*+X<PAD6>X*+<PAD5>
+*<X*X<PAD10>E
+ta<PAD6>*(>*JL<PAD4>
+-(*=<PAD3>Z9<PAD4>
+1+0*=-3=X+","Program Cake
+Kamus
+    N, d, t, r : integer
+    constant phi : real = 3,14
+    lptotal, lpSatu : real
+Algoritma
+    input(N, d, t)
+    r = d / 2
+    lpTotal = (phi * d * t) + (2*phi*r*r)
+    lpSatu = lpTotal / N
+    output(lpSatu)
+    output(""cm2"")
+Endprogram"
+if4908_103012500232_nomor2.jpg,1.7854955196380615,0.0,"*=-3=X+<PAD12>t-71
+7X9(=
++0<PAD9>>+131=
+=37X+<95+=X+X=1X
+r83-=5>9-
+*+0<PAD9>><PAD9>
+=n0<PAD10><
+Xbd
+55<X9*+<<PAD8>=<PAD5>>
++=X+nb<PAD10>+d:0
+a>-8X9<PAD4>
+1+0*=-/=X+",
+if4908_103012500281_nomor2.jpg,1.331498384475708,0.9333333333333333,"*=-3=X9<PAD12>tX71
+y(+(<
+*45kZ1(
+XZ3(=5-9X
++*(>0>
+*45kd<PAD9>be
+*-9(8X+c<PAD9>*450]<PAD9>
+FL>r><PAD3>X91+
+1+0*=-3=X9","program cake
+kamus
+    N, d, t: integer
+    phi : real
+algoritma
+	input(N, d, t)
+	phi = 3.14
+	permukaan = 2*phi*d*d*t
+	output(permukaan)
+endprogram"
+if4908_103012500283_nomor2.jpg,0.9592888355255127,1.0446927374301676,"*=-3=X9<PAD12>tX71
+7X9(<
+5911==3*(<n=1X<PAD9>
+7-+X+><PAD0>e
+XY3-=5>:=X
++*(>E<PAD9>X91=85=-
+=n053=151=<PAD12>05)<PAD12>c
+8(X<85n<PAD6>
+C*ncX<b<PAD6>>33<PAD10>E
+-(>*(><PAD3>CG
+1=0<PAD9>*=-3=X9
+1+0*=-3=X9","program cake
+kamus 
+    n,diameter,tinggi,lp,luas : real
+algoritma 
+    input(n, diameter, tinggi)
+    r = diameter div 2
+    luas = phi * (r * r)
+    lp = (2 *luas ) * tinggi / n
+    output(lp)
+endprogram"
+if4908_103012500305_nomor2.jpg,0.9962680339813232,1.1217391304347826,"*=-3=X+<PAD12>tX71
+BX9(<
+0<PAD6>C95Z3-
+t-+<X+><PAD12>0d<PAD9>be
+r3-=>9X
+z+*(>+0>
+Cn<PAD5>c<PAD5>0<PAD5>
+-(>*(><PAD12><PAD3>C<PAD4>
+1+0*=-3=X9","Program
+Kamus
+    d, t, l : integer
+    constant d : 3.14
+Algoritma
+    input(n, d, t)
+    l = 1/2 * 2 * d * t
+    output(l)
+Endprogram"
+if4908_103012500307_nomor2.jpg,1.074739933013916,0.0,"*=-3=X9<PAD12>tX71
+BX9(<
++0>=k5+>-31=
+8(X<8(-<*=1X8
+F83-=5>9-
+5+*(><PAD12><PAD3>+<PAD2><PAD4>
+5+*(><PAD3>0<PAD4>
+5+*(><PAD3>><PAD4>
+=005)c
+8((<d<PAD9>be<PAD6><PAD6>>deaa
+8(X<*<PAD12>w
+-(>*(><PAD3>8(X<*<PAD4>
+1+0*=-3=X+",
+if4908_103012500322_nomor2.jpg,1.323068380355835,1.1079545454545454,"*=-3=X9<PAD12>tX71
+JC8+>1/1=
+X==+0>n+31
+G45Z1-
+-2X=1X8
+X53-=5>91
+
+G45d+(
+<PAD3>+*(><PAD12>=-><PAD4>
+Cm<PAD8>c<PAD9>*+5=<PAD9>><PAD4>+
+
+<PAD6><PAD6>C<PAD8><PAD9>X<PAD9>>
+-(<PAD6>*(5<PAD12>t>-5Z5<PAD4>
+1+0*=-3=X<","program 
+    s , L : integer
+    a,r,n,d,t : integer
+    phi : real
+    total : real
+    algoritma
+    r = d/2
+    phi = 3,14
+    input (n a, t)
+    L = (2.phi. r. t )/ n
+    total = L-(1/2.a.t)
+    output total
+enprogram"
+if4908_103012500336_nomor2.jpg,0.7610635757446289,0.9545454545454546,"*=-3=X9<PAD12>tX71
+7X9<
++<PAD6>0k=1
++<d<PAD9>be
+X83-=5>9j
+5+*<PAD3>+>0
+(jf<PAD6><PAD6>95
+-(*(><PAD3>5<<PAD4>
+1+0*<PAD9>=-3=X+","program Enkripsi
+kamus
+    n, t, d, luas : real
+    konstanta phi = 3.14
+algoritma
+    input(n, t, d)
+    luas = t * d * phi
+    output(luas)
+endprogram"
+if4908_103012500360_nomor2.jpg,0.8426303863525391,1.0,"*=-3=X9<PAD12>t-711
+7X9(<
+E0>8+>131
+4X<I1X8
+r83-=5>9X
+8+*(><PAD12>E0><PAD4>
+4X<cj<PAD9>be0]<PAD10>E
+F(>*(><PAD12>t4X<5<PAD4>
+1+0*=-Z=X+","Program cake
+Kamus
+    n, d, t : interger
+    Hasil : Real
+Algoritma
+    Input(n, d, t) 
+    hasil = (2×3, 14 × d×t) /n
+    Output(hasil)
+Endprogram"
+if4908_103012500364_nomor2.jpg,1.1962001323699951,0.9080882352941176,"*=-3=X1<PAD12>tX71
+BX9(<k
+E0>z+=131=
+CGCB*C<PAD9>JXtGt=1X8
+r53-=5>9X
+b+G<PAD6>0<PAD6>
+d<PAD9>be0<PAD9>5c)c
+BGC
+e<PAD6>d<PAD9>b(<PAD9>05)]<PAD6>0<PAD6>E
+GF>t
+JX=C1><PAD6>BGC<PAD8>GF<PAD6>t
+FL=I<PAD6><X=t
+1+0*=-3=X9","program Cake 
+kamus : 
+    N, d, t : integer
+    Lpl, Kpl, satC, potC : real
+Algoritma  
+    input (N, d, t)
+    Lpl <- (3.14 * ((d div 2) + (d div 2) * t) 
+    Kpl <- ((4 * 3.14) * (d div 2) + (d*N))
+    potC <- ((d div 2) * (d div 2)) * (3.14 div N)
+    SatC <- Lpl + Kpl - potC
+    output (satC)
+endprogram"
+if4908_103012500373_nomor2.jpg,0.860710620880127,0.9181818181818182,"*=-3=X9<PAD12>t-71
+BX9(<
+0>+131=
+8)X<k=1X8
+r53-=>9X
++*(=0>
+8(X<En00>
+-)*><PAD3>X<
+1+0*=-3=X9","program cake
+	N, d, t : integer
+	luas : real
+Algoritma 
+	input(N, d, t)
+	luas = N = d div t
+	output(luas)
+endprogram"
+if4908_103012500378_nomor2.jpg,0.8912782669067383,1.1700680272108843,"*=-3=X+<PAD12>tX71
+E0>z+>131=
+4-<58<PAD12>=1Z8
+M-<>-+<PAD6>b<PAD9>de
+X83-=5>[+
+z*E><PAD4>
+4(<bn<PAD3>a<PAD9>f<PAD5>b<PAD4>a<PAD9>fb<PAD9>d:<PAD5>>
+X>*(><PAD12><PAD3>4X<58<PAD4>
+1+0*=-3=X9","program Cake
+    N, d, t: Integer
+    hasil: real
+    konstanta phi = 1.34
+algoritma
+	Input(N, d, t)
+	hasil = ((0.5 * d)* 0.5 * 1.34 * t
+output(hasil)
+endprogram"
+if4908_103012500388_nomor2.jpg,0.8383843898773193,1.0786516853932584,"*=-3=X9<PAD12>tX71
+BFD1J
++0><PAD7>=5+>131=
+4-X8k=>-8
+7-+<>>X<PAD12>*45nd<PAD9>be=(
+X83-=<PAD9>>9X
+5+*<PAD6><PAD3>+<PAD9>0<PAD9>><PAD4>
+=n005)c
+4X]n*4<PAD6>==<PAD10>+<PAD5>>
+-(>*<PAD6><PAD9>wm+4-(
+1+0*=-3=X+","program cake
+kamus
+    n, d, t, r : integer
+    hasil : real
+    konstanta phi = 3.14 real
+algoritma
+    input(n, d, t)
+    r = d div 2
+    hasil = phi * r * r / n * t
+    output(""%f cm²"", hasil)
+endprogram"
+if4908_103012500404_nomor2.jpg,1.1009047031402588,1.0945273631840795,"*=-3=X9<PAD12>tX71
+B(9)<
+E05-911=5+3655
+<PAD3>)<<PAD8>21597X1+*
+r83n=5>93
++*<PAD6>E06X911=<PAD6>5+335
+Gbnd<PAD9>be
+<<PAD12>21+4X+*5<5X91>=
+w-=58>-+
+b<<PAD8>*+Yn5059<PAD6>1=+:3
+1+0w-=
+F2*<PAD6><PAD3><PAD3>+6<PAD8>*1=+4+Z+c
+1+0*=-3=X+","program kue
+kamus
+    n,diameter,tinggi,i
+    luas_permukaan,pi
+algoritma
+    input(n,diameter,tinggi)
+    pi = 3.14
+    for i = 1 to n do
+        luas_permukaan = pi*diameter*tinggi
+    endfor
+    output(luas_permukaan,""cm2"")
+endprogram"
+if4908_103012530004_nomor2.jpg,1.3301618099212646,1.3458646616541354,"*=-3=X9<PAD12>tX71
+7(9(<
+E50><PAD9>3k5+>1-1=
+×=<PAD7>>XY(+3*<PAD12>=1X8
+X83-=5>9X
+5+*(<PAD6><PAD3>E0><PAD4>
+=n0<PAD10>c
+yXY(+:nc<PAD5>d<PAD9>b:<PAD5>+<PAD6>>
+b*nb<PAD6>XY(+:<PAD10>E
+1+0*=-3=X9","programcake
+kamus
+    n,d,t,r :integer
+    ltabung, lp : real
+    input(n,d,t)
+    r = d/2
+    ltabung = 2 * 3.14 * r * r * t
+    lp = ltabung / n
+endprogram"
+if4908_1030125300069_nomor2.jpg,1.4573471546173096,0.0,"*=-3=X+<PAD12>tX71
+7X9(<
+E+>Z31=
+u+>Z31=
+K+<PAD6>Z3Z=
+yX<=1X8
+G->-+3k=1X8
+G8=1X
+r83-=>9X
+<PAD3>+*(>EFK<PAD4>
+Gnd<PAD9>be
+
+unaac
+ync
+G->-:nyX<<PAD10>E
+FL>(>*-<PAD6>-+
+a(<PAD6>*)>9c<PAD4>
+1+0*=-3=X+",
+if4908_103012530014_nomor2.jpg,0.8418190479278564,1.101123595505618,"*=-3=X9<PAD12>tX71
+>X9(<
+E0<PAD6>m<PAD8>+1=
+G5Y=X8
+X831=(9X
+5+*(<PAD6>+<PAD6>
+G5m<PAD8>d<PAD9>be
+1+0*=13=X<","Program cake
+Kamus
+    N, d, t : integer
+    Pi, hasil : real
+Algoritma
+    Input (n, d, t) 
+    Pi : 3.14"
+if4908_103012530019_nomor2.jpg,1.1553528308868408,0.9117647058823529,"*=-3=X9<PAD12>tX71
+8X=5<
+E<PAD9>0<PAD9>>5+>1=
+t-=3-=>-
+Gbd<PAD9>be
+JFb>FE
+00]*5
+20]2
+4-<58>
+1+02-=
+FZ<PAD6>*>4-<58
+1+0*=-X=X+","Program Cake
+Kamus
+    N, d, t, i : interger
+    hasil : real
+    pi : constant
+Algoritma
+    pi = 3.14
+    For i = 1 to N do
+        d = d * pi
+        t = d * t
+        hasil = t
+    end for
+    Output (hasil) 
+Endprogram"
+if4908_103012530043_nomor2.jpg,1.561316728591919,0.9565217391304348,"*=-3=X9<PAD12>tX71
+t-+>
+wX9(<
+4X(8k=1X8
+t5+*(
+E0<PAD6>5+>>31=
+E-<PAD9>
+X831=5>9X
+6X*>E0>
+h
+c
+4nde<PAD5>0c<PAD6><PAD10>c<PAD10><PAD6>,cc><PAD6>bde<PAD10>>
+d
+->*-><PAD3>+X=bmZ9
+1+0*=-3=X9","program Cake
+kamus
+    hasil : real
+    N, d, t : integer
+algoritma
+    input(N, d, t)
+    hasil = ((3,14 * (d/2) * (d/2)) / N) + (2 * (d/2) * t) + ((3,14 * d) / N * t)
+    output(hasil, ""cm2"")
+endprogram"
+if4908_103012530046_nomor2.jpg,1.0417981147766113,0.9224137931034483,"*=-3=X9<PAD12>tX71
+8X99(<
+4-<<PAD10>8=1
+X83-=5>9X
+5+3(+0>
+4X<5bn,dbe0cm+
+1+0*=-3=X+","program cake
+kamus
+    n,d,t : integer
+    hasil : real
+algoritma
+    input(n,d,t)
+    hasil = (3.14 * (d/2) * t * t) * n
+endprogram"
+if4908_103012530052_nomor2.jpg,2.2925941944122314,1.9595375722543353,"*=-3=X9<PAD12>tX71
+BX9(<
+c<PAD9>C><PAD9>+
++0<PAD6>5+>131=
+M
+c<PAD9>d(b<PAD9>+
+4->1-
+b
+E9=
+A
+5+G(<PAD6>0<PAD6>
+C
+G=-<=9<PAD12>tX+1
+9>
+BX+(<
++0>5+=
+4X<<19(3X
+dh
+J19(3+<PAD6>=(9(
+
+r8<-+9-
+5+*(<PAD6>+<PAD9>0<PAD6><PAD4>
+F(<PAD6>G(<PAD6><1DX
+*4XG=-3=X9
+-(<PAD6>2<PAD6><PAD3>m9(<PAD4>
+2+X*=-399
+ebe
+eb:
+dbe
+0
+=
+baa
+xbe
+dbe<PAD9>
+cici
+ebe
+i
+b
+hb+
+cb
+baa
+c<PAD9>
+>-
+1+0*=-3=X9
+g
+D=+0
+dbe
+ah","program cake
+kamus
+    n, d, t : integer 
+    hasil : real
+    rumus : real
+    semua : real
+algoritma 
+    input (n,d,t)
+    rumus = (3,14 * (d/2)) + (t*t)
+    semua = n * rumus
+    output(semua)
+endprogram"
+if4908_103012530054_nomor2.jpg,1.748903751373291,1.0118110236220472,"*=-3=X9<PAD12>tX71
+BX9(<
++0>5+>131=
+6(X<*1=9(7XX+[X<<55Z1*5=1+
+Z-+<>X+<PAD6><PAD12>*5=1Xnde
+r83-=>9-
++*(+0><PAD4>
+8(X=*1=9(7XX+n]*5<PAD5>0<PAD10>c0c<PAD6>c
+0<PAD10>c
+b(X<851n(Z*1=9:7ZX+<PAD10>+<PAD6>c<PAD5>0c<PAD6>><PAD4>
+F(<PAD6>*(><PAD12>8(X<<85Z1<PAD7>Z9c<PAD4>
+1+0*=-3=X9","Program Cake
+Kamus
+    n, d, t : integer
+    luaspermukaan, luasslice, Pi : real
+    constant Pi : real = 3.14
+Algoritma 
+    input(n, d, t)
+    luaspermukaan = (2*(Pi*(d/2)*(d/2))+(2*Pi*(d/2)*t)
+    luasslice = (luaspermukaan/n)+(2*((d/2)*t))
+    output(luasslice, ""cm2"")
+endprogram"
+if4908_103012530062_nomor2.jpg,1.0031745433807373,1.1639344262295082,"*=-3=X9<PAD12>tX71
+BX9(<
+t
+E05X9>=>5+3355+>Z31=
+<PAD3>5
+*=ZX
+X3-=8>9X
+5+*(>E0X9Z>=>+335
+0Z>1=<PAD10>c
+*ncdb:<PAD5><PAD6><PAD6>+35
+F(>*(>G<PAD10>
+1+0*=-3=X9","program Cake
+kamus
+    N, d, t, r: integer
+    lp: real
+algoritma
+    input(N, d, t)
+    r = d/2
+    lp = 2*3.14*(r+t)
+    output(lp/N)
+endprogram"
+if4908_103012980008_nomor2.jpg,1.4645884037017822,0.0,"*=-3=X<<PAD12>tX718
+BX9(<
+E+>
+0+
+ej
+>5+>
+8*=1(8
+8*+=1X8
+*51X8
+r83-+>9X
+z+*(=E0>
+*5dbe
+C*c*50<PAD10>c<PAD4>ZMcG5<PAD5>0<PAD10>c<PAD5>><PAD9><PAD4>
+C*+8G<PAD10>E
+F(=*(><PAD3>8*+
+1+0*=-3=X<",
+if4910_103012400004_nomor2.jpg,1.8031091690063477,0.0,"*=-3=X9<PAD12>tX71
+BX9(<
+E0>=5+>131=
+G45C*w=1X
+r8:-=19X
+r83-=5>9-
+z+*>>+0>T
+5+*(><PAD3>E0><PAD4>
+c
+*45nd:
+45<PAD6>==<PAD5>>
+=n0O
+C*n*+<PAD5><PAD5>v<PAD10>E
+-(Y*(><PAD3>C*<PAD4>
+r83-=5>9X
+5+*(>E<PAD9>0><PAD4>
+G45nd<PAD9>be
+=n0<PAD10>
+C*n*45<PAD5>=<PAD5>+<PAD5>><PAD0>E
+-(>*(><PAD3>C*<PAD4>
+1+0*=-3=X9",
+if4910_103012400057_nomor2.jpg,1.0055012702941895,1.16,"*=-3=X9<PAD12>tX71
+B/(:(<
++0>k8(>131=
+G45+X<8K1X8
+r83-=5>(3
+8(*<PAD6><PAD3>+0><PAD4>
+*45nd<PAD9>be
++X<58n0<PAD5>>
+
+N31X:1
+>*(>1+X<58+X<58<PAD5>*+5
+1+0*=-3=X9","program cake 
+kamus
+    d,n,t : integer 
+    phi, hasil : real
+algoritma 
+    input(n,d,t)
+    phi = 3.14
+    hasil = d * t 
+    output(hasil, hasil*phi)"
+if4910_103012400149_nomor2.jpg,1.0432941913604736,0.0,"*=-3=X9<PAD12>tX71
+7X9(<
+tX(1<PAD7>+>5k+>131=
+r83-=5>(+X
+z+*(><PAD3>+
+w-=58>-+0-
+t+(1nt-(1<PAD12>C5--<PAD12><PAD6><PAD12>05)<PAD12>b-(<PAD4><PAD12>9-0<PAD12>8-a
+F>*+><PAD3>8(X<<PAD4>
+1+0=-=
+1+0==-3=X9
+1+0*=-3=X9",
+if4910_103012400267_nomor2.jpg,1.8483848571777344,0.0,"*=-3=X9<PAD12>tX71
++X9(<<PAD9>
+=>k8+>1:1=
+8)X<<PAD12>k=1(8
+<PAD3>
+r8:-=5>9+k
+8+*(>Z+=><PAD4>
+y(X<<PAD12>>e<PAD5>/
+8((:<PAD12>18<PAD9>53=+>
+4[4<PAD12>v<PAD12>49<<PAD12><PAD6><PAD12>8-(<
+=(9(<
+F=>*(>>
+1+0*=-3=X9",

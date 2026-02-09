@@ -1,0 +1,16 @@
+ini dataset nya
+C:\projekdosen\tutoring\Agentic Multimodal Tutor - SLL\playwithOCR\dataset\test
+C:\projekdosen\tutoring\Agentic Multimodal Tutor - SLL\playwithOCR\dataset\train
+
+dataset test dan train berisi folder ground truth dan images, groundtruth dengan image file pasti sama namanya bedanya dia txt dan gambarnya jpg
+
+for example :
+C:\projekdosen\tutoring\Agentic Multimodal Tutor - SLL\playwithOCR\dataset\test\images\if4908_103012500097_nomor1.jpg
+
+C:\projekdosen\tutoring\Agentic Multimodal Tutor - SLL\playwithOCR\dataset\test\gt\if4908_103012500097_nomor1.txt
+
+nah kita ngoding disini
+C:\projekdosen\tutoring\tutoring-flow\multimodal-handler-image\ocr-llm\athila\experiments\exp12_finetunepaddle
+
+terus paddleOCR yang kita clone ada disini
+C:\projekdosen\tutoring\PaddleOCR
