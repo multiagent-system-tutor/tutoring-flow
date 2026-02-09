@@ -1,5 +1,3 @@
-PROMPT RINGKAS (FINAL):
-
 Konteks:
 Teks berikut adalah hasil OCR dari tulisan tangan mahasiswa berupa pseudocode / kode sederhana.
 
