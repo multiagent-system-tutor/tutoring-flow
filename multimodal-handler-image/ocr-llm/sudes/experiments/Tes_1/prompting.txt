@@ -1,0 +1,71 @@
+Konteks:
+Teks berikut adalah hasil OCR dari tulisan tangan mahasiswa
+berupa pseudocode / kode program sederhana.
+
+Tujuan:
+Memperbaiki kesalahan OCR dengan PERUBAHAN MINIMAL
+agar teks lebih terbaca, TANPA mengubah struktur asli OCR,
+dan tetap kompatibel dengan evaluasi CER.
+
+Aturan UTAMA:
+1. Perbaiki keyword yang typo (misal: "prograe" -> "program", "inreger" -> "integer").
+2. Perbaiki simbol-simbol matematika yang rusak akibat OCR jika bisa ditebak dari konteks (misal: "div", "*", "+", "<-").
+
+Struktur Pseudocode yang Diharapkan (Fleksibel):
+- Jika pada teks OCR sudah terdapat keyword seperti "program", "kamus", atau "algoritma",
+  pertahankan struktur tersebut tanpa menambah atau menghapus bagian apa pun.
+- Jika teks OCR menunjukkan bentuk function atau procedure,
+  pertahankan header sesuai yang muncul pada OCR.
+- Jika tidak terdapat keyword struktur utama pada OCR,
+  JANGAN menambahkan struktur baru seperti "program" atau "algoritma";
+  hanya rapikan tata letak dan keterbacaan sesuai urutan asli OCR.
+- Contoh struktur umum (hanya sebagai referensi, bukan untuk ditambahkan):
+  program [NamaProgram]
+  kamus
+      [deklarasi variabel]
+  algoritma
+      [instruksi]
+  endprogram
+
+
+Aturan PERBAIKAN (BOLEH):
+1. Memperbaiki typo huruf pada keyword umum:
+   - "prograe", "progrum" -> "program"
+   - "inreger", "inteqer" -> "integer"
+   - "Inpur", "Inpir", "lnput" -> "input"
+   - "Aigoritma", "Algorirna" -> "algoritma"
+   - "Ourput", "Dutput" -> "output"
+   - "Kamus:" -> "kamus"
+   dst
+2. Memperbaiki spasi yang salah atau berlebih.
+3. Memperbaiki simbol yang JELAS salah OCR dengan perubahan minimal.
+
+Aturan KHUSUS Syntax Pseudocode (WAJIB DIPERBAIKI):
+- PEMISAH VARIABEL: Pada perintah input(...), ganti titik (.) dengan koma (,) jika itu pemisah variabel (contoh: "input(a.b.c)" -> "input(a, b, c)").
+- STRUCT ACCESS: Tanda titik (.) HANYA digunakan untuk akses struct (S.nama). Jika ragu, asumsikan itu koma.
+- NAMA VARIABEL (INPUT/OUTPUT): Di dalam perintah input(...) dan output(...), TIDAK BOLEH ada simbol matematika (+, -, *, /) sebagai nama variabel. Ganti simbol tersebut dengan huruf yang mirip secara visual (contoh: "+" -> "t", "*" -> "x", "-" -> "n" atau sesuaikan konteks).
+- RUMUS: Jangan mengubah logika rumus kecuali memperbaiki simbol yang jelas salah baca (misal: "di2" -> "div 2", "3.14wN" -> "3.14 * N").
+
+Aturan TATA LETAK (Indentasi):
+- Berikan indentasi (tab atau 4 spasi) pada isi blok "kamus", "algoritma", serta di dalam struktur kontrol (if-then, loops). Karena pada OCR tidak mempunyai tab agar mengurangi CER memakai Groud Trouth.
+- Contoh format:
+  program abc
+  kamus
+      a,b,c : integer
+  algoritma
+      input(a, b, c)
+      if a == 0 then
+          output(5)
+      endif
+  endprogram
+
+Output:
+Tampilkan HANYA teks hasil perbaikan.
+Tanpa penjelasan.
+Tanpa markdown.
+POKOKNYA HANYA TEKS HASIL PERBAIKAN SAJA.
+
+Input OCR:
+<<<
+{OCR_TEXT}
+>>>

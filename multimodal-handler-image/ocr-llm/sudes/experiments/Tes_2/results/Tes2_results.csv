@@ -1,0 +1,818 @@
+filename,time,cer_raw,cer_refined,raw_text,final_text,ground_truth
+if4908_103012400180_nomor3.jpg,192.1385202407837,0.5,11.596153846153847,"kamus
+i.a·Integer
+bml integer
+beratBodan,Hingi Badan,IngorkepolaBayinteger
+Rala-Koto
+: inteqer
+hasl
+real
+Algoritman
+
+put((Has)
+IbanyaktyaBay beratBadan, hnggBadan.
+(ingkarkepalaBay!)
+Forinito ndo
+bam1<-
+berarBadan
+(tnggiBodon) +2.
+i←
+bmi +(ngkarkepalaBayi  div 10
+Yrdton
+be
+10W
+$(n2}$
+and1:bm+((v1)
+tamgglBadans
+2
+borok-Badan
+Rata-natat
+endor
+Output(i,Bmi,2ata.(2ota)","Thinking...
+Okay, let's tackle this OCR correction task. First, I need to understand the user's requirements. The main goal is to fix the OCR errors with minimal changes, preserving the original structure and making it compatible with CER evaluation. 
+
+Looking at the input, it's a pseudocode or simple code from a student's handwritten text. The OCR has several issues like typos, incorrect symbols, and formatting problems. The user specified to correct common keywords like 'program', 'integer', 'input', etc., and fix math symbols if they can be guessed from context. Also, the structure like 'kamus', 'algoritma' should be kept if present. No new structures should be added, and the logic must remain unchanged.
+
+Starting with the first line: ""kamus"". That's correct. Next line: ""i.a·Integer"". The period after 'a' is probably a typo. Maybe it's supposed to be 'i' as a variable, so ""i: Integer"". Then ""bml integer"" – 'bml' might be 'bmi' or 'beratBadan'? Wait, looking further, there's a line with ""beratBodan,Hingi Badan,IngorkepolaBayinteger"". Maybe 'bml' is a typo for 'beratBadan'? But the user said to keep the original structure. Hmm. Wait, the line ""bml integer"" could be 'bml' as a variable name, but maybe it's supposed to be 'beratBadan'? But the user wants minimal changes. Maybe leave 'bml' as is unless it's clearly a typo.
+
+Next line: ""beratBodan,Hingi Badan,IngorkepolaBayinteger"". The commas are probably supposed to be semicolons or just separate variables. The OCR might have merged them. So splitting them with commas. Also, 'IngorkepolaBayinteger' seems like a variable name, maybe 'IngorkepolaBay' with 'integer' as type. But the user said to keep the structure, so maybe split into separate lines or correct the commas.
+
+Then ""Rala-Koto: inteqer"" – 'inteqer' is likely 'integer'. Also, 'Rala-Koto' might be a variable name. Then 'hasl real' – 'hasl' is probably 'hasil' (since 'hasil' is a common word). 'Algoritman' should be 'Algoritma'.
+
+Looking at the 'input' part: ""put((Has)"" – 'put' is likely 'input', and 'Has' is 'Hasil' (since 'hasil' was mentioned earlier). The line ""IbanyaktyaBay beratBadan, hnggBadan."" – 'IbanyaktyaBay' might be 'IbanyakBay' or 'BanyakBay'? Also, 'hnggBadan' is 'tinggiBadan'. The line ""Forinito ndo"" – 'Forinito' is probably 'For i to' and 'ndo' is 'do'. So ""For i to ndo"" becomes ""For i to do"".
+
+""bam1<- berarBadan"" – 'bam1' might be 'bmi' or 'bml'? Wait, earlier there was 'bml integer'. Maybe 'bam1' is a typo for 'bml'? But the user said minimal changes. Alternatively, 'bam1' could be 'bml' if that's the intended variable. However, the user wants to keep the original structure, so maybe leave 'bam1' as is unless it's a clear typo.
+
+""(tnggiBodon) +2."" – 'tnggiBodon' is 'tinggiBadan'. The line ""i← bmi +(ngkarkepaBayi div 10"" – 'ngkarkepalaBayi' is 'tinggiBadan'? Wait, earlier there was 'IngorkepolaBayinteger' which might be 'tinggiBadan' or 'ingkarkepalaBayi'? Maybe 'IngorkepolaBay' is 'tinggiBadan', and 'ngkarkepalaBayi' is 'tinggiBadan' again? Not sure. Maybe 'ngkarkepalaBayi' is 'tinggiBadan' but with a typo. The user said to fix math symbols, so 'div' is correct.
+
+""Yrdton be 10W"" – 'Yrdton' might be 'Rata-rata' (since there's a line 'Rata-natat'), and 'be' could be 'berat', '10W' is '10 * W' (assuming 'W' is a variable). Then ""$(n2}$"" – maybe 'n2' is a variable, but the brackets are incorrect. Maybe it's a typo for 'n2' or 'n2'.
+
+""and1:bm+((v1)"" – 'and1' is likely 'and1' (maybe a variable), 'bm' is 'bmi', and 'v1' is a variable. ""tamgglBadans 2"" – 'tamgglBadans' is 'tinggiBadan' again. ""borok-Badan"" – 'borok' might be 'berat', so 'beratBadan'. ""Rata-natat"" should be 'Rata-rata'.
+
+Finally, ""Output(i,Bmi,2ata.(2ota)"" – '2ata' is 'tinggi', and '2ota' is 'Rata-rata' again. The output line should have corrected variable names.
+
+Putting it all together, I'll correct the OCR errors by fixing typos, symbols, and formatting, keeping the original structure as much as possible. For example, changing 'inteqer' to 'integer', 'put' to 'input', 'hasl' to 'hasil', and adjusting commas and symbols where necessary. Also, ensuring that input variables don't have math symbols, replacing them with similar letters if needed.
+...done thinking.
+
+kamus  
+i: Integer  
+bml: integer  
+beratBadan, tinggiBadan, ingkarkepalaBayi: integer  
+Rala-Koto: integer  
+hasil: real  
+Algoritma  
+
+input(Hasil)  
+IbanyakBay beratBadan, tinggiBadan.  
+(ingkarkepalaBayi)  
+For i to do  
+bml <- beratBadan  
+(tinggiBadan) + 2.  
+i <- bmi + (ingkarkepalaBayi div 10)  
+Rata-rata  
+beratBadan  
+Rata-rata  
+Output(i, Bmi, tinggi. Rata-rata)","program posyandu
+kamus
+    i, n : integer
+    bmi : integer
+    beratBadan, tinggiBadan, lingkarKepalaBayi : integer
+    rata_rata : integer
+    hasil : real
+algoritma
+    input(hasil)
+    input(beratBadan, tinggiBadan, lingkarKepalaBayi)
+    for i : 1 to n do
+        bmi <- beratBada + tinggiBadan * 2
+        i <- bmi+(lingkarKepalaBayi) div 1
+        bmi <- 10 w div (n)*2 and bmi +() div 2
+        output(i, bmi, rata_rata)"
+if4908_103012400221_nomor3.jpg,289.2714684009552,0.2926829268292683,33.921951219512195,"program Posyandu
+Kamus
+n, w$h,C,i :teal
+buni, hi : real
+Algontuna
+input(n)
+Fori = o to n do
+input(ωhic)
+buni =((10*w) div (n)*(n))
+hi=(bui +(c div10)di2)
+output(buni)
+endpor
+ourput(hi)","Thinking...
+Okay, let's tackle this OCR correction task. The user provided a pseudocode snippet that's been through OCR, and I need to fix the errors with minimal changes. First, I'll read through the input carefully.
+
+Starting with the program name: ""Posyandu"" looks correct. Next, the Kamus section. The variables are listed as ""n, w$h,C,i :teal"". Hmm, ""w$h"" probably has a typo. The dollar sign might be an OCR error for a multiplication symbol or maybe a typo. Since the context is variables, maybe it's supposed to be ""w"" and ""h"" separated. Also, ""teal"" is likely ""real"" since it's a data type. So, I'll adjust that to ""n, w, h, C, i : real"".
+
+Then, ""buni, hi : real"" seems okay, but ""hi"" might be a typo for ""h_i"" or something else, but since the user says to keep the structure, I'll leave it as is unless there's a clear error.
+
+Moving to the Algontuna line. ""Algontuna"" is probably ""Algoritma"" with a typo. So correct that to ""Algoritma"".
+
+Next, ""input(n)"" is fine. Then ""Fori = o to n do"" – ""Fori"" should be ""For i"" with a space. ""o"" is likely ""0"" (zero), so change that to ""0"".
+
+The loop: ""For i = 0 to n do"" – correct the spacing and ""o"" to ""0"".
+
+Inside the loop: ""input(ωhic)"" – ""ωhic"" is problematic. The omega symbol is likely a typo. Since the variables are ""w"" and ""h"" from earlier, maybe ""ω"" is supposed to be ""w"" or ""h"". The context is inputting a value, so maybe it's ""whic"" but that doesn't make sense. Wait, the original OCR might have ""w h i c"" but got merged. Alternatively, maybe ""w h i c"" is supposed to be ""w h i c"" but that's not a variable. Wait, looking back, the variables in Kamus are n, w, h, C, i. So maybe ""ωhic"" is ""w h i c"" but that's not a variable. Alternatively, maybe ""ω"" is a typo for ""w"", so ""w h i c"" but that's not a variable. Wait, maybe the input is for ""w h i c"" but that's not a variable. Alternatively, perhaps it's supposed to be ""w h i c"" but the user might have intended ""w h i c"" as a variable. Wait, the original OCR has ""ωhic"" which could be ""whic"" if the omega is a typo for 'w'. So ""input(whic)""? But ""whic"" isn't a variable. Wait, maybe the variables are ""w"", ""h"", ""i"", ""c""? Wait, in the Kamus, the variables are n, w, h, C, i. So maybe ""ωhic"" is ""w h i c"" but the user might have intended ""w h i c"" as variables. But the original variables are n, w, h, C, i. So maybe ""ωhic"" is a typo for ""w h i c"" but that's not in the Kam, so maybe it's a typo for ""w h i c"" but that's not a variable. Alternatively, maybe ""ωhic"" is supposed to be ""w h i c"" but that's not a variable. Hmm, this is confusing. Let me check the original OCR again: ""input(ωhic)"". The user's instruction says to fix symbols that are clearly wrong OCR. The omega symbol here is likely a typo for 'w' or 'h' or 'i'. Since the variables are w, h, i, maybe ""ωhic"" is ""whic"" but that's not a variable. Alternatively, maybe it's ""whic"" as a variable, but in the Kamus, the variables are n, w, h, C, i. So perhaps ""ωhic"" is supposed to be ""w h i c"" but that's not in the Kamus. Wait, maybe the OCR misread ""w h i c"" as ""ωhic"". But since the user says to keep the structure, maybe it's better to assume that ""ωhic"" is a typo for ""w h i c"" but since that's not in the Kamus, perhaps it's a mistake. Alternatively, maybe ""ωhic"" is supposed to ""w h i c"" but that's not a variable. This is tricky. Let me look at the next line: ""buni =((10*w) div (n)*(n))"". So ""w"" is a variable. So maybe ""ωhic"" is supposed to be ""w h i c"" but that's not a variable. Alternatively, maybe ""ωhic"" is ""w h i c"" but the user intended to input ""w h i c"" as variables, but in the Kamus, there's no such variable. Wait, the Kamus has n, w, h, C, i. So maybe ""ωhic"" is ""w h i c"" but ""c"" is not in the Kamus. Wait, the Kamus has ""C"" (uppercase) and ""i"". So maybe ""ωhic"" is a typo for ""w h i C"" but that's not clear. Alternatively, maybe ""ωhic"" is ""w h i c"" where ""c"" is a typo for ""C"". So perhaps ""input(w h i C)"" but the OCR might have misread the space. Alternatively, maybe the input is for ""w h i c"" but that's not a variable. This is confusing. Let me check the next line: ""buni =((10*w) div (n)*(n))"". So ""w"" is a variable, so maybe ""ωhic"" is supposed to be ""w h i c"" but that's not a variable. Alternatively, maybe ""ωhic"" is ""w h i c"" where ""c"" is a typo for ""C"" (uppercase). So maybe the input is for ""w h i C"" but in the Kamus, ""C"" is present. So perhaps the input is ""w h i C"" but the OCR misread ""C"" as ""c"" or ""ω"". Alternatively, maybe the input is for ""w h i C"" but the OCR has ""ωhic"" which is a typo. So I'll correct ""ωhic"" to ""w h i C"" but since the user says to keep the structure, maybe it's better to leave it as ""w h i c"" but that's not in the Kamus. Alternatively, maybe ""ωhic"" is supposed to be ""w h i c"" where ""c"" is a typo for ""C"". So I'll adjust ""ωhic"" to ""w h i C"" but that's a guess. Alternatively, maybe it's a typo for ""w h i c"" but that's not in the Kamus. Hmm. Maybe the user intended ""w h i c"" but the OCR misread it. Since the user says to fix symbols that are clearly wrong, perhaps ""ω"" is a typo for ""w"", so ""ωhic"" becomes ""whic"". But ""whic"" isn't a variable. Alternatively, maybe it's ""w h i c"" but that's not in the Kamus. This is a tough call. Let me proceed with the assumption that ""ωhic"" is a typo for ""w h i c"" and that ""c"" is a typo for ""C"" (since ""C"" is in the Kamus). So I'll correct ""ωhic"" to ""w h i C"". But the user's instruction says to not add or remove lines, so maybe it's better to leave it as ""w h i c"" but that's not in the Kamus. Alternatively, maybe the input is for ""w h i c"" where ""c"" is a typo for ""C"". So I'll adjust ""ωhic"" to ""w h i C"".
+
+Next line: ""buni =((10*w) div (n)*(n))"". The ""div"" is correct. But the expression is (10*w) divided by (n) multiplied by (n). Wait, the original OCR has ""div (n)*(n)"". So it's (10*w) divided by (n) multiplied by (n). That simplifies to (10*w) * (n / n) = 10*w. But the user says not to change the logic. So maybe the expression is correct as is. So I'll keep it as is, but check for OCR errors. The ""div"" is correct. The ""n"" is correct.
+
+Next line: ""hi=(bui +(c div10)di2)"". ""bui"" should be ""buni"" (since ""buni"" is defined earlier). ""di2"" is likely ""div 2"". So ""di2"" becomes ""div 2"". Also, ""c div10"" should have a space: ""c div 10"". So the line becomes ""hi = (buni + (c div 10) div 2)"".
+
+Then ""output(buni)"" is okay. ""endpor"" is likely ""end for"" but the user says to keep the structure. Wait, the original is ""endpor"" which is ""end for"" with OCR error. So correct ""endpor"" to ""end for"".
+
+Finally, ""ourput(hi)"" is ""output(hi)"".
+
+Now, checking the indentation: the Kamus, Algoritma, and loops should be indented. So the Kamus section should have each variable on a new line with indentation. The loop body should be indented. Also, in input/output, variables shouldn't have math symbols. So ""w$h"" becomes ""w, h"".
+
+Putting it all together, the corrected code should have proper spacing, corrected keywords, and fixed OCR errors without changing the structure.
+...done thinking.
+
+program Posyandu  
+Kamus  
+n, w, h, C, i : real  
+buni, hi : real  
+Algoritma  
+input(n)  
+For i = 0 to n do  
+input(w h i C)  
+buni = ((10 * w) div (n) * (n))  
+hi = (buni + (C div 10) div 2)  
+output(buni)  
+end for  
+output(hi)","program bmi
+kamus
+    n, w, h, c, i : real
+    bmi, hi : real
+Algoritma
+    input(n)
+    for i = 0 to n do
+        input(w, h, c)
+        bmi = ((10*w) div (h) * (h))
+        hi = (bmi + (c div 10) div 2)
+        output(bmi)
+    endfor
+    output(hi)
+endprogram"
+if4908_103012400283_nomor3.jpg,125.57825589179993,0.0,0.0,"komus
+n, wihsCibmi integer
+raloata
+feal
+Algortra
+Tinut (n)
+bmi∠-10w*n+1
+$(b)^}$
+akpt (bmi)
+endroyram","Thinking...
+Okay, let's tackle this OCR correction task. The user wants minimal changes while preserving the original structure and making it compatible with CER evaluation. First, I'll read through the input OCR text carefully.
+
+The first line is ""komus"" which should be ""kamus"" since that's a common keyword in pseudocode for a dictionary or variables. Next, ""n, wihsCibmi integer"" – ""wihsCibmi"" looks like a typo for ""bmi"" (Body Mass Index) and ""n"" is probably a variable. So I'll correct ""wihsCibmi"" to ""bmi"" and adjust the comma if needed. 
+
+Then ""raloata"" might be ""rata-rata"" (average), which is a common term. ""feal"" could be ""float"" since it's a data type. ""Algortra"" should be ""Algoritma"" with the correct capitalization. 
+
+The next line is ""Tinut (n)"" – ""Tinut"" is likely ""Input"" with a typo. So changing that to ""Input (n)"" makes sense. 
+
+""bmi∠-10w*n+1"" has some strange symbols. The angle symbol ∠ is probably a typo for an equals sign or a multiplication symbol. Since the formula is BMI = (weight / height^2), but here it's written as -10w*n+1. Wait, maybe the original formula was BMI = (weight / (height^2)), but the OCR messed up. However, the user said to not change the logic, so I need to correct the symbols without altering the formula. The ""∠"" might be a misplaced symbol, perhaps a multiplication. So changing ∠ to * and adjusting the equation to ""bmi = -10 * w * n + 1"" but that doesn't make sense. Wait, maybe the original was ""bmi = (w / (n^2))"" but OCR messed up. However, the user said to not change the logic, so maybe the original formula is correct as per the OCR, but the symbols are wrong. Alternatively, maybe ""bmi = -10 * w * n + 1"" is the intended formula, but that seems odd. Hmm, maybe the user made a mistake in the OCR, but I have to correct the symbols. Let me check again. The original OCR line is ""bmi∠-10w*n+1"". The angle symbol might be a typo for an equals sign, so changing ∠ to = gives ""bmi = -10w*n+1"". But ""w"" and ""n"" are variables. Wait, in the earlier line, ""n, wihsCibmi integer"" – ""wihsCibmi"" was corrected to ""bmi"", so ""bmi"" is a variable. Then ""w"" might be another variable, and ""n"" is already a variable. So the formula could be ""bmi = -10 * w * n + 1"". But that's a bit odd. Alternatively, maybe the original formula was ""bmi = (w / (n^2))"", but the OCR messed up the division symbol. However, the user said not to change the logic, so I have to assume the formula is correct as per the OCR, just fix the symbols. So replacing ∠ with = and adjusting the multiplication symbols. 
+
+Next line: ""$ (b)^}$"" – this looks like a mathematical expression. The dollar signs might be part of a formula, but in OCR, they could be typos. Maybe it's supposed to be ""sqrt(b)"" or something else. Alternatively, the user might have meant ""bmi"" here, but the line is ""akpt (bmi)"" which could be ""akpt"" as a function, maybe ""akpt"" is a typo for ""akurasi"" or ""akses"". But the user said to correct keywords like ""akpt"" if it's a typo. Wait, the original line is ""akpt (bmi)"" – maybe ""akpt"" is ""akurasi"" (accuracy) or ""akses"" (access). But without more context, it's safer to leave it as ""akpt"" unless it's a clear typo. However, the user's instruction says to correct common keywords, so ""akpt"" might not be a standard keyword. Maybe it's a function name, so leave it as is. 
+
+Then ""endroyram"" should be ""end program"" since ""endroyram"" is a typo for ""end program"". 
+
+Putting it all together, I'll correct the keywords, symbols, and structure while keeping the original layout. Also, adding proper indentation for the algorithm and control structures. Making sure to replace any incorrect symbols and fix spacing where necessary.
+...done thinking.
+
+kamus  
+n, bmi integer  
+rata-rata  
+float  
+Algoritma  
+Input (n)  
+bmi = -10 * w * n + 1  
+akpt (bmi)  
+end program",
+if4908_103012400355_nomor3.jpg,198.90939807891846,0.3271375464684015,17.1635687732342,"kamus
+N, $W  h, C,i integer
+bmi, rataRata, 1: real
+Algontma
+Input(w,h,c,N)
+h :10w/(h)2
+C=N+1(C/10)mod2
+input(bmi)
+bmi=x/(h)2and l=bmi+(cl10)/2
+rataRata =N+1, bmi,1)
+output (rataRata)
+endfor
+endprogram","Thinking...
+Okay, let's tackle this OCR correction. First, I need to understand the user's requirements. The main goal is to fix the OCR errors with minimal changes, preserving the original structure. Let me go through the input step by step.
+
+Starting with the ""kamus"" section. The OCR has ""N, $W  h, C,i integer"". The ""$W"" probably should be ""W"" since it's a variable name. Also, there's a space between ""W"" and ""h"", which might be a typo. So I'll correct that to ""N, W, h, C, i integer"".
+
+Next, the real variables: ""bmi, rataRata, 1: real"". The ""1:"" is likely a typo for ""1"" as a variable, so changing ""1:"" to ""1"" makes sense. So it becomes ""bmi, rataRata, 1: real"".
+
+Moving to the ""Algontma"" line. That's clearly ""Algoritma"" with a typo. So correct that to ""Algoritma"".
+
+The input line: ""Input(w,h,c,N)"". The variables here are probably ""w"", ""h"", ""c"", ""N"". The OCR might have missed the comma after ""h"", so adding a comma between ""h"" and ""c"" would make it ""Input(w, h, c, N)"".
+
+Next line: ""h :10w/(h)2"". The colon after ""h"" should be an equals sign. Also, ""10w"" might be ""10 * w"" but since the user mentioned replacing math symbols, maybe ""10w"" is acceptable. However, the division and exponent might need fixing. The original might be ""h = 10 * w / (h^2)"" but the OCR has ""h :10w/(h)2"". So correcting the colon to "" = "" and adjusting the exponent notation. Maybe ""h = 10 * w / (h^2)"" but the OCR has ""h)2"", which could be ""h^2"". So changing ""h)2"" to ""h^2"".
+
+Next line: ""C=N+1(C/10)mod2"". The ""C="" should be ""C ="". The ""(C/10)"" might be ""(C / 10)"". Also, ""mod2"" is likely ""mod 2"". So the corrected line would be ""C = N + 1 * (C / 10) mod 2"".
+
+Then ""input(bmi)"". The OCR has ""input(bmi)"" which seems okay, but the user mentioned replacing math symbols in variable names. Wait, the user said in input/output, variable names shouldn't have math symbols. The ""bmi"" is fine, but maybe ""bmi"" is correct. Wait, the original OCR has ""input(bmi)"" which is correct.
+
+Next line: ""bmi=x/(h)2and l=bmi+(cl10)/2"". The ""x"" here might be a typo for ""w"" or ""weight"". But the user said to replace math symbols with similar letters. ""x"" could be ""x"" as in variable, but maybe ""x"" is supposed to be ""w"". However, the original OCR has ""x"", so maybe it's correct. However, the line ""bmi=x/(h)2and l=bmi+(cl10)/2"" has issues. The ""x"" might be a typo for ""w"", but without more context, it's hard to tell. Alternatively, ""x"" could be a variable. The ""and"" should be a comma or a semicolon. Also, ""cl10"" might be ""c * 10"". So changing ""cl10"" to ""c * 10"". Also, ""h)2"" should be ""h^2"". So the corrected line would be ""bmi = x / (h^2) and l = bmi + (c * 10) / 2"".
+
+Next line: ""rataRata =N+1, bmi,1)"". The comma after ""N+1"" should be a comma, but the variable names shouldn't have math symbols. ""1"" here is a variable, so it's okay. The closing parenthesis is missing. So changing to ""rataRata = N + 1, bmi, 1)"".
+
+Then ""output (rataRata)"". That seems okay, but the space before the parenthesis might be a typo. So ""output(rataRata)"".
+
+The ""endfor"" and ""endprogram"" lines. ""endfor"" should be ""end for"" but the user said to keep the structure. Wait, the original OCR has ""endfor"" which might be ""end for"" but the user's instruction says to keep the structure if the keyword is present. Since ""endfor"" is not a standard keyword, but the original has ""endfor"", maybe it's a typo for ""end for"". However, the user said to keep the structure if the keyword is present. Since ""endfor"" isn't a standard keyword, maybe it's better to correct it to ""end for"". But the user's instruction says to keep the structure if the keyword is present. Since the original has ""endfor"" as a keyword, maybe it's better to leave it as is. Wait, the user said to keep the structure if the keyword is present. So if ""endfor"" is part of the original structure, even if it's a typo, we should keep it. But in standard Pascal, it's ""end."" So maybe the correct keyword is ""end."" but the user said to keep the structure. Hmm, this is a bit confusing. The original OCR has ""endfor"" and ""endprogram"". The user's instruction says to keep the structure if the keyword is present. So if the original has ""endfor"", we should keep it. But in standard Pascal, it's ""end."" So perhaps the correct is ""end."" but the user wants minimal changes. So maybe leave ""endfor"" as is. Similarly for ""endprogram"" to ""end program"".
+
+Also, the user mentioned to indent the code. So adding tabs for the lines inside the kamus, algoritma, and control structures.
+
+Putting it all together, making sure to correct the typos, replace math symbols with similar letters where necessary, and maintain the structure.
+...done thinking.
+
+kamus  
+N, W, h, C, i integer  
+bmi, rataRata, 1 real  
+Algoritma  
+Input(w, h, c, N)  
+h = 10 * w / (h^2)  
+C = N + 1 * (C / 10) mod 2  
+Input(bmi)  
+bmi = x / (h^2) and l = bmi + (c * 10) / 2  
+rataRata = N + 1, bmi, 1)  
+Output(rataRata)  
+endfor  
+endprogram","programPosyandu
+kamus
+    N, w, h, c, i: integer
+    bmi, rata-rata, l: real
+algoritma
+    input(w, h, c, N)
+    for i= 1 to N+1 do
+        w= N+1 (10w) /(h)*2
+        h=10w/(h)*2
+        c=N+1(c/10) mod 2
+        input(bmi)
+        bmi= 10w/(h)*2 and l =bmi+(c/10)/2
+        rataRata=(N+1, bmi, l)
+        output(rataRata)
+    endfor
+endprogram"
+if4908_103012400374_nomor3.jpg,322.8789403438568,0.3717948717948718,23.243589743589745,"progran Posyandu
+kamus
+niw,h,c:inleger
+Im,Mreh.narea
+wasil5,hnsI:fea
+Algonitma
+input(n)
+foria: ton do
+impot(w,h,c)
+bu0-(10*w)(h*6)
+He-(bmi+k/c01)/2.
+hasils+1u2l6+b
+hosl-Wasl1+H
+eandcor
+Cutput(bui, H)
+reratab-hasil8/n
+rerataHe-hasilI/n
+autput(rerho,rerdaH)","Thinking...
+Okay, let's tackle this OCR correction task. First, I need to understand the user's requirements. The goal is to fix the OCR errors with minimal changes, preserving the original structure and making it compatible with CER evaluation. The main rules are to correct common keywords, fix obvious math symbols, maintain existing structures, and adjust spacing and symbols without adding or removing lines.
+
+Looking at the input, the first line is ""progran Posyandu"". ""progran"" is likely ""program"", so I'll correct that. Next, ""kamus"" is correct, so that stays. Then ""niw,h,c:inleger"" – ""inleger"" should be ""integer"". The variables are separated by commas, but the user mentioned that in input, the separator should be a dot. Wait, but the instruction says in input(...), use dot as separator. However, in the OCR, the variables are separated by commas. Wait, the user's instruction says to replace commas with dots in input. But the OCR here has commas. So I need to check if the input is using commas or dots. The original OCR has ""input(n)"" which might be ""input(n)"" but the variables are separated by commas. Wait, the user's instruction says that in input(...), the separator is a dot. So if the OCR has commas, they should be replaced with dots. But in the OCR, the variables are separated by commas. For example, ""niw,h,c:inleger"" – the variables are niw, h, c. So in the input, they should be separated by dots. Wait, but the user's instruction says to replace commas with dots in input. So I need to change the commas to dots here. But wait, the OCR line is ""niw,h,c:inleger"" – the variables are niw, h, c, and the type is inleger (which should be integer). So the corrected line would be ""niw.h.c:integer"".
+
+Next line: ""Im,Mreh.narea"" – this seems like variables. The OCR has ""Im,Mreh.narea"". The user's instruction says to replace math symbols with similar letters. For example, ""+"" becomes ""t"", ""*"" becomes ""x"", etc. But here, the variables are ""Im"", ""Mreh"", ""narea"". The ""Mreh"" might be ""Mre"" or ""Mreh"" as is. The ""narea"" could be ""narea"" or maybe ""narea"" is correct. Not sure, but since there's no obvious math symbol here, maybe leave as is. However, the OCR might have a typo. ""Mreh"" could be ""Mre"" or ""Mre"" with a typo. But without more context, I'll keep it as is.
+
+Next line: ""wasil5,hnsI:fea"" – ""wasil5"" might be ""wasil"" with a typo, and ""hnsI"" could be ""hnsI"" or ""hnsI"" with a typo. The type is ""fea"" which should be ""real"". So corrected to ""wasil,hnsI:real"".
+
+Then ""Algonitma"" should be ""Algoritma"".
+
+Next line: ""input(n)"" – the user's instruction says that in input(...), the separator is a dot. But here, it's just ""input(n)"", so maybe that's correct. Wait, the user's instruction says that in input(...), the separator is a dot. So if the OCR has ""input(n)"", that's okay. But in the previous line, variables are separated by commas, which should be dots. So maybe the OCR has ""input(n)"" as is, but the variables in the kamus are separated by commas. Wait, the user's instruction says that in input(...), the separator is a dot. So if the OCR has variables separated by commas in the kamus, they should be dots. But the OCR line for kamus is ""niw,h,c:inleger"" which should be ""niw.h.c:integer"". So I need to correct the commas to dots here.
+
+Then ""foria: ton do"" – ""foria"" is likely ""for i: ton do"" but the OCR has ""foria: ton do"". So ""foria"" should be ""for i"" and ""ton do"" is probably ""to do"". So corrected to ""for i: to do"".
+
+Next line: ""impot(w,h,c)"" – ""impot"" should be ""input"".
+
+Then ""bu0-(10*w)(h*6)"" – ""bu0"" is likely ""bmi"" (since the next line has ""He-(bmi+k/c01)/2."" so ""bmi"" is correct). So ""bu0"" becomes ""bmi"". The expression is ""bmi = (10*w)(h*6)"" but the OCR has ""bu0-(10*w)(h*6)"". So corrected to ""bmi = (10*w) * (h*6)""? Wait, the user's instruction says not to change the logic of the formula. The original OCR has ""bu0-(10*w)(h*6)"" which is ""bmi = (10*w)(h*6)"". But the user's instruction says to fix math symbols. The OCR has ""w)(h*6)"" which might be ""w * (h*6)"" but the OCR has ""w)(h*6)"" which is missing a * or maybe it's a typo. Wait, the original line is ""bu0-(10*w)(h*6)"" which is ""bmi = (10*w)(h*6)"". The user's instruction says to fix math symbols. So maybe the OCR has a missing * between w and h*6. So the corrected line would be ""bmi = (10*w) * (h*6)"" but the user says not to change the logic. So maybe the original is correct as is, but the OCR has a typo in the multiplication symbol. Wait, the OCR has ""w)(h*6)"" which is missing a * between w and h. So the correct expression is ""bmi = (10*w) * (h*6)"" but the user says not to change the logic. So maybe the original is ""bmi = (10*w)(h*6)"" which is the same as ""b0 = (10*w)*(h*6)"" but the OCR has ""bu0"" which is ""bmi"". So corrected to ""bmi = (10*w)(h*6)"".
+
+Next line: ""He-(bmi+k/c01)/2."" – ""c01"" should be ""c01"" but maybe ""c01"" is ""c01"" or ""c01"" is a typo for ""c01"". Wait, ""k/c01"" might be ""k / c01"" but the user says to fix math symbols. If ""c01"" is a typo for ""c01"", but without more context, it's hard to tell. Maybe ""c01"" is ""c01"" as is. So the line becomes ""He = (bmi + k / c01) / 2."".
+
+Next line: ""hasils+1u2l6+b"" – ""hasils"" is likely ""hasil"", ""1u2l6"" is probably ""1u2l6"" but the user says to replace math symbols. ""1u2l6"" might be ""1u2l6"" but maybe it's ""1u2l6"" which could be ""1u2l6"" but not sure. Alternatively, ""1u2l6"" could be ""1u2l6"" which is ""1u2l6"". Hmm, this is confusing. Maybe ""1u2l6"" is a typo for ""1u2l6"" which is ""1u2l6"". Alternatively, ""1u2l6"" might be ""1u2l6"" which is ""1u2l6"". Not sure, but since the user says to fix math symbols, maybe ""1u2l6"" is ""1u2l6"" but I need to check. Alternatively, ""1u2l6"" could be ""1u2l6"" which is ""1u2l6"". This part is tricky. Maybe the original is ""hasil + 1u2l6 + b"" but the OCR has ""hasils+1u2l6+b"". So ""hasils"" becomes ""hasil"", and ""1u2l6"" is probably ""1u2l6"" but maybe ""1u2l6"" is ""1u2l6"". Since I can't be sure, I'll leave it as is but correct the typo in ""hasils"" to ""hasil"".
+
+Next line: ""hosl-Wasl1+H"" – ""hosl"" is ""hasil"", ""Wasl1"" is ""Wasil1"" (since earlier there's ""wasil"" which was corrected to ""wasil""). So ""hosl"" becomes ""hasil"", ""Wasl1"" becomes ""Wasil1"", and the line becomes ""hasil = Wasil1 + H"".
+
+Next line: ""eandcor"" – this is likely ""eandcor"" which might be ""eandcor"" or ""eandcor"" is a typo. Maybe ""eandcor"" is ""eandcor"" but not sure. Alternatively, it could be ""eandcor"" which is a typo for ""eandcor"". Since it's unclear, I'll leave it as is.
+
+Next line: ""Cutput(bui, H)"" – ""Cutput"" is ""Output"", ""bui"" is ""bmi"" (since earlier ""bu0"" was corrected to ""bmi""). So corrected to ""Output(bmi, H)"".
+
+Then ""reratab-hasil8/n"" – ""reratab"" is ""rerata"" (since ""reratab"" is likely ""rerata""), ""hasil8"" is ""hasil8"" but maybe ""hasil8"" is ""hasil8"". So corrected to ""rerata = hasil8 / n"".
+
+Next line: ""rerataHe-hasilI/n"" – ""rerataHe"" is ""rerataHe"", ""hasilI"" is ""hasilI"" which might be ""hasilI"". So corrected to ""rerataHe = hasilI / n"".
+
+Finally, ""autput(rerho,rerdaH)"" – ""autput"" is ""Output"", ""rerho"" is ""rerata"", ""rerdaH"" is ""rerataH"". So corrected to ""Output(rerata, rerataH)"".
+
+Now, applying all these corrections while keeping the structure and adding proper indentation for kamus, algoritma, and control structures. Also, replacing commas with dots in input statements where applicable.
+...done thinking.
+
+program Posyandu  
+kamus  
+niw.h.c:integer  
+Im.Mreh.narea  
+wasil.hnsI:real  
+algoritma  
+input(n)  
+for i: to do  
+input(w,h,c)  
+bmi = (10*w)(h*6)  
+He = (bmi + k/c01)/2.  
+hasil = bmi + 1u2l6 + b  
+hasil = Wasil1 + H  
+eandcor  
+output(bmi, H)  
+rerata = hasil8/n  
+rerataHe = hasilI/n  
+output(rerata, rerataHe)","program Posyandu
+kamus
+    n,i,w,h,c : integer
+    bmi, H, rerataB, rerataH, : real
+    hasilB, hasilI : real
+algoritma
+    input(n)
+    for i<-1 to n do
+        input(w,h,c)
+        bmi<-(10*w)/(h*h)
+        H<-(bmi+(c/10))/2
+        hasilB<-hasilB+bmi
+        hasilI<-hasilI+H
+        output(bmi, H)
+    endfor
+    rerataB<-hasilB/n
+    rerataH<-hasilI/n
+    output(rerataB, rerataH)
+endprogram"
+if4908_103012500007_nomor3.jpg,487.32098412513733,0.40498442367601245,16.53271028037383,"Kamus
+n W,h : integer
+bmi hi : real
+bmix, hix: real
+algoritmamix=0.0
+ihect(A)
+1fox=9to n do
+Faplt(lagt
+inprt(w, h, ()
+bmi=(10xw)/(h×h)
+hi=bri+()/20
+bmTx=bixfbm
+OytputCbmi hi
+hix=hix thi
+erdfor
+bmix=bmix/n
+hix =hix/n
+output(bmix, hix)
+*Mot pat.:1l 1
+i  ","Thinking...
+Okay, let's tackle this OCR correction task. First, I need to understand the user's requirements. The main goal is to fix the OCR errors with minimal changes, preserving the original structure and ensuring compatibility with CER evaluation. 
+
+Looking at the input, the OCR seems to have several typos and formatting issues. Let me start by identifying the key sections. The first line is ""Kamus"" which should be ""Kamus"" as that's the standard keyword for a dictionary in pseudocode. Next, the variables are listed as ""n W,h : integer"". The space between ""n"" and ""W,h"" might be an error. It should probably be ""n, W, h : integer"" to separate the variables correctly.
+
+Then there's ""bmi hi : real"". The space between ""bmi"" and ""hi"" might be a typo. Maybe it's supposed to be ""bmi, hi : real"" to indicate two separate variables. Similarly, ""bmix, hix: real"" should have a space after the comma, so ""bmix, hix : real"".
+
+Moving to the algorithm section, ""algoritmamix=0.0"" has a typo in ""algoritmamix"". It should be ""algoritma"" followed by ""mix"", so ""algoritma mix = 0.0"". The next line is ""ihect(A)"" which might be ""ihect(A)"" but I'm not sure. Maybe it's a function or a loop, but since the user mentioned not to add new structures, I'll leave it as is but correct any obvious typos.
+
+The line ""1fox=9to n do"" seems to have ""1fox"" which might be ""for i from 9 to n do"". So replacing ""1fox"" with ""for i"" and ""9to"" with ""9 to"". Then ""Faplt(lagt"" could be ""Faktor(lagt"" but maybe ""Faktor(lagt)"" is a function name. However, without more context, I'll adjust the spacing and correct ""Faplt"" to ""Faktor"".
+
+Next, ""inprt(w, h, ()"" has ""inprt"" which should be ""input"". The parentheses are mismatched, so changing to ""input(w, h, ()"" might be ""input(w, h, ()"" but the user mentioned to fix symbols. Wait, the input syntax uses a dot as a separator. So ""input(w, h, ()"" should be ""input(w, h, ()"" but the original has a space. Wait, the user said to replace commas with dots in input. So ""input(w, h, ()"" should be ""input(w . h . ()"" but that doesn't make sense. Maybe the original has a typo in the parentheses, so changing to ""input(w, h, ()"" to ""input(w, h, ()"" but I'm confused. Maybe the original has ""input(w, h, ()"" which should be ""input(w, h, ()"" but the user said to use dots as separators. So perhaps ""input(w . h . ()"" but the parentheses are still off. Maybe the original intended ""input(w, h, ()"" but the OCR messed up the parentheses. I'll correct the parentheses to ""input(w, h, ()"" and adjust the separators.
+
+Continuing, ""bmi=(10xw)/(h×h)"" has ""10xw"" which should be ""10 * w"" but the user said to replace * with x if it's a visual similarity. Wait, the user's note says to replace * with x if it's a visual similarity. So ""10xw"" is correct as ""10 * w"" but the OCR might have converted * to x. So ""10xw"" is okay. Then ""hi=bri+()/20"" has ""bri"" which should be ""bmi"", and ""()"" might be a typo. Maybe it's ""hi = bmi + (something)/20"", but without more context, I'll correct ""bri"" to ""bmi"" and adjust the parentheses.
+
+The line ""bmTx=bixfbm"" has ""bixfbm"" which might be ""bix * bm"" but the user said to replace * with x. So ""bix * bm"" would be ""bixxbm"". Wait, the user's instruction says to replace * with x if it's a visual similarity. So ""bixfbm"" should be ""bix * bm"" which is ""bixxbm"". Then ""OytputCbmi hi"" has ""Oytput"" which should be ""Output"", and ""Cbmi"" should be ""bmi"", so ""Output(bmi hi)"" but the user mentioned to use dots as separators in input. So ""Output(bmi . hi)"".
+
+Next, ""hix=hix thi"" has ""thi"" which might be ""thi"" but in the context of hix, maybe ""thi"" is a typo for ""thi"" which could be ""thi"" but I'm not sure. Alternatively, ""thi"" could be ""thi"" but without context, I'll correct ""thi"" to ""thi"" if it's a variable. Wait, the original line is ""hix=hix thi"", which might be ""hix = hix + thi"" but the OCR might have missed the +. However, the user said not to add new logic. So maybe it's ""hix = hix + thi"" but the OCR has ""hix thi"" which should be ""hix + thi"". But the user said to not change the logic, so maybe it's ""hix = hix + thi"" but the OCR has ""hix thi"" which is incorrect. I'll correct ""thi"" to ""thi"" if it's a variable, but without more context, I'll assume it's a typo and correct it to ""thi"".
+
+Then ""erdfor"" is likely ""end for"" but the user mentioned to not add new structures, so ""endfor"" is correct. ""bmix=bmix/n"" and ""hix =hix/n"" are okay. ""output(bmix, hix)"" should use dots as separators, so ""output(bmix . hix)"".
+
+The last line ""*Mot pat.:1l 1"" has ""Mot pat"" which might be ""Mot pat"" but the user's note says to replace symbols like * with t. So ""Mot pat"" might be ""Mot pat"" but the original has ""*Mot pat."" which should be ""Mot pat."" with the * replaced by t. So ""Mot pat.:1l 1"" becomes ""Mot pat.:1l 1"" but the user said to replace * with t, so the * becomes t, making it ""tMot pat.:1l 1"". However, the user's instruction says to replace * with t if it's a visual similarity. So the * in ""*Mot pat."" becomes ""t"", resulting in ""tMot pat.:1l 1"".
+
+Putting it all together, I'll correct each line step by step, ensuring minimal changes and preserving the structure. I'll check for spaces, symbols, and keywords, making sure not to add or remove any lines. The final output should be the corrected pseudocode with proper spacing, symbols, and structure.
+...done thinking.
+
+Kamus  
+n, W, h : integer  
+bmi, hi : real  
+bmix, hix : real  
+algoritma mix = 0.0  
+ihect(A)  
+for i from 9 to n do  
+Faktor(lagt)  
+input(w, h, ())  
+bmi = (10 * w) / (h * h)  
+hi = bmi + () / 20  
+bmix = bmix + bmi  
+Output(bmi . hi)  
+hix = hix + thi  
+endfor  
+bmix = bmix / n  
+hix = hix / n  
+output(bmix . hix)  
+*Mot pat.:1l 1  
+i","program Posyandu
+kamus
+    c, i, n, w, h : integer
+    bmi, hi : real
+    bmix, hix : real
+algoritma
+    bmix = 0.0
+    input(n)
+    hix = 0.0
+    for i = 1 to n do
+        input(w, h, c)
+        bmi = (10 * w) / (h * h)
+        hi = (bmi + (c / 10.0)) / 2.0
+        bmix = bmix + bmi
+        output(bmi, hi)
+        hix = hix + hi
+    endfor
+    bmix = bmix / n
+    hix = hix / n
+    output(bmix, hix)
+endprogram"
+if4908_1030125000185_nomor3.jpg,331.45459270477295,0.0,0.0,"program Posyandu
+Kumus
+N.K interger
+ann
+Bmi,i.W,h.(real
+Aly input-
+N->N+I
+fur:k to de N
+BMi- l0W divL*h
+1 → BMi + (C div10) div 2
+Output → bmi. 1
+erdfor
+endprogram","Thinking...
+Okay, let's tackle this OCR correction task. First, I need to understand the user's instructions thoroughly. The main goal is to correct OCR errors with minimal changes, preserving the original structure and making it compatible with CER evaluation. 
+
+Looking at the input OCR, I see some obvious typos and formatting issues. Let me start by identifying the keywords and structures. The first line is ""program Posyandu"" which seems correct. Then ""Kumus"" should probably be ""Kamus"" since that's a common keyword in pseudocode. 
+
+Next, ""N.K interger"" has a typo in ""interger"" which should be ""integer"". Also, ""N.K"" might be ""N.K"" as a variable name, but maybe it's supposed to be ""N"" and ""K"" separated? Wait, the original might have had ""N.K"" as a variable, but since the user mentioned to correct typos but not change the structure, I should keep ""N.K"" as is unless it's a clear mistake. However, ""interger"" is definitely a typo for ""integer"".
+
+Then ""ann"" is likely a typo for ""an"" or ""and"", but since the context is a variable name, maybe it's ""ann"" as a variable. Wait, looking further, there's ""Bmi,i.W,h.(real"" which seems like ""Bmi, i, W, h (real)"" but the OCR messed up the commas and parentheses. So I need to fix that to ""Bmi, i, W, h (real)"".
+
+The line ""Aly input-"" probably should be ""Aly input"" with a hyphen, but maybe it's ""Aly input"" followed by something. Wait, the next line is ""N->N+I"" which might be ""N -> N + I"", but the original has ""N->N+I"" with a hyphen. Maybe that's correct as ""N->N+I"" but the hyphen is a typo for an arrow. Alternatively, the OCR might have misread ""N -> N + I"" as ""N->N+I"". I'll need to check if that's a valid syntax. Since the user says to correct symbols if they can be guessed from context, maybe ""N->N+I"" is correct, but the hyphen is a typo for an arrow. However, the user's note says to correct symbols like ""di2 → div 2"", so maybe the hyphen is a typo for ""div"". Wait, the line is ""Aly input-"" which might be ""Aly input"" with a hyphen, but maybe it's ""Aly input"" followed by a line. Then ""N->N+I"" could be ""N -> N + I"" with a hyphen as an arrow. But the user's instruction says to correct symbols if they can be guessed. So maybe the hyphen is a typo for ""div"" or ""arrow"". However, the user's example shows ""di2 → div 2"", so perhaps ""N->N+I"" is ""N div N + I""? But that doesn't make sense. Alternatively, maybe the hyphen is a typo for ""div"", but the line ""N->N+I"" might be ""N = N + I"" with an arrow. Hmm, this is a bit confusing. Maybe the original intended ""N -> N + I"" as an assignment, so the hyphen is a typo for ""arrow"" or ""assignment"". Since the user says to correct symbols if they can be guessed, I'll assume that ""N->N+I"" is ""N = N + I"" with the hyphen being a typo for an equals sign or arrow. But the user's example uses ""div"" for ""di2"", so maybe the hyphen is a typo for ""div"". Wait, the line ""N->N+I"" could be ""N div N + I"", but that's not standard. Alternatively, maybe the hyphen is a typo for ""arrow"" in an assignment. I'm a bit stuck here. Let me move on and see if other parts clarify.
+
+The line ""fur:k to de N"" seems like ""for: k to de N"", but ""fur"" is likely ""for"", ""k to de N"" might be ""k to de N"" which is unclear. Maybe ""for k to de N"" where ""de"" is a typo for ""do"" or ""decrement""? Alternatively, ""for k to de N"" could be ""for k to de N"" but that's not standard. Maybe ""for k to de N"" is supposed to be ""for k to N"" with ""de"" being a typo. But the user says to make minimal changes, so perhaps leave it as ""fur:k to de N"" but correct ""fur"" to ""for"" and ""k"" to ""k"" and ""de"" to ""do""? Wait, the original line is ""fur:k to de N"". If ""fur"" is ""for"", then ""for:k to de N"" could be ""for k to de N"" where ""de"" is a typo for ""do"" or ""decrement"". But without more context, it's hard to tell. Maybe the original intended ""for k to de N"" as a loop, but ""de"" is unclear. Since the user says to correct symbols if possible, maybe ""de"" is a typo for ""do"", making it ""for k to do N"", but that's not standard. Alternatively, ""de"" could be ""de"" as in ""decrement"", but that's not common in pseudocode. I'll have to make an educated guess here.
+
+The line ""BMi- l0W divL*h"" seems like ""Bmi - l0W div L * h"". Wait, ""BMi"" is likely ""Bmi"" as a variable. ""l0W"" might be ""L0W"" or ""LOW"" (lowercase L and W). ""divL*h"" could be ""div L * h"". So the line might be ""Bmi - L0W div L * h"", but the original has ""BMi- l0W divL*h"". So correcting ""BMi"" to ""Bmi"", ""l0W"" to ""L0W"" or ""LOW"", ""divL"" to ""div L"", and ""h"" as is. But the user says to correct symbols if they can be guessed from context. For example, ""l0W"" could be ""LOW"" (lowercase L and W) or ""L0W"" (L0W). Since ""L0W"" is a possible variable name, but ""LOW"" is more likely. Also, ""divL"" should be ""div L"" with a space. So the line becomes ""Bmi - L0W div L * h"".
+
+Next line: ""1 → BMi + (C div10) div 2"". The arrow is likely a typo for ""arrow"" or ""assignment"". The user's example says to replace ""di2"" with ""div 2"", so ""div10"" should be ""div 10"" with a space. Also, the arrow might be a typo for ""arrow"" or ""assignment"". If the original is ""1 → BMi + (C div10) div 2"", then correcting ""div10"" to ""div 10"" and the arrow to an equals sign or arrow. Since the user's instruction says to correct symbols if possible, maybe the arrow is a typo for ""arrow"" in an assignment, so ""1 → BMi + ..."" becomes ""1 → BMi + ..."". But the user's example uses ""di2 → div 2"", so maybe the arrow is correct as is. However, in pseudocode, the arrow might be used for assignment, so ""1 → BMi"" would be ""1 = BMi"". But the user's instruction says to correct symbols if possible, so maybe the arrow is a typo for an equals sign. However, the user says to make minimal changes, so perhaps leave the arrow as is. Wait, the user's instruction says to correct symbols if they can be guessed from context, so ""div10"" becomes ""div 10"", and the arrow is kept as is. So the line becomes ""1 → BMi + (C div 10) div 2"".
+
+Then ""Output → bmi. 1"" has ""bmi. 1"" which should be ""bmi. 1"" but the user says to replace dots with commas in input/output. Wait, the user's instruction says: ""input(...): titik (.) sebagai pemisah variabel → ganti koma (,)."" So in input/output, the dot is used as a separator between variables, so ""bmi. 1"" would be ""bmi, 1"". So changing the dot to a comma. Also, ""Output"" should be ""Output"" with a capital O. So ""Output → bmi, 1"".
+
+The line ""erdfor"" is likely ""for"" with a typo. So ""erdfor"" becomes ""for"".
+
+Putting it all together, the corrected code should have proper keywords like ""Kamus"", ""integer"", ""real"", and correct the symbols. Also, ensuring that variables like ""Bmi, i, W, h"" are properly separated with commas. Indentation is needed for the algorithm and control structures. The user mentioned to add indentation (tab or 4 spaces) for the algorithm and control structures. So lines under ""algoritma"" and ""if"", ""loop"" should be indented. 
+
+Now, checking each line again:
+
+1. ""program Posyandu"" → correct.
+2. ""Kumus"" → ""Kamus"".
+3. ""N.K interger"" → ""N.K integer"".
+4. ""ann"" → maybe ""ann"" is a variable, but if it's a typo for ""an"" or ""and"", but since it's a variable name, leave as is.
+5. ""Bmi,i.W,h.(real"" → ""Bmi, i, W, h (real)"".
+6. ""Aly input-"" → ""Aly input"" with a hyphen, but maybe it's ""Aly input"" followed by something. Wait, the next line is ""N->N+I"" which might be ""N -> N + I"" with a hyphen as an arrow. So ""Aly input-"" could be ""Aly input"" with a hyphen, but maybe it's a typo for ""Aly input"" followed by a line. So ""Aly input"" as is.
+7. ""N->N+I"" → ""N -> N + I"" with hyphen as an arrow.
+8. ""fur:k to de N"" → ""for k to de N"" (assuming ""fur"" is ""for"", ""k"" is ""k"", ""de"" is ""do"" or ""decrement"").
+9. ""BMi- l0W divL*h"" → ""Bmi - L0W div L * h"".
+10. ""1 → BMi + (C div10) div 2"" → ""1 → BMi + (C div 10) div 2"".
+11. ""Output → bmi. 1"" → ""Output → bmi, 1"".
+12. ""erdfor"" → ""for"".
+13. ""endprogram"" → ""endprogram"".
+
+Also, adding indentation for the algorithm and control structures. For example, lines under ""algoritma"" and ""for"" should be indented. The original has ""Aly input-"" which might be part of the algorithm, so indented. Similarly, ""N->N+I"" and ""fur:k to de N"" would be under the algorithm. Also, the line ""1 → BMi + ..."" is part of the algorithm. The ""Output"" line should be indented as well.
+
+So the final corrected code should have proper keywords, corrected symbols, and indentation where needed. Also, ensuring that variables in input/output use commas instead of dots. For example, ""bmi. 1"" becomes ""bmi, 1"".
+
+Now, compiling all these corrections into the final output.
+...done thinking.
+
+program Posyandu  
+Kamus  
+N.K integer  
+ann  
+Bmi, i, W, h (real)  
+Aly input  
+N -> N + I  
+for k to de N  
+Bmi - L0W div L * h  
+1 → BMi + (C div 10) div 2  
+Output → bmi, 1  
+for  
+endprogram",
+if4908_103012500030_nomor3.jpg,249.3695330619812,0.3482587064676617,30.597014925373134,"program Posyandu
+kames
+ni,whc:integer
+bmisI. : real
+A1g0t:6/92
+fori(-1 to (nt1) do
+inPt(ush,C)
+briC-(1ou)diu(h)*(h)))
+I (-(bMi+(CdV10)dV2
+Output(bmi,I)
+endeor
+exptogrom","Thinking...
+Okay, let's tackle this OCR correction. First, I'll read through the input carefully. The user wants minimal changes, so I need to be careful not to alter the structure. Let's start with the first line: ""program Posyandu"". The word ""Posyandu"" seems okay, but maybe the space after ""program"" is missing. Wait, in programming, it's usually ""program Posyandu"" with a space. The OCR might have missed the space, but maybe it's correct. Let me check the next line.
+
+""kames"" should be ""kamus"" since that's a common keyword in pseudocode for variables. Then ""ni,whc:integer"" – the comma might be a typo. The user mentioned to replace commas with dots in input, but here it's a variable declaration. Wait, the rule says in input/output, variables shouldn't have math symbols. So ""ni,whc"" might be ""ni, whc"" but the comma is okay here as it's part of the variable list. Wait, the original OCR has ""ni,whc:integer"" – maybe the comma is correct, but the OCR might have merged the comma with the next letter. Let me check the next line.
+
+""bmisI. : real"" – the period after ""bmisI"" might be a typo. Since in input, the dot is used as a separator, but here it's part of a variable name. Wait, the rule says in input/output, variables shouldn't have math symbols. So ""bmisI."" might be ""bmisI"" with the period removed. But the user says to fix symbols if they're clearly wrong. Maybe the period is a typo for a colon? Wait, the original line is ""bmisI. : real"" – maybe the period is a mistake, and it should be a colon. So ""bmisI : real"".
+
+Next line: ""A1g0t:6/92"" – the ""A1g0t"" probably should be ""Algoritma"" since that's a common keyword. The ""6/92"" might be a typo for ""6/92"" but maybe it's supposed to be a comment or part of the variable. Wait, the original line is ""A1g0t:6/92"" – maybe ""A1g0t"" is ""Algoritma"" and the rest is a comment. But the user says to keep the structure if there's a keyword. So ""Algoritma: 6/92"" but maybe the colon is correct. Wait, the original line might have ""Algoritma: 6/92"" but OCR messed up the letters. Let me think: ""A1g0t"" could be ""Algoritma"" if the OCR misread 'A' as 'A', '1' as 'l', 'g' as 'g', '0' as 'r', 't' as 't', and then '6/92' as is. So maybe ""Algoritma: 6/92"".
+
+Next line: ""fori(-1 to (nt1) do"" – the ""fori"" should be ""for i"" with a space. Then ""(-1 to (nt1)"" – ""nt1"" might be ""n+1"" but the user says to fix math symbols. Wait, the user says to replace math symbols with similar letters. So ""nt1"" could be ""n+1"" but maybe it's ""n+1"". Wait, the original line is ""fori(-1 to (nt1) do"" – maybe ""nt1"" is ""n+1"" and the parentheses are correct. So ""for i from (-1) to (n+1) do"" but the original has ""nt1"" which could be ""n+1"" with the '+' replaced by 't'? Wait, the user says to replace math symbols with similar letters. So if there's a '+', replace with 't', but here it's ""nt1"" which might be ""n+1"" but the OCR messed up. Alternatively, ""nt1"" could be ""n+1"" with the '+' replaced by 't'? Wait, maybe the original line is ""for i from (-1) to (n+1) do"" but OCR messed up the letters. So ""nt1"" becomes ""n+1"" with 't' as '+'? That's a bit unclear. Let me check the next line.
+
+""inPt(ush,C)"" – ""inPt"" should be ""input"", ""ush"" might be ""ush"" but maybe it's ""ush"" as a variable. Wait, the user says in input, variables shouldn't have math symbols. So ""ush"" is okay. Then ""C"" is a variable. So ""input(ush, C)"".
+
+Next line: ""briC-(1ou)diu(h)*(h))"" – ""briC"" is probably ""briC"" but maybe ""briC"" is ""briC"" with a typo. Wait, the original line is ""briC-(1ou)diu(h)*(h))"". Let's break it down. ""briC"" could be ""briC"" but maybe ""briC"" is ""briC"" with a typo. Wait, maybe ""briC"" is ""briC"" but the OCR messed up. Alternatively, maybe ""briC"" is ""briC"" but the user says to fix math symbols. Wait, the line is ""briC-(1ou)diu(h)*(h))"". Let's parse this. Maybe ""briC"" is ""briC"" but the hyphen is a minus sign. Then ""(1ou)"" could be ""(1 * ou)"" but the user says to replace math symbols. So ""1ou"" might be ""1 * ou"" but the OCR might have missed the asterisk. Alternatively, ""1ou"" could be ""1 * ou"" but the user says to replace symbols. So ""1ou"" becomes ""1 * ou"" but the OCR might have merged them. This is getting complicated. Let's try to parse the line step by step.
+
+Assuming that ""briC"" is a variable, then ""-(1ou)"" could be ""-(1 * ou)"", ""diu(h)"" could be ""diu(h)"", and then ""*(h)"" is multiplied by h. But the original line has ""briC-(1ou)diu(h)*(h))"". Maybe it's ""briC - (1 * ou) * diu(h) * h"". But the user says to not change the logic. So perhaps the line is ""briC = (1 * ou) * diu(h) * h"" but with some typos. However, the user wants minimal changes. Maybe the line is ""briC = (1 * ou) * diu(h) * h"" but the OCR messed up the symbols. Alternatively, maybe ""briC"" is ""briC"" and the rest is correct. This part is tricky.
+
+Next line: ""I (-(bMi+(CdV10)dV2"" – ""I"" is a variable. The hyphen might be a minus sign. ""bMi"" could be ""bmi"" with a typo. ""CdV10"" might be ""C * dV10"" but the user says to replace symbols. So ""CdV10"" could be ""C * dV10"" but the OCR might have merged the asterisk. Similarly, ""dV2"" could be ""dV2"" but maybe ""dV2"" is ""dV2"" with a typo. So the line might be ""I = -(bmi + (C * dV10)) / dV2"" but the OCR messed up the symbols. The user says to fix symbols if they can be guessed from context. So replacing ""CdV10"" with ""C * dV10"" and ""dV2"" as is. Then the line becomes ""I = -(bmi + (C * dV10)) / dV2"".
+
+Next line: ""Output(bmi,I)"" – correct as is, but the user says to replace commas with dots in input. Wait, in input, the variables shouldn't have math symbols. But here, it's Output, so maybe it's okay. ""Output(bmi, I)"" with a comma, but the user says in input, variables shouldn't have symbols. Wait, the user says in input/output, variables shouldn't have math symbols. So if there's a symbol like '+', replace with 't', etc. But in this case, ""bmi"" and ""I"" are variables, so they're okay.
+
+Finally, ""endeor"" should be ""end"" or ""end."" but the original line is ""endeor"". Maybe ""end"" with a typo. Also, ""exptogrom"" should be ""end program"" but the OCR messed up. So ""end program"".
+
+Putting it all together, I'll make the necessary corrections while keeping the structure and minimizing changes.
+...done thinking.
+
+program Posyandu  
+kamus  
+ni, whc: integer  
+bmi: real  
+Algoritma: 6/92  
+for i from (-1) to (n+1) do  
+input(ush, C)  
+bmi = (1 * ou) * diu(h) * h  
+I = -(bmi + (C * dV10)) / dV2  
+Output(bmi, I)  
+end  
+end program","program posyandu 
+kamus
+	n,i,w,h,c : Integer
+	bmi , I : real
+algoritma
+	for i <- 1 to (n+1) do
+		input(w,h,c)
+		bmi <- ((10 * w ) div ((h) *(h)))
+		I <- ((bmi + (c div 10)) div 2
+		output(bmi, I)
+	endfor
+endprogram"
+if4908_103012500033_nomor3.jpg,459.71445298194885,0.17801047120418848,57.13612565445026,"program Posyandu
+Kamus
+i,n, wrhiC,BMl : integer
+hasil : real
+algoritmu
+input (n)
+for i=1 to ndo
+BMI = 10* w div h^2
+1 = BM1 + (Cdiv 10)div 2
+hasil = real CBMi, 1)
+endfor
+output (hasil)
+endprogram
+adnrogran","Thinking...
+Okay, let me tackle this OCR correction task. First, I need to understand the user's requirements. The main goal is to fix the OCR errors with minimal changes, preserving the original structure and making it compatible with CER evaluation. 
+
+Looking at the input, the OCR has some obvious typos. Let's start with the first line: ""program Posyandu"". The word ""Posyandu"" seems correct, but maybe there's a typo in the structure. Wait, the original OCR has ""algoritmu"" which should be ""algoritma"". Also, ""adnrogran"" at the end looks like ""dan program"" or maybe ""dan program"" but the user mentioned to keep the original structure if there's a keyword. Wait, the original OCR ends with ""adnrogran"" which might be ""dan program"" but since the user said not to add new structures, maybe it's a typo for ""dan program"" but the original code might have ""endprogram"" already. Wait, the original input ends with ""adnrogran"" which could be ""dan program"" but the user's instruction says not to add new structures. Wait, the original OCR has ""endprogram"" at the end? Let me check again.
+
+The input OCR is:
+
+<<<
+program Posyandu
+Kamus
+i,n, wrhiC,BMl : integer
+hasil : real
+algoritmu
+input (n)
+for i=1 to ndo
+BMI = 10* w div h^2
+1 = BM1 + (Cdiv 10)div 2
+hasil = real CBMi, 1)
+endfor
+output (hasil)
+endprogram
+adnrogran
+>>>
+
+Wait, the last line is ""adnrogran"" which might be ""dan program"" but since the user said not to add new structures, maybe it's a typo for ""endprogram"" but the original code already has ""endprogram"". Wait, the OCR has ""endprogram"" as the last line? Let me check again. The input OCR has ""endprogram"" as the last line before ""adnrogran"". Wait, no. Let me parse the input correctly.
+
+The input OCR is:
+
+program Posyandu
+Kamus
+i,n, wrhiC,BMl : integer
+hasil : real
+algoritmu
+input (n)
+for i=1 to ndo
+BMI = 10* w div h^2
+1 = BM1 + (Cdiv 10)div 2
+hasil = real CBMi, 1)
+endfor
+output (hasil)
+endprogram
+adnrogran
+
+Wait, after ""endprogram"" there's ""adnrogran"" which might be a typo for ""dan program"" but the user said not to add new structures. However, maybe ""adnrogran"" is a typo for ""dan program"" but since the original code already has ""endprogram"", perhaps ""adnrogran"" is an error. Alternatively, maybe it's a typo for ""dan program"" but the user said not to add new structures. Wait, the user's instruction says: ""Jika tidak ada struktur utama, JANGAN menambah struktur baru."" So if there's a structure keyword, keep it. The original OCR has ""program"", ""kamus"", ""algoritmu"", ""endprogram"". So ""algoritmu"" should be ""algoritma"", ""endprogram"" is correct, and ""adnrogran"" is probably a typo for ""dan program"" but since the user said not to add new structures, maybe it's a mistake and should be removed. Wait, but the user said not to add or remove lines, only fix readability. Hmm.
+
+Now, let's go step by step.
+
+First line: ""program Posyandu"" – correct. ""algoritmu"" should be ""algoritma"".
+
+Next, ""Kamus"" is correct. The variables: ""i,n, wrhiC,BMl : integer"" – ""wrhiC"" might be ""w"" and ""h"" with a typo. Maybe ""w"" and ""h"" are intended here. So ""wrhiC"" could be ""w"" and ""h"" with some OCR errors. Let me check: ""wrhiC"" – maybe ""w"" and ""h"" with ""C"" as a typo. Wait, the original OCR might have ""w"" and ""h"" but OCR misread. For example, ""wrhiC"" could be ""w"" and ""h"" with ""C"" as a typo. So maybe ""w, h"" but the OCR has ""wrhiC,BMl"". Wait, the variables are ""i,n, wrhiC,BMl : integer"". So maybe ""w"" and ""h"" are intended, but the OCR has ""wrhiC"" which could be ""w"" and ""h"" with some letters. Alternatively, ""wrhiC"" might be ""w"" and ""h"" with ""C"" as a typo. Let me think: ""wrhiC"" could be ""w"" and ""h"" with ""C"" as a typo. Maybe ""w"" and ""h"" are intended, but the OCR misread. So I'll correct ""wrhiC"" to ""w, h"" but the original has ""wrhiC,BMl"". Wait, maybe ""wrhiC"" is ""w"" and ""h"" with ""C"" as a typo. So the variables are ""i, n, w, h, BMl"" but the OCR has ""wrhiC,BMl"". So perhaps ""w"" and ""h"" are intended, so ""wrhiC"" should be ""w, h"" but the original has ""wrhiC,BMl"". So maybe the OCR has ""w"" and ""h"" as ""wrhiC"" but that's unclear. Alternatively, ""wrhiC"" could be ""w"" and ""h"" with some letters. Maybe ""wrhiC"" is ""w"" and ""h"" with ""C"" as a typo. Let me check the rest of the code. The line ""BMI = 10* w div h^2"" – here, ""w"" and ""h"" are variables. So ""wrhiC"" in the variables should be ""w"" and ""h"". So the variables are i, n, w, h, BMl. So the OCR line ""i,n, wrhiC,BMl : integer"" should be ""i, n, w, h, BMl : integer"". So ""wrhiC"" is ""w"" and ""h"" with some OCR errors. So I'll correct that.
+
+Next line: ""hasil : real"" – correct.
+
+""algoritmu"" → ""algoritma"".
+
+Then ""input (n)"" – correct. But in the input/output, the user said to replace commas with periods. Wait, the instruction says: ""input(...): titik (.) sebagai pemisah variabel → ganti koma (,)."" So in input, the variables are separated by periods. But in the OCR, ""input (n)"" – the user said to replace commas with periods. Wait, maybe the input has variables separated by commas, but in the OCR, it's written with periods. Wait, the user's instruction says: in input, the variables are separated by periods, so replace commas with periods. Wait, no: the instruction says that in input(...), the period (.) is the separator, so replace commas with periods. Wait, the user's instruction says: ""input(...): titik (.) sebagai pemisah variabel → ganti koma (,)."" So if the OCR has commas, replace with periods. But in the OCR, ""input (n)"" – no commas, so no change. Wait, but in the code, the input is ""input (n)"" which is correct. So that's okay.
+
+Next line: ""for i=1 to ndo"" – ""ndo"" should be ""n do"" but the OCR has ""ndo"". So ""for i=1 to n do"" but the OCR has ""ndo"" which is likely ""n do"" with a missing space. So correct to ""for i=1 to n do"".
+
+Next line: ""BMI = 10* w div h^2"" – correct. But in the OCR, ""BMI = 10* w div h^2"" – the ""div"" is correct, and ""h^2"" is correct.
+
+Next line: ""1 = BM1 + (Cdiv 10)div 2"" – here, ""1"" is probably a typo for ""BM1"" or another variable. Wait, the line is ""1 = BM1 + (Cdiv 10)div 2"". The left side is ""1"" which is likely a typo. Since in the code, variables are BM1, so maybe the left side should be ""BM1"". So ""1"" → ""BM1"".
+
+Then ""hasil = real CBMi, 1)"" – ""real CBMi, 1)"" – the OCR has ""real CBMi, 1)"" which should be ""hasil = real(BM1, 1)"". Wait, the original line is ""hasil = real CBMi, 1)"". The OCR might have ""real CBMi, 1)"" which should be ""real(BM1, 1)"". So ""CBMi"" is likely ""BM1"" with a typo. So ""CBMi"" → ""BM1"". Also, the parentheses might be missing. The original line is ""hasil = real CBMi, 1)"" – the ""real"" is a function, so it should be ""real(BM1, 1)"". So the line becomes ""hasil = real(BM1, 1)"".
+
+Then ""endfor"" – correct.
+
+""output (hasil)"" – correct.
+
+""endprogram"" – correct.
+
+The last line is ""adnrogran"" which might be ""dan program"" but the user said not to add new structures. However, since the original code already has ""endprogram"", maybe ""adnrogran"" is a typo for ""dan program"" but since the user said not to add new structures, perhaps it's a mistake and should be removed. Wait, the user's instruction says: ""Jangan menambah atau menghapus bagian, hanya rapikan keterbacaan."" So we can't add or remove lines. Therefore, ""adnrogran"" is part of the OCR and should be corrected if possible. But ""adnrogran"" might be ""dan program"" but since the code already has ""endprogram"", maybe it's a mistake. Alternatively, it could be a typo for ""dan program"" but the user said not to add structures. So maybe ""adnrogran"" is a typo for ""dan program"" but since we can't add new structures, perhaps it's an error and should be left as is. However, the user said to fix OCR errors with minimal changes. So ""adnrogran"" could be ""dan program"" but since the code already has ""endprogram"", maybe it's a typo for ""dan program"" but the user said not to add structures. Alternatively, ""adnrogran"" might be a typo for ""dan program"" but since the code already has ""endprogram"", perhaps it's an error and should be removed. But the user said not to remove lines. So maybe ""adnrogran"" is a typo for ""dan program"" but the user said not to add structures. Hmm, this is a bit confusing. Let me check the original OCR again. The input OCR ends with ""adnrogran"" which might be a typo for ""dan program"" but since the code already has ""endprogram"", perhaps it's an error. However, the user said not to add or remove lines. So perhaps ""adnrogran"" is a typo for ""dan program"" but since we can't add structures, maybe it's a mistake and should be left as is. Alternatively, maybe it's a typo for ""dan program"" but the user said not to add structures. So I'll leave it as is, but maybe it's a typo for ""dan program"" but since the user said not to add structures, I can't add it. So perhaps ""adnrogran"" is an error but since the user said not to remove lines, I'll leave it as is. However, the user's instruction says to fix OCR errors. So maybe ""adnrogran"" is a typo for ""dan program"" but the user said not to add structures. Therefore, I'll leave it as is. Wait, but the user's instruction says to fix OCR errors with minimal changes, so if ""adnrogran"" is a typo for ""dan program"", maybe it's better to correct it. But since the user said not to add new structures, maybe it's a mistake. Alternatively, maybe ""adnrogran"" is a typo for ""dan program"" but since the code already has ""endprogram"", perhaps it's an error. However, the user's instruction says not to add or remove lines. So perhaps ""adnrogran"" is a typo for ""dan program"" but since we can't add structures, maybe it's an error and should be left as is. I think I'll proceed with the corrections I can make, and leave ""adnrogran"" as is, assuming it's a typo but the user said not to add structures.
+
+Now, putting all the corrections together:
+
+- ""algoritmu"" → ""algoritma""
+- ""wrhiC"" → ""w, h""
+- ""1 = BM1 + ..."" → ""BM1 = BM1 + ...""
+- ""real CBMi, 1)"" → ""real(BM1, 1)""
+- ""for i=1 to ndo"" → ""for i=1 to n do""
+- ""adnrogran"" → maybe ""dan program"" but since we can't add structures, leave as is.
+
+So the corrected code would be:
+
+program Posyandu
+Kamus
+i, n, w, h, BMl : integer
+hasil : real
+algoritma
+input (n)
+for i=1 to n do
+BMI = 10 * w div h^2
+BM1 = BM1 + (C div 10) div 2
+hasil = real(BM1, 1)
+endfor
+output (hasil)
+endprogram
+adnrogran
+
+Wait, but the line ""BM1 = BM1 + ..."" – the original line was ""1 = BM1 + ..."" which was corrected to ""BM1 = BM1 + ..."". Also, in the line ""hasil = real CBMi, 1)"", ""CBMi"" should be ""BM1"" and the parentheses should be added. So ""hasil = real(BM1, 1)"".
+
+Also, in the OCR line ""1 = BM1 + (Cdiv 10)div 2"", the left side is ""1"" which is likely a typo for ""BM1"", so corrected to ""BM1 = BM1 + ..."".
+
+Also, in the line ""hasil = real CBMi, 1)"", the ""real"" function should have parentheses, so ""real(BM1, 1)"".
+
+Also, in the OCR line ""for i=1 to ndo"", ""ndo"" is likely ""n do"" with a missing space, so ""for i=1 to n do"".
+
+Now, checking the variables: ""i, n, w, h, BMl : integer"" – correct.
+
+So the final corrected code would be as above, with the corrections made.
+...done thinking.
+
+program Posyandu
+Kamus
+i, n, w, h, BMl : integer
+hasil : real
+algoritma
+input (n)
+for i=1 to n do
+BMI = 10 * w div h^2
+BM1 = BM1 + (C div 10) div 2
+hasil = real(BM1, 1)
+endfor
+output (hasil)
+endprogram
+adnrogran","program posyandu
+kamus
+    i,n,w,h,c,BMI :integer
+    hasil : real
+algoritma
+    input(n)
+    for i=1 to n do
+        BMI = 10*w div h^2
+        i = BMI + (c div 10) div 2
+        hasil = real(BMI*i)
+    endfor
+    output(hasil)
+endprogram"
+if4908_103012500034_nomor3.jpg,230.21730661392212,0.4557522123893805,24.221238938053098,"kumus
+noun4se.
+N.1. =0ager
+Whe : [Pal
+bmi = prec
+Allpcom
+(APE (N)
+Foi:I tondo
+bmi :(104w) /(hh)
+N =(ox()/(10*h)
+Cotal:tocal + bi
+CA8FOr
+bmi=1otalDmi/N
+bmi:10ta1/N
+outPut:(bmi)
+enaprogium","Thinking...
+Okay, let's tackle this OCR correction. First, I need to understand the user's request. They provided a text that's the result of OCR from a handwritten pseudocode or simple code. The goal is to correct the OCR errors with minimal changes, preserving the original structure and making it compatible with CER evaluation.
+
+The main rules are to fix common keyword typos like 'program', 'integer', 'input', 'output', etc. Also, correct math symbols if they're clearly wrong based on context. The structure should be preserved, so if the OCR has keywords like 'program', 'kamus', 'algoritma', those should stay. No new structures should be added. Only fix spacing, symbols, and make sure variables in input/output don't have math symbols, replacing them with similar-looking letters.
+
+Looking at the input OCR:
+
+The first line is ""kumus"". That's probably ""kamus"" (dictionary in Indonesian). Then ""noun4se."" might be ""noun4se"" but maybe ""noun4se"" is a typo for ""noun"" or something else. Wait, the user mentioned to fix common keywords, so maybe ""noun4se"" is supposed to be ""kamus"" again? Wait, the first line is ""kumus"" which should be ""kamus"". Then ""noun4se."" might be ""n.1. =0ager"" which looks like ""N.1. = 0 ager"". Maybe ""N.1."" is ""N.1"" and ""0ager"" is ""0 ager"" but that's unclear. Wait, maybe ""N.1. =0ager"" is ""N.1 = 0 ager"", but ""0ager"" could be ""0 ager"" or maybe ""0 ager"" is a variable name. Hmm, this is tricky.
+
+Next line: ""Whe : [Pal"" – ""Whe"" might be ""While"", and ""[Pal"" could be ""Pal"" with a bracket, but maybe it's ""Pal"" as a variable. Then ""bmi = prec"" – ""prec"" might be ""per"" or ""pre"" but maybe it's ""pre"" as in ""pre"" for ""per"" or something else. Wait, the user mentioned to fix math symbols. Maybe ""prec"" is supposed to be ""per"" or ""pre""?
+
+Then ""Allpcom"" – maybe ""Allpcom"" is ""Allpcom"" but perhaps it's ""Allp"" or ""Allpcom"" is a typo for ""Allp"" or something else. Wait, the next line is ""(APE (N)"" – maybe ""APE"" is a function or variable, but the user said to fix keywords. Maybe ""APE"" is supposed to be ""Ape"" or ""APe""?
+
+Then ""Foi:I tondo"" – ""Foi"" is likely ""For"", ""I"" is ""i"", ""tondo"" might be ""tondo"" which could be ""to do"" or maybe ""tonto"" but in the context of a loop, maybe ""Foi"" is ""For"" and ""tondo"" is ""to do"" but that's not standard. Wait, the user mentioned to fix input syntax where '.' is used as a separator, so maybe ""Foi:I tondo"" is ""For: I to do"" but that's unclear. Maybe ""Foi"" is ""For"" and ""I tondo"" is ""i to do"" but the user said to fix spacing and symbols.
+
+Next line: ""bmi :(104w) /(hh)"" – ""bmi"" is correct. The colon might be a typo for an equals sign. The ""(104w)"" could be ""(104 * w)"" since ""w"" is a common variable for weight. The ""/(hh)"" would be ""/(hh)"" for height. So maybe ""bmi : (104 * w) / (hh)"".
+
+Then ""N =(ox()/(10*h)"" – ""N = (ox()/(10*h)"" – ""ox()"" might be ""ox"" which could be a function, but maybe it's supposed to be ""ox"" as a variable. Wait, the user said to replace math symbols with similar letters. So ""ox"" might be ""ox"" or ""ox"" as a variable. The ""/(10*h)"" is correct, but ""h"" is height.
+
+""Cotal:tocal + bi"" – ""Cotal"" might be ""Total"", ""tocal"" is ""total"", so ""Total: total + bi"" where ""bi"" is BMI? Or ""bi"" is a variable. Maybe ""Cotal"" is ""Total"" and ""tocal"" is ""total"", so ""Total: total + bi"".
+
+""CA8FOr"" – ""CA8FOr"" could be ""CA8For"" which might be ""Case"" or ""For"" but the user said to fix keywords. Maybe ""CA8For"" is ""Case"" or ""For"" but the original OCR has ""CA8FOr"", so maybe ""CA8For"" is ""Case"" or ""For"" with a typo. Wait, the user mentioned to fix common keywords, so ""CA8For"" might be ""Case"" or ""For"". But the line before was ""Cotal:tocal + bi"" which is ""Total: total + bi"", so maybe ""CA8FOr"" is ""Case"" but not sure.
+
+""bmi=1otalDmi/N"" – ""1otalDmi"" is ""totalDmi"" or ""totalDmi""? Maybe ""totalDmi"" is ""totalDmi"" or ""totalDmi"" with a typo. So ""bmi = totalDmi / N"".
+
+""bmi:10ta1/N"" – ""10ta1"" is ""10ta1"" which could be ""10ta1"" or ""10ta1"" is a typo for ""10ta1"" or maybe ""10ta1"" is ""10ta1"" but the user said to replace math symbols. So ""10ta1"" might be ""10ta1"" or ""10ta,1"" but the user said to fix spacing and symbols. Maybe ""10ta1"" is ""10ta1"" but the user said to replace symbols like ""+"" with ""t"", so maybe ""10ta1"" is ""10ta1"" or ""10ta1"".
+
+""outPut:(bmi)"" – ""outPut"" is ""output"", and the parentheses are correct.
+
+""enaprogium"" – ""enaprogium"" is likely ""enaprogium"" which should be ""program"" but with typos. So ""enaprogium"" → ""program"".
+
+Putting it all together, the corrected code would have:
+
+- ""kamus"" instead of ""kumus""
+- ""noun4se"" might be ""noun"" or ""n.1.""
+- ""Whe"" → ""While""
+- ""bmi = prec"" → maybe ""bmi = per"" or ""bmi = pre""
+- ""Allpcom"" → maybe ""Allpcom"" is a variable or function
+- ""APE (N)"" → ""APE (N)"" as a function
+- ""Foi:I tondo"" → ""For: I to do"" but need to fix spacing and symbols
+- ""bmi : (104 * w) / (hh)"" → corrected symbols
+- ""N = (ox() / (10 * h))"" → replacing ""ox"" with ""ox"" or a variable
+- ""Total: total + bi"" → corrected ""Cotal"" to ""Total""
+- ""CA8FOr"" → ""Case"" or ""For""
+- ""bmi = totalDmi / N""
+- ""bmi = 10ta1 / N"" → ""bmi = 10ta1 / N"" but need to check if ""10ta1"" is a variable
+- ""output: (bmi)""
+- ""program"" instead of ""enaprogium""
+
+Also, the user mentioned to use tabs or 4 spaces for indentation in kamus, algoritma, and control structures. So the corrected code should have proper indentation.
+
+Now, applying all these corrections while keeping the structure as close as possible to the original OCR, making minimal changes, and ensuring that input/output variables don't have math symbols replaced with similar letters.
+...done thinking.
+
+kamus  
+n.1. = 0 ager  
+While : [Pal  
+bmi = per  
+Allpcom  
+(APE (N)  
+For: I to do  
+bmi : (104 * w) / (hh)  
+N = (ox() / (10 * h))  
+Total: total + bi  
+Case  
+bmi = totalDmi / N  
+bmi = 10ta1 / N  
+output: (bmi)  
+program","program posyandu
+kamus
+    N, i : integer
+    bmi : real
+    whc : real
+Algoritma
+    input (N)
+    for i= 1 to n do
+        bmi = (10*w) / (h * h)
+        N = (c*c) / (10 * h)
+        total = total + bmi
+    endfor
+    bmi = total bmi /N 
+    bmi = total / N
+    output (bmi)
+endprogram"
