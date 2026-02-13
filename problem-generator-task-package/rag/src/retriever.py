@@ -113,7 +113,7 @@ if __name__ == "__main__":
         query = "Looping dan perulangan"
         print(f"Testing Query: {query}")
         
-        docs = retriever.retrieve(query, k=2)
+        docs = retriever.retrieve(query, k=5)
         print(f"\nRetrieved {len(docs)} docs:")
         for d in docs:
             print(f"- {d['topic']}")

@@ -8,3 +8,4 @@ problem-generator-task-package/rag/dataset/processed/
 problem-generator-task-package/rag/index/
 .DS_Store
 
+problem-generator-task-package/rag/experiments/benchmark_results.json
