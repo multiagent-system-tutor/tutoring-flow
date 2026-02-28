@@ -1,0 +1,26 @@
+**TRANSCRIPTION**
+
+```python
+program Enkripsi
+kamus
+k, d1, d2, d3, d4, p, q : integer
+
+algoritma
+ input (d1, d2, d3, d4)
+ p = d1 + d4
+ q = d2 - d3
+ k = (d1 + d2) * (d1 + d4) + (p) - (q)
+ output (k)
+```
+
+**EXPLANATION**
+
+The provided code is a simple encryption algorithm written in a programming language that appears to be similar to Python or another high-level language. The algorithm takes four input values, `d1`, `d2`, `d3`, and `d4`, which are likely to be integers or other numerical values.
+
+The algorithm first calculates two new values, `p` and `q`, based on the input values. `p` is the sum of `d1` and `d4`, while `q` is the difference between `d2` and `d3`.
+
+Next, the algorithm calculates the value of `k` by performing a series of operations on the input values. Specifically, it multiplies `d1` and `d2`, adds `d1` and `d4`, and then subtracts `q` from the result.
+
+Finally, the algorithm outputs the value of `k`.
+
+The purpose of this algorithm is to perform a simple form of encryption or data transformation. The exact nature of the transformation is not immediately clear, but it appears to be a simple mathematical operation that can be used to scramble or transform the input data. The algorithm may be used in a variety of contexts, such as data encryption, data transformation, or even as a simple mathematical exercise.

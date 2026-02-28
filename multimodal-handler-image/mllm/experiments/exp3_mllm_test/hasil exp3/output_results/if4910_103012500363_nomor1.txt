@@ -1,0 +1,19 @@
+program Enkripsi
+
+kamus
+m, d1, d2, d3, d4, k; integer
+
+algoritma
+input (m, d1, d2, d3, d4)
+m = 1000
+z = m
+z = 9999
+d1 = m / 1000
+d2 = m / 100 mod 10
+d3 = m / 10 mod 10
+d4 = m mod 10
+
+p = d1 + d2
+q = d2 - d3
+k = (d1 + d2) * (d3 + d4) + (p - q)
+ou + p + (k)

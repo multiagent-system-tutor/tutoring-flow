@@ -1,0 +1,24 @@
+---CODE---
+program Enkripsi
+ var
+ m, t : integer
+ d, p, q : integer
+ d1, d2, d3, d4 : integer
+ begin
+ m := 1000
+ t := m < 9999
+ d := t
+ p := d1 + d2
+ q := d3 - d4
+ endprogram
+
+---EXPLANATION---
+The given code is a simple program written in a programming language that appears to be based on the Pascal programming language. The program is named "Enkripsi" which means "Encryption" in English.
+
+The program has several variables declared at the beginning, including "m" and "t" which are both of type "integer". The variable "m" is assigned the value 1000, and "t" is assigned the value of "m" being less than 9999.
+
+The program then assigns the value of "t" to the variable "d". The variable "p" is assigned the sum of "d1" and "d2", and the variable "q" is assigned the difference of "d3" and "d4".
+
+The program ends with an "endprogram" statement, which is not a standard part of the Pascal language. It is possible that this is a custom or modified version of the language.
+
+Overall, the program appears to be performing some kind of mathematical operation or calculation, but the exact purpose and meaning of the code is not clear without more context.

@@ -1,0 +1,16 @@
+program Enkripsi
+
+kamus
+m, 81, 82, 83, 84, p, a, k : integer
+
+algoritma,
+M ← 1000 L = m L = 9999
+input (81, 82, 83, 84)
+p ← 81 + 84
+a ← 82 - 83
+output (p, a)
+input (81, 82, 83, 84, p, a)
+k ← (81 + 82) × (83 + 84) + (p - a)
+output (k)
+
+endprogram

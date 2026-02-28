@@ -1,0 +1,25 @@
+program Enkripsi
+
+Famulus
+
+Mr. F cd1 cd2 (d3 cdu cpq : integer
+
+algoritma
+
+input (m)
+
+d1 ← (mdiv 1000)
+
+d2 ← (mdiv 100) mod 10
+
+d3 ← (mdiv 10) mod 10
+
+d4 ← m mod 10
+
+p ← d1 + d4 (cd1 + d4) mod 10
+
+q ← d2 - d3
+
+k ← (cd1 + d1) * (d3 + du7 + (p - q))
+
+output (F7)

@@ -1,0 +1,8 @@
+kamus
+d, d2, d3, du, p, q, k : Integer
+algoritma
+input (d, d2, d3, du)
+P : d + d2 + d3 + du
+q : d2 - d3
+k : (d + d2) * (d3 + du) + (p - q)
+output (k)

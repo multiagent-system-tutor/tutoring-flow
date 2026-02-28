@@ -1,0 +1,9 @@
+program Enkripsi
+kamus
+d1, d2, d3, d4, p, q, hasil integer
+A(y)
+input -> d1, d2, d3, d4
+p -> d1 + d4
+q -> d3 - d2
+K: (d1 + d2) x (d3 + d4) + (p - q)
+output -> K

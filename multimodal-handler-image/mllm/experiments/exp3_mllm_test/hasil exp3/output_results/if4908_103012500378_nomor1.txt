@@ -1,0 +1,14 @@
+K, p, q, m : integer
+d1, d2, d3, d4 : integer
+d2, d3, d4 : integer
+m >= 1000 <= m <= 9999
+input(m)
+d1 = m div 1000
+d2 = m mod 1000
+d3 = d2 div 100
+d4 = d2 mod 100
+d5 = d3 div 10
+d6 = d3 mod 10
+P = (d1 + d6) - (d2 + d4)
+q = (d2 + d4) * (d3 + d5) + (P - q)
+K = (d1 + d6) * (d3 + d5) + (P - q)

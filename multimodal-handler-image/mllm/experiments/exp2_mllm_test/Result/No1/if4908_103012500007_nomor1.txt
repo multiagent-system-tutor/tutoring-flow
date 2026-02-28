@@ -1,0 +1,20 @@
+---CODE---
+program Enkripsi
+
+kamus
+m, ribuan, tatusan, puluhan, satuan, hasil, integer
+
+algoritma
+input(m)
+ribuan = m div 1000
+tatusan = m div 100 mod 10
+puluhon = m mod 100 div 10
+Satuan = m mod 10
+
+hasil = (ribuan + tatusan) x (puluhon + satuan)
+hasil = (ribuan + tatusan)
+hasil = (puluhon + satuan)
+output(hasil)
+
+---EXPLANATION---
+This program is an en­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­

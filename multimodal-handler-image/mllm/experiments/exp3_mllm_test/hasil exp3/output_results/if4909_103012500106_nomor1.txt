@@ -1,0 +1,14 @@
+program Enkripsi1
+
+kamus:
+V = (d + d2) x (d3 + d4) + (p - q)
+k = bilangan, k, di, i, p, q, m
+
+algoritma:
+input (d)
+k = (d1 + d2) x (d3 + d4) + (p - q)
+k = bilangan
+bilangan x di
+m = (1000 ≤ m ≤ 9999)
+
+output (k)

@@ -1,0 +1,14 @@
+program Enkripsi
+
+kamus
+d1, d2, d3, du, p
+, q, hasil int+1ger
+
+algoritma
+input = Cd1, d2, d3, du)
+P = d1 + du
+Q = d2 - d3
+
+hasil = (Cd1 + d2) x (Cd3 + du) + (Q - q)
+
+output = hasil)

@@ -1,0 +1,16 @@
+program Enkripsi
+
+kamus
+digit1, digit2, digit3, digit4 : integer
+hasil : integer
+pengumpulan, pengurangan : integer
+
+algoritma
+input ( digit1, digit2, digit3, digit4 )
+for i = 1 to n do
+hasil = (hasil + digit1 + digit2) * (digit3 + digit4)
+endfor
+
+output (hasil)
+
+endprogram

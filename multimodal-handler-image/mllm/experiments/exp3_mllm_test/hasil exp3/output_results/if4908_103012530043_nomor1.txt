@@ -1,0 +1,16 @@
+Program Enkripsi dengan kamus:
+
+```plaintext
+input k : integer
+algoritma
+d1 = m mod 10
+d2 = (m mod 100 - d1) / 10
+d3 = (m mod 1000 - d2) / 100
+d4 = (m mod 10000 - d3) / 1000
+p = d1 - d4
+q = d2 - d3
+k = (d1 + d2) * (d3 + d4) + (p - q)
+output (k)
+```
+
+Endprogram

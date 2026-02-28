@@ -1,0 +1,19 @@
+program Enkripsi
+
+x, K : integer
+d1, d2, ds, d4 : integer
+
+algoritma
+
+input (x)
+
+d1 ← x div 100
+ds ← (x div 100) mod 10
+d2 ← (x div 10) mod 10
+d4 ← x mod 10
+
+K ← (d1 + d2) × (ds + d4) + [(d1 + ds) - (ds - d)]
+
+output (K)
+
+endprogram

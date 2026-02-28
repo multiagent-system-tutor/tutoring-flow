@@ -1,0 +1,19 @@
+program Enkripsi
+
+kamus
+n: Integer
+a, b, c, d: Integer
+total: Integer
+D: Integer
+algoritma
+input (n)
+a = n mod 1000
+b = (n div 100) mod 100
+c = (n div 10) mod 10
+d = mod 10
+P = a + d
+q = c - d
+total = (a+b)*(c+d) + (P-q)
+output (total)
+
+endprogram

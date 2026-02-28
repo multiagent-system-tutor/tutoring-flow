@@ -1,0 +1,9 @@
+kamus
+d, dz, ds, da, u : integer
+p, q : integer
+algoritma
+warta (d, dz, ds, da)
+p = (d + dz + ds)
+q = (d - dz)
+u = (d + dz) * (ds + da) + (p - q)
+output (u)

@@ -1,0 +1,17 @@
+program Enkripsi
+
+kamus
+kode, hasil: Integer
+
+algoritma
+input (kode)
+d1 = kode div 1000
+d2 = (kode mod 1000) div 100
+d3 = (kode mod 100) div 10
+d4 = (kode mod 10)
+p <- d2
+q <- d3
+hasil = (d1 + d2) * (d3 + d4) + (p - q)
+
+output (hasil)
+end program

@@ -1,0 +1,11 @@
+program Enkripsi
+
+kamus
+d1, d2, d3, d4, koderohasian, hasil : integer
+P, Q : integer
+algoritma
+input (koderohasian)
+hasil <- (d1 + d2) * (d3 + d4) + (P - Q)
+P <- d1 + d4
+Q <- d2 - d3
+output (hasil)

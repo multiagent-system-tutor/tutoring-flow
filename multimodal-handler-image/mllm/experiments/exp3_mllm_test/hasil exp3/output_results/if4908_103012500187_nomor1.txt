@@ -1,0 +1,20 @@
+Program Enkripsi:
+
+kamus:
+m : Integer
+k : Integer
+p, q : Integer
+ribuan, ratusan, puluhan, satuan : Integer
+
+algoritma:
+input (m)
+ribu = m div 1000
+ratusan = m mod 1000 div 100
+puluhan = m mod 1000 mod 100 div 10
+satuan = m mod 1000 mod 100 mod 10
+P = ribu + satuan
+q = ratusan - puluhan
+
+K = (ribu + ratusan) * (puluhan + satuan) + (P - q)
+
+output (K)

@@ -1,0 +1,25 @@
+---CODE---
+program Enkripsi
+k = 5
+x, d1, d2, d3, d4, k, p, q : Integet
+algot End
+input (x)
+d1 <- x div 1000
+d2 <- x div 100 mod 10
+d3 <- x mod 100 div 10
+d4 <- x mod 10
+p <- d1 + d4
+q <- d2 - d3
+k <- (d1 + d4) * (d2 + d3) + (p - q)
+output (k)
+
+---EXPLANATION---
+The given code is a simple program written in a programming language that appears to be based on the Enkripsi program. The program takes an input value x and performs a series of operations on it to produce an output value k.
+
+The program first divides x by 1000 to get d1, then divides d1 by 100 to get d2, and finally gets d3 and d4 by performing mod 100 and mod 10 operations on x.
+
+The program then performs a series of operations on d1, d2, d3, and d4 to produce p and q. Finally, it uses p and q to calculate k.
+
+The program then outputs the value of k.
+
+The code appears to be written in a simple, straightforward manner, with no complex or advanced programming techniques. The code is also written in a language that is not commonly used in modern programming, which may be due to the age of the code or the specific requirements of the Enkripsi program. Overall, the code is simple and straightforward, but it may not be immediately understood by modern programmers.

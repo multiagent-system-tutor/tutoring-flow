@@ -1,0 +1,31 @@
+---CODE---
+program Enkripsi
+
+X = hasil : integer
+d1, d2, d3, d4 : integer
+
+algoritma
+input (x)
+d1 <- x div 1000
+d2 <- x mod 100
+d3 <- x mod 10
+d4 <- x mod 1
+
+hasil <- (d1 + d2) * (d3 + d4) + (d1 + d2) - (d1 - d3)
+
+output (hasil)
+
+---EXPLANATION---
+The given code is a simple encryption program written in a programming language that appears to be similar to Python or another high-level language. The program takes an input `x` and performs a series of operations on it to produce an output `hasil`.
+
+The program first divides `x` by 1000 and stores the result in `d1`. It then takes the modulus of `x` by 100 and stores the result in `d2`. The program then takes the modulus of `x` by 10 and stores the result in `d3`. Finally, it takes the modulus of `x` by 1 and stores the result in `d4`.
+
+The program then performs a series of operations on the values of `d1`, `d2`, `d3`, and `d4` to produce the final output `hasil`. The operations include:
+
+* `d1 + d2` : This operation is performed twice, once as part of the calculation of `d1 + d2` and again as part of the calculation of `d1 + d2 - (d1 - d3)`.
+* `d3 + d4` : This operation is performed once as part of the calculation of `d1 + d2` .
+* `d1 + d2 - (d1 - d3)`
+
+The final output `hasil` is a combination of these operations.
+
+The code appears to be a simple and straightforward implementation of an encryption algorithm. However, without more context or information about the intended use of this code, it is difficult to say for certain what it is intended to do. It is possible that this code is intended to be used as part of a larger program or system, or that it is intended to be used as a standalone program. Further analysis of the code and its context would be necessary to determine its intended use.

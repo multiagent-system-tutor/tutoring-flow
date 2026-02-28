@@ -1,0 +1,16 @@
+program Linkripsi
+
+kamus
+d, dz, dy, p, q, hasil : integer
+
+algoritma
+input (kode)
+d = kode div 1000
+kode = kode mod 100
+d = kode div 100
+kode = kode mod 100
+d = kode div 10
+p = d + dy
+q = d - dy
+rumus : (d + dy)*(d + dy) + (p - q)
+output (rumus)

@@ -1,0 +1,16 @@
+The extracted text from the image is:
+
+```
+program linkages
+kamus
+dt, dt, dz, dq, p, q, k integer
+algoritma
+integret (m)
+dt = m div 1000
+dt = (m mod 1000) div 100
+dt = (m mod 100) div 10
+p = dt * dq
+q = dt - dq
+k((dt * dq) * (dt + dq) + (p - q))
+output (k)
+```

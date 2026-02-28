@@ -1,0 +1,17 @@
+program Erkripsi
+
+d1, d2, d3, d4, m : integer
+k : integer
+
+algoritma
+
+IMP (m)
+
+d1 = (m div 100)
+d2 = ((m div -100) mod 100)
+d3 = ((m div 100) mod 10)
+d4 = (m mod 10)
+
+k = (d1 + d2) * (d3 + d4) + (d1 + d4) - (d2 - d3)
+
+ENDPROGRAM
